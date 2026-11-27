@@ -31,15 +31,24 @@ Use --preview-dir to save optional PNG previews.
     python figure_sources/draw_figure1.py
     python figure_sources/draw_transfer_figures.py
 
-Figure 1 uses the archived MuJoCo states and signed reads, with Panda link
-surfaces projected from the licensed meshes under figure_sources/. For panel
-(c), the script constructs the two chains from the first configuration and
-evaluates both at the second without refinement. Figure 2 uses the two
-paired metric archives for the matrix comparison and the distribution
-of unprobed action errors from draw 1. Figure 3 uses the fixed-budget case
-records and plots each geometry error. The three main-text tables describe
-the calibration loads, the probe-design comparison, and the choice of
-fixture-only or full-chain calibration.
+Figure 1(a) uses offscreen MuJoCo renderings at the two archived joint
+configurations from split 1. The bundled views and marker positions are in
+figure_sources/panda_mujoco_views.npz. You can regenerate them with the
+MuJoCo replay environment and the Panda directory from
+[the pinned CaDeLaC revision](https://github.com/Schulze18/cadelac/tree/a9b889c638b749bd58b337ed66ba38896ad01477/cadelac/robots/panda).
+
+    python figure_sources/render_panda_scene.py /path/to/cadelac/robots/panda
+
+The renderer adds the CaDeLaC display meshes to the archived model and
+checks the inverse-dynamics reads at both poses. Run draw_figure1.py in
+the numerical environment above to assemble all three panels.
+
+Panel (b) uses the archived signed reads. Panel (c) compares two chains
+recovered at the first configuration on the second, before refinement.
+Figure 2 uses the paired metric archives and the unprobed action errors
+from draw 1. Figure 3 plots each geometry's error from the fixed-budget
+case records. The main-text tables describe the calibration loads, the
+probe-design comparison, and fixture-only versus full-chain calibration.
 
 To regenerate the matrix-error, fixture and acquisition tables and diagnostic plots
 from the archived results, run

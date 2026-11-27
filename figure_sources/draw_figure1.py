@@ -3,15 +3,11 @@
 import argparse
 from pathlib import Path
 import sys
-from xml.etree import ElementTree as ET
 
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.collections import PolyCollection
-from matplotlib.lines import Line2D
 import numpy as np
-from scipy.spatial.transform import Rotation
 
 
 INK = "#202b33"
@@ -19,7 +15,6 @@ GRAY = "#616e77"
 GRID = "#e4e9ed"
 BLUE = "#235a78"
 RUST = "#a0422d"
-PALE = "#f1f4f5"
 ROOT = Path(__file__).resolve().parents[1]
 
 plt.rcParams.update({
@@ -38,109 +33,46 @@ plt.rcParams.update({
 })
 
 
-def panda_frames(xml, q):
-    """Traverse the archived bodies, including the actual payload frame."""
-    parent = ET.parse(xml).getroot().find("worldbody")
-    position = np.zeros(3)
-    orientation = Rotation.identity()
-    frames = []
-    for index, name in enumerate([f"link{i}" for i in range(8)] + ["hand", "end_effector"]):
-        body = parent.find(f"body[@name='{name}']")
-        if body is None:
-            raise ValueError(f"Missing archived body {name}")
-        position = position + orientation.apply(np.fromstring(body.get("pos", "0 0 0"), sep=" "))
-        quat = np.fromstring(body.get("quat", "1 0 0 0"), sep=" ")
-        orientation = orientation * Rotation.from_quat(np.roll(quat, -1))
-        if 1 <= index <= 7:
-            assert body.find("joint").get("name") == f"joint{index}"
-            orientation = orientation * Rotation.from_rotvec([0, 0, q[index - 1]])
-        frames.append((position, orientation))
-        parent = body
-    return frames
+def arm_panel(fig):
+    """Use the native MuJoCo views cached with their projected marker positions."""
+    with np.load(ROOT / "figure_sources/panda_mujoco_views.npz", allow_pickle=False) as views:
+        overview = views["overview"]
+        joint7 = views["joint7"]
+        wrists = views["wrists"]
+        wrist_marks = views["wrist_marks"]
 
+    left, right = .022, .275
+    arm = fig.add_axes((left, .387, right - left, .503))
+    arm.imshow(overview, extent=(0, 1, 0, 1), interpolation="none",
+               aspect=overview.shape[0] / overview.shape[1])
+    arm.set_axis_off()
+    arm.annotate("Joint 7", xy=joint7, xytext=(.968, .825),
+                 ha="right", va="bottom", fontsize=7.8, color=INK,
+                 arrowprops={"arrowstyle": "-", "color": GRAY, "lw": .7,
+                             "shrinkA": 2.5, "shrinkB": 2.0})
 
-def view_projection(azimuth, elevation):
-    az, el = np.deg2rad([azimuth, elevation])
-    look = np.array([np.cos(az) * np.cos(el), np.sin(az) * np.cos(el), np.sin(el)])
-    horizontal = np.array([-np.sin(az), np.cos(az), 0.])
-    return np.column_stack((horizontal, np.cross(look, horizontal)))
-
-
-def link_surfaces(ax, frames, projection, meshes):
-    from draw_directional_figures import mesh_triangles
-
-    look = np.cross(projection[:, 0], projection[:, 1])
-    view = np.column_stack((projection, look))
-    mapped = np.concatenate([
-        (origin + orientation.apply(mesh_triangles(meshes / f"link{index}.obj").reshape(-1, 3)))
-        .reshape(-1, 3, 3) @ view
-        for index, (origin, orientation) in enumerate(frames[:8])
-    ])
-    normal = np.cross(mapped[:, 1] - mapped[:, 0], mapped[:, 2] - mapped[:, 0])
-    normal /= np.maximum(np.linalg.norm(normal, axis=1, keepdims=True), 1e-12)
-    front = normal[:, 2] > 0
-    visible = mapped[front]
-    order = np.argsort(visible.mean(axis=1)[:, 2])
-    light = np.array([-.36, .48, .8])
-    shade = np.clip(normal[front] @ light, 0, 1)
-    dark, pale = np.array([.38, .42, .45]), np.array([.87, .89, .91])
-    colors = dark + (pale - dark) * shade[:, None]
-    ax.add_collection(PolyCollection(visible[order, :, :2], facecolors=colors[order],
-                                    edgecolors="face", linewidth=.08, zorder=2))
-    return mapped[..., :2].reshape(-1, 2)
-
-
-def arm_panel(ax, frames_a, frames_b, center, projection, meshes):
-    outlines = link_surfaces(ax, frames_a, projection, meshes)
-    uv = np.array([p for p, _ in frames_a]) @ projection
-    ax.plot(*uv[7], "o", mfc="white", mec=RUST, mew=1, ms=4.6, zorder=5)
-    joint = uv[7]
-    axis = frames_a[7][1].apply([0., 0., 1.])
-    axis_line = (frames_a[7][0] + np.array([-.075, .16])[:, None] * axis) @ projection
-    ax.plot(*axis_line.T, color=RUST, lw=.85, ls=(0, (3, 2)), zorder=4)
-    ax.annotate("Joint 7\n0.50 rad turn", xy=joint,
-                xytext=(.197, .131), ha="left", va="top", fontsize=8.0, color=RUST,
-                arrowprops={"arrowstyle": "-", "lw": .7, "color": RUST,
-                            "connectionstyle": "arc3,rad=-.04"})
-
-    origin, rotation_a = frames_a[-1]
-    origin_b, rotation_b = frames_b[-1]
-    np.testing.assert_allclose(origin_b, origin, atol=1e-13)
-    np.testing.assert_allclose((rotation_a.inv() * rotation_b).magnitude(), .5, atol=1e-13)
-    frame_uv = origin @ projection
-    ax.plot(*uv[[7, 9]].T, color=GRAY, lw=.7, ls=(0, (2.3, 2.3)), zorder=3)
-    ax.plot(*frame_uv, "o", mfc=BLUE, mec="white", mew=.45, ms=4, zorder=7)
-    for rotation, color, linestyle in ((rotation_b, RUST, (0, (2, 2))),
-                                        (rotation_a, BLUE, "-")):
-        ends = (origin + rotation.apply(.105 * np.eye(3))) @ projection
-        for end, symbol in zip(ends, "xyz", strict=True):
-            if color == RUST and symbol == "z":
-                continue
-            ax.annotate("", xy=end, xytext=frame_uv,
-                        arrowprops={"arrowstyle": "-|>", "color": color, "lw": .75,
-                                    "linestyle": linestyle, "mutation_scale": 7,
-                                    "shrinkA": 0, "shrinkB": 0}, zorder=5)
-            if color == BLUE:
-                direction = end - frame_uv
-                extra = .016 * direction / np.linalg.norm(direction)
-                ax.text(*(end + extra), symbol, color=BLUE, ha="center", va="center",
-                        fontsize=7.5, fontstyle="italic")
-    ax.annotate("Attachment\nframe", xy=frame_uv, xytext=(.198, .519),
-                fontsize=8, ha="left", va="bottom",
-                arrowprops={"arrowstyle": "-", "lw": .65, "color": GRAY, "shrinkB": 4,
-                            "connectionstyle": "angle,angleA=0,angleB=72,rad=0"})
-
-    center_uv = (origin + rotation_a.apply(center)) @ projection
-    # The archive specifies spatial inertia. Show a point and offset, not a CAD load shape.
-    ax.plot([frame_uv[0], center_uv[0]], [frame_uv[1], center_uv[1]],
-            color=GRAY, lw=.7, ls=(0, (1.5, 2.4)), zorder=3)
-    ax.plot(*center_uv, "o", mfc=INK, mec="white", mew=.6, ms=4.6, zorder=8)
-    ax.annotate("Load COM", xy=center_uv, xytext=(.476, .265),
-                fontsize=8, ha="right", va="top",
-                arrowprops={"arrowstyle": "-", "lw": .65, "color": GRAY, "shrinkB": 3})
-    ax.set(aspect="equal", xlim=(outlines[:, 0].min() - .014, .485),
-           ylim=(outlines[:, 1].min() - .012, max(outlines[:, 1].max() + .022, .57)))
-    ax.set_axis_off()
+    fig.text((left + right) / 2, .372, r"Wrist turn: $+0.50$ rad",
+             ha="center", va="center", fontsize=7.8)
+    width = .116
+    height = width * fig.get_figwidth() / fig.get_figheight()
+    for x, image, points, color, label in zip(
+            (left, right - width), wrists, wrist_marks, (BLUE, RUST),
+            ("Configuration 1", "Configuration 2"), strict=True):
+        wrist = fig.add_axes((x, .063, width, height))
+        wrist.imshow(image, extent=(0, 1, 0, 1), interpolation="none", aspect="equal")
+        wrist.set_axis_off()
+        origin, direction, center = points
+        wrist.annotate("", xy=direction, xytext=origin,
+                       arrowprops={"arrowstyle": "-|>", "color": color, "lw": .9,
+                                   "mutation_scale": 6, "shrinkA": 0, "shrinkB": 0})
+        wrist.plot(*origin, "o", color=color, markeredgecolor="white", markeredgewidth=.45,
+                   markersize=2.9)
+        wrist.plot(*center, "o", color=INK, markeredgecolor="white", markeredgewidth=.55,
+                   markersize=3.8)
+        wrist.annotate("$x$", xy=direction, xytext=(1.5, 2.0), textcoords="offset points",
+                       color=color, fontsize=7.45)
+        fig.text(x + width / 2, .036, label, ha="center", va="center", fontsize=7.4,
+                 color=color)
 
 
 def chart_grid(ax):
@@ -211,10 +143,7 @@ def load_experiment(source):
             q, basis, torques, inertia = [archive[name] for name in
                                          ("q", "applied_directions", "torques", "inertias")]
         if fold == 0:
-            example_q = q
             example_reads = torques[0, [0, 1], 0]
-            cross = inertia[0, :3, 3:]
-            center = np.array([cross[2, 1], cross[0, 2], cross[1, 0]]) / inertia[0, 3, 3]
         np.testing.assert_allclose(q[1, :-1], q[0, :-1], atol=0, rtol=0)
         np.testing.assert_allclose(abs(q[1, -1] - q[0, -1]), .5, atol=1e-12)
         half = .5 * (torques[..., 0, :] - torques[..., 1, :])
@@ -229,7 +158,7 @@ def load_experiment(source):
             whitened = np.einsum("ml,qlik->qmik", whitener, prediction - observed)
             error.append(1000 * np.sqrt(np.mean(whitened**2, axis=(1, 2, 3))))
         scores.append(error)
-    return example_q, example_reads, center, np.asarray(scores)
+    return example_reads, np.asarray(scores)
 
 
 def save_manuscript_figure(fig, name, output, preview):
@@ -248,30 +177,18 @@ def main():
     parser.add_argument("--preview-dir", type=Path)
     args = parser.parse_args()
     sys.path.insert(0, str(ROOT / "evidence/directional"))
-    q, reads, center, scores = load_experiment(ROOT)
-    xml = ROOT / "evidence/followup/panda_contact_free.xml"
-    meshes = ROOT / "figure_sources/panda_meshes"
-    projection = view_projection(-65, 16)
-    frames = [panda_frames(xml, v) for v in q]
+    reads, scores = load_experiment(ROOT)
     fig = plt.figure(figsize=(7.18, 2.92), layout=None, facecolor="white")
-    arm = fig.add_axes((.022, .115, .255, .775))
     reads_ax = fig.add_axes((.357, .566, .250, .265))
     contrast = fig.add_axes((.357, .146, .250, .331))
     candidates = fig.add_axes((.717, .146, .255, .685))
-    for left, label in ((.024, "(a) Panda calibration setup"),
+    for left, label in ((.024, "(a) Panda in MuJoCo"),
                         (.352, "(b) Paired torque reads"),
                         (.713, "(c) Second-configuration test")):
         fig.text(left, .939, label, fontweight="bold", fontsize=9.2, va="center")
-    arm_panel(arm, *frames, center, projection, meshes)
+    arm_panel(fig)
     reads_panel(reads_ax, contrast, reads)
     candidates_panel(candidates, scores)
-    frames_legend = [
-        Line2D([], [], color=BLUE, lw=1.05, label="First frame"),
-        Line2D([], [], color=RUST, lw=1.05, ls=(0, (3, 2)), label="Second frame"),
-    ]
-    fig.legend(handles=frames_legend, loc="lower center", bbox_to_anchor=(.150, .040),
-               frameon=False, ncols=2, columnspacing=.75, handlelength=1.35,
-               handletextpad=.40, fontsize=7.9, borderaxespad=0)
     save_manuscript_figure(fig, "figure1_directional_calibration",
                            args.output_dir, args.preview_dir)
     print("Whitened RMS errors (mN·m), [split, candidate, configuration]:")
