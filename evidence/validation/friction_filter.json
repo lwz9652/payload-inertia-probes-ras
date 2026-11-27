@@ -1,0 +1,3660 @@
+{
+  "mujoco": "3.2.6",
+  "friction_Nm": 0.2,
+  "transition_rad_s": 0.005,
+  "noise_Nm": 0.01,
+  "mismatch_rad_s": 0.002,
+  "filter_s": 0.008,
+  "interval_s": 0.001,
+  "history_steps": 48,
+  "rows": [
+    {
+      "trial": 0,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00035865139722486187,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006946284045712475,
+            "start_rmse": 0.08781352960198112,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0069462840457124655,
+            "start_rmse": 0.20116927419624342,
+            "nfev": 1451,
+            "accepted_steps": 50,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031539639011760818,
+          "R_A": 0.003399510952919398
+        },
+        "initial": {
+          "R_M": 0.8665948988733749,
+          "R_A": 0.8732388178516931
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.5874829232683713e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006940380008053067,
+            "start_rmse": 0.2009158514354957,
+            "nfev": 1451,
+            "accepted_steps": 50,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006940380008053058,
+            "start_rmse": 0.08914456790534897,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003105330114046135,
+          "R_A": 0.003307851735808868
+        },
+        "initial": {
+          "R_M": 0.4314337007655853,
+          "R_A": 0.4087488597182558
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.029056391167159256,
+      "instantaneous_friction_bias_RMS_Nm": 0.027821642229584307,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06505896743729946,
+            "start_rmse": 0.18611670566434,
+            "nfev": 581,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.024678259164703877,
+            "start_rmse": 0.16011606187138241,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.019747604906377392,
+          "R_A": 0.021272877895691794
+        },
+        "initial": {
+          "R_M": 0.8526070460964236,
+          "R_A": 0.8482836570584543
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.02811045254806415,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02431215984167604,
+            "start_rmse": 0.1816560972318946,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.024312159841676097,
+            "start_rmse": 0.1676985394770659,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.016595832870236995,
+          "R_A": 0.01782988301637622
+        },
+        "initial": {
+          "R_M": 0.9521397412395278,
+          "R_A": 0.9414996781564573
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0018118483862231813,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006970405248816091,
+            "start_rmse": 0.0883596412565676,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006970405248816082,
+            "start_rmse": 0.20267100737922245,
+            "nfev": 1429,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.005477457153558383,
+          "R_A": 0.006016292159787512
+        },
+        "initial": {
+          "R_M": 0.8698423542984308,
+          "R_A": 0.8755726837013655
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.651538733906469e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006940380008053076,
+            "start_rmse": 0.2009158514355069,
+            "nfev": 1451,
+            "accepted_steps": 50,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006940380008053089,
+            "start_rmse": 0.08914456790534157,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0031053300809905657,
+          "R_A": 0.0033078517011900198
+        },
+        "initial": {
+          "R_M": 0.8672090139978027,
+          "R_A": 0.8732759071766893
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001843949739726996,
+      "instantaneous_friction_bias_RMS_Nm": 2.5746948818351357e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007122664726520714,
+            "start_rmse": 0.07126344222392385,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007122664726520714,
+            "start_rmse": 0.2534103066234658,
+            "nfev": 1451,
+            "accepted_steps": 50,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0036099500268513686,
+          "R_A": 0.003826894693786974
+        },
+        "initial": {
+          "R_M": 0.37231150617653014,
+          "R_A": 0.3565398928828978
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0026938818091079885,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007171711429656372,
+            "start_rmse": 0.0719477240787118,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007171711429656383,
+            "start_rmse": 0.24617888055984155,
+            "nfev": 1422,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005765360118546045,
+          "R_A": 0.0064441200414939856
+        },
+        "initial": {
+          "R_M": 0.3763165130860762,
+          "R_A": 0.35850830445984055
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00037803893411515277,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007081811381630612,
+            "start_rmse": 0.23456370426195317,
+            "nfev": 441,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00708181138163061,
+            "start_rmse": 0.06435814599412283,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035360097658682903,
+          "R_A": 0.0036758475411117248
+        },
+        "initial": {
+          "R_M": 0.29761910803020725,
+          "R_A": 0.290871204105744
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 3.2400399000128897e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070807966307822896,
+            "start_rmse": 0.2342397409780662,
+            "nfev": 441,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007080796630782298,
+            "start_rmse": 0.0636086192516245,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003445283393350813,
+          "R_A": 0.0035942425565002843
+        },
+        "initial": {
+          "R_M": 1.097654658625825,
+          "R_A": 1.1209983114432986
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.02685685450394937,
+      "instantaneous_friction_bias_RMS_Nm": 0.02566445045984501,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11332669928595743,
+            "start_rmse": 0.21970335741563404,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.02521974017947456,
+            "start_rmse": 0.1659716918191526,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.019802691414099547,
+          "R_A": 0.019716857882204893
+        },
+        "initial": {
+          "R_M": 0.7159490349084473,
+          "R_A": 0.6951175631049494
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.02723716513679419,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.026051574182083138,
+            "start_rmse": 0.19914604265784314,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.1381748134817228,
+            "start_rmse": 0.22147653434238135,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.017904064607688387,
+          "R_A": 0.018009781527403197
+        },
+        "initial": {
+          "R_M": 0.8471595913774785,
+          "R_A": 0.8542412009206691
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0019458555476893405,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007117617454653692,
+            "start_rmse": 0.06322437610949246,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00711761745465369,
+            "start_rmse": 0.23723642209544102,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00520247154427063,
+          "R_A": 0.005224057246213494
+        },
+        "initial": {
+          "R_M": 1.1517593866433977,
+          "R_A": 1.1810574134705252
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 3.0646733051713118e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070807966307822896,
+            "start_rmse": 0.23423974097806713,
+            "nfev": 441,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007080796630782287,
+            "start_rmse": 0.0636086192516237,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0034452832678989894,
+          "R_A": 0.0035942423989169395
+        },
+        "initial": {
+          "R_M": 0.2945648494780614,
+          "R_A": 0.28796791037008945
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001776733993105853,
+      "instantaneous_friction_bias_RMS_Nm": 3.0494231575371874e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007294489274779758,
+            "start_rmse": 0.23973149935209112,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072944892747797765,
+            "start_rmse": 0.061670887356864754,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0034095292649182984,
+          "R_A": 0.003584018559071568
+        },
+        "initial": {
+          "R_M": 1.1595067113839828,
+          "R_A": 1.183586649250012
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0026231155247746288,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0073517754142265355,
+            "start_rmse": 0.062281526426747745,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0073517754142265425,
+            "start_rmse": 0.25612350433273245,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00503138800035978,
+          "R_A": 0.005098113391093853
+        },
+        "initial": {
+          "R_M": 0.28321986986142456,
+          "R_A": 0.2748016868610596
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00034526507280709974,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006944809834186627,
+            "start_rmse": 0.07757282900174886,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05906355076076396,
+            "start_rmse": 0.27567243106858336,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004456329925074853,
+          "R_A": 0.0048071082564472446
+        },
+        "initial": {
+          "R_M": 0.40677883400630005,
+          "R_A": 0.36921882176145543
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.391486999685476e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0590672349116938,
+            "start_rmse": 0.2776033294011381,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006944258345537961,
+            "start_rmse": 0.07763150645579592,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004416755370481134,
+          "R_A": 0.004782740538833174
+        },
+        "initial": {
+          "R_M": 0.4070533718132768,
+          "R_A": 0.3693630014875716
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.02822077695003002,
+      "instantaneous_friction_bias_RMS_Nm": 0.026983735577085045,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.023865703224541318,
+            "start_rmse": 0.15140351649779235,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06558016370096273,
+            "start_rmse": 0.1850693153898128,
+            "nfev": 1538,
+            "accepted_steps": 53,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.03014483072770203,
+          "R_A": 0.03371608042271079
+        },
+        "initial": {
+          "R_M": 0.8035649549390871,
+          "R_A": 0.7772424846788009
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.029141565806244583,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.024345107275848304,
+            "start_rmse": 0.18377563882216064,
+            "nfev": 674,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.024345107275850385,
+            "start_rmse": 0.17928843250169132,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.02648066873392443,
+          "R_A": 0.029639208099669783
+        },
+        "initial": {
+          "R_M": 0.9668763839652956,
+          "R_A": 0.975644819513614
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0017819556820826187,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006958370110396763,
+            "start_rmse": 0.07790893723755282,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05899749197082944,
+            "start_rmse": 0.2858199809041943,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00592608739841423,
+          "R_A": 0.0062044287601849745
+        },
+        "initial": {
+          "R_M": 0.40934440104269054,
+          "R_A": 0.3714662561758716
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.4374832265285937e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05906723491169344,
+            "start_rmse": 0.27760332940114607,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006944258345537976,
+            "start_rmse": 0.07763150645579794,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004416755365252242,
+          "R_A": 0.0047827405324696055
+        },
+        "initial": {
+          "R_M": 0.40705337181328405,
+          "R_A": 0.3693630014875794
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001959463439727955,
+      "instantaneous_friction_bias_RMS_Nm": 2.6274346371713706e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007125687718128545,
+            "start_rmse": 0.07904621138093987,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05927786339994691,
+            "start_rmse": 0.2536002937259495,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004982084932843212,
+          "R_A": 0.005492686636641491
+        },
+        "initial": {
+          "R_M": 0.4125297242590121,
+          "R_A": 0.3736197154744954
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0025514050784195535,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0592199544226746,
+            "start_rmse": 0.2652916255635359,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0071506928008015,
+            "start_rmse": 0.0798838807006991,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006108169592972773,
+          "R_A": 0.006446720550323732
+        },
+        "initial": {
+          "R_M": 0.4154227363861867,
+          "R_A": 0.37517912440894297
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0003412731318002293,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069485350976404864,
+            "start_rmse": 0.3837921531188399,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006948535097640496,
+            "start_rmse": 0.12689879328036202,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00478127551427088,
+          "R_A": 0.005155327293528881
+        },
+        "initial": {
+          "R_M": 2.3342967128751786,
+          "R_A": 2.641745038618157
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.9363262964552807e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069433578050872875,
+            "start_rmse": 0.3834165012097417,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006943357805087306,
+            "start_rmse": 0.1265534008051768,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004754609361032561,
+          "R_A": 0.00515142833775453
+        },
+        "initial": {
+          "R_M": 2.3418613191516124,
+          "R_A": 2.6469428077197197
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.029595430200839837,
+      "instantaneous_friction_bias_RMS_Nm": 0.028293884859945127,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.025221720439652717,
+            "start_rmse": 0.1726215366806462,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13644388119735806,
+            "start_rmse": 0.2104937841721261,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.025806555299847787,
+          "R_A": 0.025783659468775214
+        },
+        "initial": {
+          "R_M": 0.8477395688211837,
+          "R_A": 0.852908769525437
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.026055286567384033,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.022794849758917123,
+            "start_rmse": 0.17610818174747292,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.022794849758917053,
+            "start_rmse": 0.2076747010841884,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0183794354423248,
+          "R_A": 0.018288894391054914
+        },
+        "initial": {
+          "R_M": 0.9167279783285086,
+          "R_A": 0.9068579993692709
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0017451541573429666,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006954474969541241,
+            "start_rmse": 0.40170458486017074,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006954474969541254,
+            "start_rmse": 0.12669983914870941,
+            "nfev": 174,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006573673832447434,
+          "R_A": 0.0069350658124799165
+        },
+        "initial": {
+          "R_M": 2.4809206744549215,
+          "R_A": 2.7825748349247847
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.74356401516103e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00694335780508732,
+            "start_rmse": 0.3834165012097426,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006943357805087337,
+            "start_rmse": 0.12655340080516572,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004754609360630533,
+          "R_A": 0.005151428337136868
+        },
+        "initial": {
+          "R_M": 2.341861319151301,
+          "R_A": 2.6469428077193715
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.0019088327417880408,
+      "instantaneous_friction_bias_RMS_Nm": 2.775371692109806e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00712667165547747,
+            "start_rmse": 0.13586686213762514,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11997524054304212,
+            "start_rmse": 0.6214505767848165,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004933357879889966,
+          "R_A": 0.0051534584539309905
+        },
+        "initial": {
+          "R_M": 0.6625961129131568,
+          "R_A": 0.639329997822242
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0025677976602184707,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0071564293216073716,
+            "start_rmse": 0.13117494647745764,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11988320152048089,
+            "start_rmse": 0.46087739644625136,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006776846107702885,
+          "R_A": 0.007044797699444126
+        },
+        "initial": {
+          "R_M": 0.6421753478083877,
+          "R_A": 0.6206354040087466
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00037112000288311785,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006943496381786024,
+            "start_rmse": 0.13543800646352325,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006943496381786017,
+            "start_rmse": 1.687933858882461,
+            "nfev": 523,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004078960376287246,
+          "R_A": 0.004521424097859957
+        },
+        "initial": {
+          "R_M": 8.943860168153035,
+          "R_A": 8.802202165145204
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.8963804710276734e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00694679630552812,
+            "start_rmse": 0.13850363109707722,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006946796305528098,
+            "start_rmse": 1.8262423699385508,
+            "nfev": 523,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004169065407509578,
+          "R_A": 0.004630436478564223
+        },
+        "initial": {
+          "R_M": 9.68442208972585,
+          "R_A": 9.525852065223962
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.029993217445203942,
+      "instantaneous_friction_bias_RMS_Nm": 0.02873824264171442,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.026818827366469497,
+            "start_rmse": 0.16254635494346376,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12840462549565904,
+            "start_rmse": 0.2118648083838489,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.015507094515143763,
+          "R_A": 0.017365453636979482
+        },
+        "initial": {
+          "R_M": 0.7687901549005086,
+          "R_A": 0.7481022346018453
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.03004765625473524,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.027634300484807285,
+            "start_rmse": 0.19768274019593457,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.1285037793407758,
+            "start_rmse": 0.21294553408663724,
+            "nfev": 1599,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.01577477571595625,
+          "R_A": 0.017433193016125476
+        },
+        "initial": {
+          "R_M": 0.9158183626727749,
+          "R_A": 0.905264952480102
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.001966779329676111,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069660593137900245,
+            "start_rmse": 0.1284333259659822,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13197567375553962,
+            "start_rmse": 0.2164803810026137,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005575483458351544,
+          "R_A": 0.0059509263463571665
+        },
+        "initial": {
+          "R_M": 0.5878989464117698,
+          "R_A": 0.6092621652209501
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.6853207798599617e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006946796305528044,
+            "start_rmse": 0.13850363109705724,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00694679630552804,
+            "start_rmse": 1.8262423699366732,
+            "nfev": 523,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00416906540559815,
+          "R_A": 0.004630436476152641
+        },
+        "initial": {
+          "R_M": 9.684422089716012,
+          "R_A": 9.525852065214403
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.0019228495212462117,
+      "instantaneous_friction_bias_RMS_Nm": 2.7369037766602726e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10125740314354197,
+            "start_rmse": 0.2740455084908342,
+            "nfev": 1219,
+            "accepted_steps": 42,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007113742061280126,
+            "start_rmse": 0.16701813202159832,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004433697947911083,
+          "R_A": 0.004838430997912031
+        },
+        "initial": {
+          "R_M": 0.942595363254743,
+          "R_A": 1.0788216932052057
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.002940837104023331,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007165757487410593,
+            "start_rmse": 0.21042667796572553,
+            "nfev": 1372,
+            "accepted_steps": 47,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0071657574874105946,
+            "start_rmse": 0.12000603513452508,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005881539122389604,
+          "R_A": 0.00617799355656122
+        },
+        "initial": {
+          "R_M": 0.9259447064425455,
+          "R_A": 0.9243042915201852
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00037073706331336225,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007050145107376914,
+            "start_rmse": 0.05633979975097747,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12940712188784617,
+            "start_rmse": 0.23843172681151484,
+            "nfev": 1575,
+            "accepted_steps": 54,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0028245083840946817,
+          "R_A": 0.003031409180472395
+        },
+        "initial": {
+          "R_M": 0.2758699424884259,
+          "R_A": 0.27947510361219335
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 3.0104132371187713e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007040626181023782,
+            "start_rmse": 0.06495678280695912,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10341162018332778,
+            "start_rmse": 0.22949842017894936,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0028905121892387085,
+          "R_A": 0.0031007269527350357
+        },
+        "initial": {
+          "R_M": 0.30755630750673923,
+          "R_A": 0.27805729330194406
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.026144022820842286,
+      "instantaneous_friction_bias_RMS_Nm": 0.024949970910456067,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.022892626106016157,
+            "start_rmse": 0.22056369376065155,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13459793196312966,
+            "start_rmse": 0.22318860583901903,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.018629293182155445,
+          "R_A": 0.01905759509511875
+        },
+        "initial": {
+          "R_M": 1.3199311499397839,
+          "R_A": 1.419814893403795
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.024143308739178,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02067260492896585,
+            "start_rmse": 0.1896747232851106,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10519535050188528,
+            "start_rmse": 0.2564194328781085,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.015515622174474214,
+          "R_A": 0.01632971687462101
+        },
+        "initial": {
+          "R_M": 0.8410241747994807,
+          "R_A": 0.8130477670778691
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.001895085945697226,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007058442820244634,
+            "start_rmse": 0.28606991423589484,
+            "nfev": 581,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007058442820244654,
+            "start_rmse": 0.05668987625125093,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004070326143671555,
+          "R_A": 0.004381386234711146
+        },
+        "initial": {
+          "R_M": 1.8420282267829413,
+          "R_A": 1.6518675804907659
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 3.186871120606715e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007040626181023784,
+            "start_rmse": 0.06495678280689943,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10341162018333071,
+            "start_rmse": 0.22949842017895683,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0028905121915537564,
+          "R_A": 0.0031007269555804262
+        },
+        "initial": {
+          "R_M": 0.3075563075062873,
+          "R_A": 0.2780572933015481
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.0018907709402028819,
+      "instantaneous_friction_bias_RMS_Nm": 2.6608281615446314e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00721280128244552,
+            "start_rmse": 0.25670138369382134,
+            "nfev": 610,
+            "accepted_steps": 21,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072128012824455336,
+            "start_rmse": 0.05597780837637262,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003331412735989919,
+          "R_A": 0.003588727630138586
+        },
+        "initial": {
+          "R_M": 1.4774460342265374,
+          "R_A": 1.3691039194853682
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0029101890755402135,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.17619928212356528,
+            "start_rmse": 0.23836273390557175,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0072456938118740065,
+            "start_rmse": 0.06357983832309713,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004891410665997716,
+          "R_A": 0.005278173882869261
+        },
+        "initial": {
+          "R_M": 0.33755769635981453,
+          "R_A": 0.33731245597076087
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0003769664326365299,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11119013380380838,
+            "start_rmse": 0.3962182407631783,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007033930193047169,
+            "start_rmse": 0.08749778239341655,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004650395192221485,
+          "R_A": 0.004840871570364643
+        },
+        "initial": {
+          "R_M": 0.4057933862618351,
+          "R_A": 0.3779943457695761
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.918414904033434e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11120735021313104,
+            "start_rmse": 0.22783443271369375,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007033029530270652,
+            "start_rmse": 0.09127811608254921,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004611372614757841,
+          "R_A": 0.004837324827115488
+        },
+        "initial": {
+          "R_M": 0.42284095977857117,
+          "R_A": 0.3924773137550849
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.03291599445892392,
+      "instantaneous_friction_bias_RMS_Nm": 0.031523743100107984,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0769702834854845,
+            "start_rmse": 0.21013348989403388,
+            "nfev": 1422,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.028879344691405736,
+            "start_rmse": 0.16888751506057129,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.023327216835401034,
+          "R_A": 0.024985156444037947
+        },
+        "initial": {
+          "R_M": 0.7794487605387367,
+          "R_A": 0.7726242797556722
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.03173755875884598,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.027566030505901114,
+            "start_rmse": 0.17645025401664285,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11550941966081149,
+            "start_rmse": 0.24962616680168337,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.021348788317511868,
+          "R_A": 0.023950897022709507
+        },
+        "initial": {
+          "R_M": 0.8392125536957653,
+          "R_A": 0.8618951698504755
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0019352738453875349,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007058858911600572,
+            "start_rmse": 0.6073835201298544,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007058858911600569,
+            "start_rmse": 0.09469372278752554,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006269444085863003,
+          "R_A": 0.00604935139052879
+        },
+        "initial": {
+          "R_M": 0.44014428988793913,
+          "R_A": 0.41769009371530147
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.8605649858807257e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11120735021313076,
+            "start_rmse": 0.22783443271360257,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007033029530270623,
+            "start_rmse": 0.09127811608257866,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0046113726142703836,
+          "R_A": 0.004837324826706976
+        },
+        "initial": {
+          "R_M": 0.4228409597787148,
+          "R_A": 0.3924773137552165
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.0021001493305764056,
+      "instantaneous_friction_bias_RMS_Nm": 2.4153642136594735e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11115948109692918,
+            "start_rmse": 0.19225180378469817,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007272009257424469,
+            "start_rmse": 0.11047525273486082,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00474326022934481,
+          "R_A": 0.00495680247090531
+        },
+        "initial": {
+          "R_M": 0.5312659436879873,
+          "R_A": 0.5255869214340687
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0028355863469590654,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007314226795184187,
+            "start_rmse": 0.10960597507104639,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11105839718099615,
+            "start_rmse": 0.192567827520446,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005957103637498414,
+          "R_A": 0.005739393342707137
+        },
+        "initial": {
+          "R_M": 0.524546122913602,
+          "R_A": 0.5121080852316832
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00037825171298818246,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007055911259185428,
+            "start_rmse": 0.2365661194767245,
+            "nfev": 412,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007055911259185434,
+            "start_rmse": 0.07027054102284573,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0034934549623694983,
+          "R_A": 0.0036923909859045805
+        },
+        "initial": {
+          "R_M": 1.186170791167572,
+          "R_A": 1.293290309940266
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.7633528848645823e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007054744625284892,
+            "start_rmse": 0.07090605233263324,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054744625284902,
+            "start_rmse": 0.23631647623685562,
+            "nfev": 382,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00356945002528919,
+          "R_A": 0.0037829507851521774
+        },
+        "initial": {
+          "R_M": 0.33702347265347,
+          "R_A": 0.3472469866484334
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.031562651768728966,
+      "instantaneous_friction_bias_RMS_Nm": 0.03014509050377364,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0283123673621728,
+            "start_rmse": 0.2103903288021813,
+            "nfev": 320,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.028312367362172897,
+            "start_rmse": 0.21320333697885965,
+            "nfev": 494,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.024429108031420194,
+          "R_A": 0.0252842991788739
+        },
+        "initial": {
+          "R_M": 0.96053603373898,
+          "R_A": 0.962156894475624
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0298461692651546,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.027247169378941335,
+            "start_rmse": 0.2106316581782756,
+            "nfev": 581,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.027247169378941522,
+            "start_rmse": 0.17855077632342525,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.021158892212394104,
+          "R_A": 0.02070178684038468
+        },
+        "initial": {
+          "R_M": 0.9109104687645767,
+          "R_A": 0.8796622938702519
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0019473234647381962,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007068640910428521,
+            "start_rmse": 0.07097415455635021,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007068640910428519,
+            "start_rmse": 0.2332952459595816,
+            "nfev": 412,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004142289690362206,
+          "R_A": 0.004298020365647488
+        },
+        "initial": {
+          "R_M": 1.1571876347226424,
+          "R_A": 1.2585797266006136
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.8420513375597663e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007054744625284954,
+            "start_rmse": 0.07090605233264931,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054744625284958,
+            "start_rmse": 0.23631647623686053,
+            "nfev": 382,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0035694500256525947,
+          "R_A": 0.003782950785614468
+        },
+        "initial": {
+          "R_M": 0.33702347265354343,
+          "R_A": 0.34724698664849557
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.002128139003234476,
+      "instantaneous_friction_bias_RMS_Nm": 2.5587304279779686e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007376917115227552,
+            "start_rmse": 0.24116425364104327,
+            "nfev": 471,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007376917115227559,
+            "start_rmse": 0.08800839825262657,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0031781902561509607,
+          "R_A": 0.003321637917463497
+        },
+        "initial": {
+          "R_M": 1.2253412253295024,
+          "R_A": 1.3305759029076716
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0033426106289022217,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007428900281657048,
+            "start_rmse": 0.24215809128341167,
+            "nfev": 382,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007428900281657047,
+            "start_rmse": 0.08795584588918491,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004598846860323243,
+          "R_A": 0.0046228574516385445
+        },
+        "initial": {
+          "R_M": 0.41323905959674523,
+          "R_A": 0.41825633905328263
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0003891205496530542,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11702723525262192,
+            "start_rmse": 0.23722753549789105,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006948866223465709,
+            "start_rmse": 0.07102699252275471,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0032980815886967914,
+          "R_A": 0.003517257819504011
+        },
+        "initial": {
+          "R_M": 0.3777562598878668,
+          "R_A": 0.39086195545361246
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.9242786948134944e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11702420191404792,
+            "start_rmse": 0.2357778922612731,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006944894404347506,
+            "start_rmse": 0.07078997797252437,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0034138914142712038,
+          "R_A": 0.003660670326397831
+        },
+        "initial": {
+          "R_M": 0.3767363850905555,
+          "R_A": 0.3898912483211743
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.03236821323084772,
+      "instantaneous_friction_bias_RMS_Nm": 0.03090405466534508,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11754055135617823,
+            "start_rmse": 0.20898271415467679,
+            "nfev": 1600,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.029008175658859377,
+            "start_rmse": 0.17916945202373724,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.02935077770347024,
+          "R_A": 0.03210907664541231
+        },
+        "initial": {
+          "R_M": 0.8237984175298918,
+          "R_A": 0.8249362853417983
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.03203658967481225,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02949045709411178,
+            "start_rmse": 0.20411032189575137,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.029490457094111803,
+            "start_rmse": 0.15646778344032092,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.02537638867215865,
+          "R_A": 0.028798206971899803
+        },
+        "initial": {
+          "R_M": 0.825907686881857,
+          "R_A": 0.8079645876223347
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0019591691848977713,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11689953031089365,
+            "start_rmse": 0.23619441977776198,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006980924956324613,
+            "start_rmse": 0.07082151122342527,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004685111955438885,
+          "R_A": 0.004840950598595048
+        },
+        "initial": {
+          "R_M": 0.3778442004555096,
+          "R_A": 0.39115485859065696
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.895352138547544e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11702420191324872,
+            "start_rmse": 0.23577789226133294,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006944894404347483,
+            "start_rmse": 0.07078997797252204,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003413891414764894,
+          "R_A": 0.00366067032696479
+        },
+        "initial": {
+          "R_M": 0.37673638509054513,
+          "R_A": 0.3898912483211627
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.0021062038917931633,
+      "instantaneous_friction_bias_RMS_Nm": 3.0035917058915516e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007196559967651251,
+            "start_rmse": 0.07066312396949989,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11729860172124491,
+            "start_rmse": 0.21338832015156314,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004010591177195463,
+          "R_A": 0.004415684515935174
+        },
+        "initial": {
+          "R_M": 0.3752365793156921,
+          "R_A": 0.3878235899858819
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.002794856891107771,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007238050897654658,
+            "start_rmse": 0.06964793595518923,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11732081720262488,
+            "start_rmse": 0.2123815639541539,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004810767757340934,
+          "R_A": 0.00512750451942595
+        },
+        "initial": {
+          "R_M": 0.37099721887756254,
+          "R_A": 0.38328056965905305
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0003678358534864541,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007027655798516649,
+            "start_rmse": 0.07390782653826608,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10547210669154042,
+            "start_rmse": 0.1952002748798506,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004941579974473367,
+          "R_A": 0.005159638178848766
+        },
+        "initial": {
+          "R_M": 0.4100725779402221,
+          "R_A": 0.38017975622493594
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.593992461233134e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10547252554176778,
+            "start_rmse": 0.19532257641931136,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0070272522176145265,
+            "start_rmse": 0.07392807487469778,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0049817970840878205,
+          "R_A": 0.005209798511124674
+        },
+        "initial": {
+          "R_M": 0.40961425498004256,
+          "R_A": 0.37915725546977064
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.029195352990894832,
+      "instantaneous_friction_bias_RMS_Nm": 0.027851572708694664,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11471757579828687,
+            "start_rmse": 0.19245423646110804,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.025889716894591328,
+            "start_rmse": 0.17441011844472862,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0255643434304831,
+          "R_A": 0.0276629014895907
+        },
+        "initial": {
+          "R_M": 0.9025268051697146,
+          "R_A": 0.8784170816281925
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.029222121354039333,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 29,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.026260864959243426,
+            "start_rmse": 0.15846161880543727,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.026260864959243457,
+            "start_rmse": 0.18295420658334344,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.02499189355865992,
+          "R_A": 0.027486724285584865
+        },
+        "initial": {
+          "R_M": 0.8354434058693274,
+          "R_A": 0.8430724849658184
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0017658671620470164,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10530460121435602,
+            "start_rmse": 0.19315894380082385,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007045444404833294,
+            "start_rmse": 0.07399617813339088,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00487607427224838,
+          "R_A": 0.00516682581261322
+        },
+        "initial": {
+          "R_M": 0.4104299384032713,
+          "R_A": 0.38250313373458517
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.7109923567237667e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10547252554176757,
+            "start_rmse": 0.19532257641931508,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007027252217614531,
+            "start_rmse": 0.0739280748746977,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004981797083393864,
+          "R_A": 0.005209798510006678
+        },
+        "initial": {
+          "R_M": 0.40961425498004606,
+          "R_A": 0.3791572554697665
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001891969003758481,
+      "instantaneous_friction_bias_RMS_Nm": 2.520520833202214e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007215568204264776,
+            "start_rmse": 0.06924310731534476,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10547874551288176,
+            "start_rmse": 0.2046020898244041,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004320420662394765,
+          "R_A": 0.004968774665969268
+        },
+        "initial": {
+          "R_M": 0.3761446298453086,
+          "R_A": 0.3451697466829066
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0027367096166426887,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0072334850233253,
+            "start_rmse": 0.06728066187762935,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10530040258796755,
+            "start_rmse": 0.20372926909716554,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004609989549280166,
+          "R_A": 0.005240941788469422
+        },
+        "initial": {
+          "R_M": 0.36458125938109537,
+          "R_A": 0.33672028865856896
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.00035347485495450264,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05836391397822289,
+            "start_rmse": 0.17965490392202313,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006980448173780469,
+            "start_rmse": 0.05679757072841058,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0039046130721202776,
+          "R_A": 0.004180210821987965
+        },
+        "initial": {
+          "R_M": 0.3768741915334471,
+          "R_A": 0.41855595596738315
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.716936326545942e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006981085032710317,
+            "start_rmse": 0.057012455158659534,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05836523944438758,
+            "start_rmse": 0.18067792244717362,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0037271481065830445,
+          "R_A": 0.003985953307410506
+        },
+        "initial": {
+          "R_M": 0.3777573942338322,
+          "R_A": 0.4185764234436634
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.029755537748711033,
+      "instantaneous_friction_bias_RMS_Nm": 0.028364559286397185,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06370299086234336,
+            "start_rmse": 0.1794090055580977,
+            "nfev": 671,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.026480399486075175,
+            "start_rmse": 0.13077084622509594,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.026623575438115856,
+          "R_A": 0.029277471236908967
+        },
+        "initial": {
+          "R_M": 0.7142025075569192,
+          "R_A": 0.7010120814309821
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.02723416443181567,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.025075061183419442,
+            "start_rmse": 0.2771555115838104,
+            "nfev": 320,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.025075061183419244,
+            "start_rmse": 0.11610909016539296,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.021179480154924293,
+          "R_A": 0.022569120628631995
+        },
+        "initial": {
+          "R_M": 0.6429009377425193,
+          "R_A": 0.6554802488562155
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0016610791589219776,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007003898159771272,
+            "start_rmse": 0.056902256531216826,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05829355259630274,
+            "start_rmse": 0.1786336728567293,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00615788526165188,
+          "R_A": 0.006482904481751626
+        },
+        "initial": {
+          "R_M": 0.37825710375271465,
+          "R_A": 0.41969321816008437
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.728009287989041e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00698108503271031,
+            "start_rmse": 0.057012455158658625,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.058365239444387616,
+            "start_rmse": 0.1806779224471834,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003727148107106985,
+          "R_A": 0.0039859533077906415
+        },
+        "initial": {
+          "R_M": 0.37775739423381627,
+          "R_A": 0.4185764234436423
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001950175012234551,
+      "instantaneous_friction_bias_RMS_Nm": 2.9679805206584095e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0072124256876033065,
+            "start_rmse": 0.05789673196148647,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.058450577365611475,
+            "start_rmse": 0.18902183076966958,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004269874569803488,
+          "R_A": 0.004374543482585306
+        },
+        "initial": {
+          "R_M": 0.36764151253482236,
+          "R_A": 0.3981324097283261
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.0027910380697628934,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.058374818780723134,
+            "start_rmse": 0.18125291201508012,
+            "nfev": 842,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007261098380854821,
+            "start_rmse": 0.056033397142222906,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006866139022889348,
+          "R_A": 0.006957855298822349
+        },
+        "initial": {
+          "R_M": 0.3535722274221683,
+          "R_A": 0.3865603634905083
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "near_reversal",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0003657346875609295,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006970182720427823,
+            "start_rmse": 0.2137487835028421,
+            "nfev": 441,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006970182720427776,
+            "start_rmse": 0.13501238688081293,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0037175460441529373,
+          "R_A": 0.003991774165302589
+        },
+        "initial": {
+          "R_M": 0.6747062423717737,
+          "R_A": 0.6930819887412892
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "near_reversal",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.95996804206411e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069671918327569304,
+            "start_rmse": 0.21376815427235632,
+            "nfev": 440,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006967191832756882,
+            "start_rmse": 0.13497013321436385,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035760865988454502,
+          "R_A": 0.0038695812498566375
+        },
+        "initial": {
+          "R_M": 0.6743174935273678,
+          "R_A": 0.6926319778536946
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.03017191304642398,
+      "instantaneous_friction_bias_RMS_Nm": 0.028848278261145947,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02617866059328947,
+            "start_rmse": 0.23112848123796814,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.026178660593287398,
+            "start_rmse": 0.1724731005318047,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.027110033689316304,
+          "R_A": 0.02865858362242383
+        },
+        "initial": {
+          "R_M": 0.811296286036166,
+          "R_A": 0.8648008873525758
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "near_reversal",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.027998635194307266,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02472439778204869,
+            "start_rmse": 0.162797700025146,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12960580454642617,
+            "start_rmse": 0.2510934978900297,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.016619838875160296,
+          "R_A": 0.01753468810901838
+        },
+        "initial": {
+          "R_M": 0.7438696703222848,
+          "R_A": 0.7916942673177741
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "same_direction",
+      "acquisition": "filter",
+      "clean_contrast_bias_RMS_Nm": 0.0019533085042144297,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006989673677286006,
+            "start_rmse": 0.21315533284915933,
+            "nfev": 441,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0069896736772859834,
+            "start_rmse": 0.1322308902178183,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0057451361245474085,
+          "R_A": 0.00575560242009483
+        },
+        "initial": {
+          "R_M": 0.6643637187098849,
+          "R_A": 0.6843431094355045
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "same_direction",
+      "acquisition": "matched",
+      "clean_contrast_bias_RMS_Nm": 2.805104230973975e-15,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006967191832756957,
+            "start_rmse": 0.21376815427235366,
+            "nfev": 440,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006967191832756921,
+            "start_rmse": 0.1349701332143436,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003576086596105723,
+          "R_A": 0.0038695812465910813
+        },
+        "initial": {
+          "R_M": 0.6743174935272789,
+          "R_A": 0.6926319778536145
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "same_direction",
+      "acquisition": "velocity_error",
+      "clean_contrast_bias_RMS_Nm": 0.001957655776324044,
+      "instantaneous_friction_bias_RMS_Nm": 3.019076300412096e-16,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0071767048353011224,
+            "start_rmse": 0.19842159768186168,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11759543351594262,
+            "start_rmse": 0.21648792555899452,
+            "nfev": 1422,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0035738929676977704,
+          "R_A": 0.0038178701626118004
+        },
+        "initial": {
+          "R_M": 1.1482674635008754,
+          "R_A": 1.1833402960237607
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "speed": "same_direction",
+      "acquisition": "velocity_error_with_filter",
+      "clean_contrast_bias_RMS_Nm": 0.002620309324905255,
+      "instantaneous_friction_bias_RMS_Nm": null,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11744732133924816,
+            "start_rmse": 0.2146398323508425,
+            "nfev": 1393,
+            "accepted_steps": 48,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007206799544407369,
+            "start_rmse": 0.18499727739769248,
+            "nfev": 203,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.005386685835288616,
+          "R_A": 0.005251355325485938
+        },
+        "initial": {
+          "R_M": 1.0328598743397122,
+          "R_A": 1.119868172780896
+        }
+      }
+    }
+  ]
+}

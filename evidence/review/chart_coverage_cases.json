@@ -1,0 +1,866 @@
+[
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "sigma": 0.001,
+    "design": "3loads_full",
+    "kernel": true,
+    "spectral": true,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "sigma": 0.01,
+    "design": "3loads_full",
+    "kernel": false,
+    "spectral": false,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "sigma": 0.001,
+    "design": "4loads_2dirs",
+    "kernel": true,
+    "spectral": null,
+    "nominal": true
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "sigma": 0.01,
+    "design": "4loads_2dirs",
+    "kernel": false,
+    "spectral": null,
+    "nominal": true
+  }
+]

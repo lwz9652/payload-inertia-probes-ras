@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "loads": 3,
+      "probes": 3,
+      "stacked_rank": 6,
+      "nullspace_constraint_rank": 17,
+      "unique_scale": true
+    },
+    {
+      "loads": 4,
+      "probes": 2,
+      "stacked_rank": 6,
+      "nullspace_constraint_rank": 11,
+      "unique_scale": true
+    }
+  ]
+}

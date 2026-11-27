@@ -1,0 +1,525 @@
+{
+  "pairing": "Same 24 distributed geometries, held-out cases, three loads and 0.01 Nm noise as confirmation.",
+  "selection": "One or two bases selected among 80 candidates by nominal calibration-Jacobian minimum singular value on 16 nominal design poses. Three directions from confirmation.",
+  "results": [
+    {
+      "robot": "Panda",
+      "directions": {
+        "1": {
+          "directions": [
+            [
+              -0.6716617528698683
+            ],
+            [
+              0.21998201622724872
+            ],
+            [
+              -0.6022366916116113
+            ],
+            [
+              0.030345488859016962
+            ],
+            [
+              0.0630244266204666
+            ],
+            [
+              0.2932338739372462
+            ],
+            [
+              0.21658794443803842
+            ]
+          ],
+          "min_singular_value": 0.28820286341185164
+        },
+        "2": {
+          "directions": [
+            [
+              -0.02315336574135718,
+              -0.7415318704034861
+            ],
+            [
+              0.5618829510961683,
+              -0.18732279434634946
+            ],
+            [
+              0.0364869255676947,
+              -0.5531911827468323
+            ],
+            [
+              -0.652041860709952,
+              -0.2506514648556926
+            ],
+            [
+              0.1516273483883216,
+              -0.07429449502236608
+            ],
+            [
+              0.2801734785894689,
+              0.094381719830357
+            ],
+            [
+              0.39468158835019423,
+              -0.17823140397324727
+            ]
+          ],
+          "min_singular_value": 0.3593143811453433
+        }
+      },
+      "data": [
+        {
+          "trial": 0,
+          "directions": 1,
+          "relative_RM": 0.0048469103760371965
+        },
+        {
+          "trial": 0,
+          "directions": 2,
+          "relative_RM": 0.003422517896858289
+        },
+        {
+          "trial": 0,
+          "directions": 3,
+          "relative_RM": 0.004446958526239519
+        },
+        {
+          "trial": 1,
+          "directions": 1,
+          "relative_RM": 0.006991051116050552
+        },
+        {
+          "trial": 1,
+          "directions": 2,
+          "relative_RM": 0.00516138524776178
+        },
+        {
+          "trial": 1,
+          "directions": 3,
+          "relative_RM": 0.005056608488157168
+        },
+        {
+          "trial": 2,
+          "directions": 1,
+          "relative_RM": 0.00873558091918839
+        },
+        {
+          "trial": 2,
+          "directions": 2,
+          "relative_RM": 0.006616846599476349
+        },
+        {
+          "trial": 2,
+          "directions": 3,
+          "relative_RM": 0.004542517954238205
+        },
+        {
+          "trial": 3,
+          "directions": 1,
+          "relative_RM": 0.008102887350904265
+        },
+        {
+          "trial": 3,
+          "directions": 2,
+          "relative_RM": 0.005385139552335598
+        },
+        {
+          "trial": 3,
+          "directions": 3,
+          "relative_RM": 0.004496683275265285
+        },
+        {
+          "trial": 4,
+          "directions": 1,
+          "relative_RM": 0.009102273496141343
+        },
+        {
+          "trial": 4,
+          "directions": 2,
+          "relative_RM": 0.004849848575910161
+        },
+        {
+          "trial": 4,
+          "directions": 3,
+          "relative_RM": 0.004089756267987819
+        },
+        {
+          "trial": 5,
+          "directions": 1,
+          "relative_RM": 0.007380627894939476
+        },
+        {
+          "trial": 5,
+          "directions": 2,
+          "relative_RM": 0.004130991927703672
+        },
+        {
+          "trial": 5,
+          "directions": 3,
+          "relative_RM": 0.004550346661822652
+        },
+        {
+          "trial": 6,
+          "directions": 1,
+          "relative_RM": 0.00793413760148237
+        },
+        {
+          "trial": 6,
+          "directions": 2,
+          "relative_RM": 0.0038061591877705824
+        },
+        {
+          "trial": 6,
+          "directions": 3,
+          "relative_RM": 0.0038693193083367784
+        },
+        {
+          "trial": 7,
+          "directions": 1,
+          "relative_RM": 0.004688459624816881
+        },
+        {
+          "trial": 7,
+          "directions": 2,
+          "relative_RM": 0.004543245917825558
+        },
+        {
+          "trial": 7,
+          "directions": 3,
+          "relative_RM": 0.0036602014477017946
+        },
+        {
+          "trial": 8,
+          "directions": 1,
+          "relative_RM": 0.006709849297666457
+        },
+        {
+          "trial": 8,
+          "directions": 2,
+          "relative_RM": 0.005224349881679654
+        },
+        {
+          "trial": 8,
+          "directions": 3,
+          "relative_RM": 0.005426533729319075
+        },
+        {
+          "trial": 9,
+          "directions": 1,
+          "relative_RM": 0.007972080150193163
+        },
+        {
+          "trial": 9,
+          "directions": 2,
+          "relative_RM": 0.005583800507714001
+        },
+        {
+          "trial": 9,
+          "directions": 3,
+          "relative_RM": 0.0051659042468400525
+        },
+        {
+          "trial": 10,
+          "directions": 1,
+          "relative_RM": 0.007896022871722823
+        },
+        {
+          "trial": 10,
+          "directions": 2,
+          "relative_RM": 0.005023418256643492
+        },
+        {
+          "trial": 10,
+          "directions": 3,
+          "relative_RM": 0.005983299308339968
+        },
+        {
+          "trial": 11,
+          "directions": 1,
+          "relative_RM": 0.005947041872438118
+        },
+        {
+          "trial": 11,
+          "directions": 2,
+          "relative_RM": 0.004598000454583747
+        },
+        {
+          "trial": 11,
+          "directions": 3,
+          "relative_RM": 0.004129478708136233
+        }
+      ],
+      "summary": {
+        "1": {
+          "reads_per_configuration": 8,
+          "median_percent": 0.7638325383331149,
+          "maximum_percent": 0.9102273496141342
+        },
+        "2": {
+          "reads_per_configuration": 16,
+          "median_percent": 0.49366334162768266,
+          "maximum_percent": 0.6616846599476349
+        },
+        "3": {
+          "reads_per_configuration": 24,
+          "median_percent": 0.4519600614751745,
+          "maximum_percent": 0.5983299308339968
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "directions": {
+        "1": {
+          "directions": [
+            [
+              -0.24054791015183796
+            ],
+            [
+              0.8082648228501693
+            ],
+            [
+              0.08432459264310524
+            ],
+            [
+              0.24426514337836663
+            ],
+            [
+              -0.377449775641647
+            ],
+            [
+              0.2821351604081963
+            ]
+          ],
+          "min_singular_value": 0.5070504662617629
+        },
+        "2": {
+          "directions": [
+            [
+              -0.8625916150689914,
+              0.1555109501372288
+            ],
+            [
+              -0.2788858514065279,
+              -0.8469076539072696
+            ],
+            [
+              -0.10948324639134331,
+              -0.15679779704710653
+            ],
+            [
+              0.22133537087908986,
+              -0.4408126201797388
+            ],
+            [
+              -0.012900663736747588,
+              -0.1863304115206022
+            ],
+            [
+              0.34207606278502495,
+              -0.07030954853155735
+            ]
+          ],
+          "min_singular_value": 0.6395046052204643
+        }
+      },
+      "data": [
+        {
+          "trial": 0,
+          "directions": 1,
+          "relative_RM": 0.003591263579076785
+        },
+        {
+          "trial": 0,
+          "directions": 2,
+          "relative_RM": 0.0023243800200014233
+        },
+        {
+          "trial": 0,
+          "directions": 3,
+          "relative_RM": 0.002240458302075567
+        },
+        {
+          "trial": 1,
+          "directions": 1,
+          "relative_RM": 0.0036244719310015287
+        },
+        {
+          "trial": 1,
+          "directions": 2,
+          "relative_RM": 0.0032113699447593384
+        },
+        {
+          "trial": 1,
+          "directions": 3,
+          "relative_RM": 0.0037467894090905266
+        },
+        {
+          "trial": 2,
+          "directions": 1,
+          "relative_RM": 0.005426275964499809
+        },
+        {
+          "trial": 2,
+          "directions": 2,
+          "relative_RM": 0.0027844749165349585
+        },
+        {
+          "trial": 2,
+          "directions": 3,
+          "relative_RM": 0.003238854812867814
+        },
+        {
+          "trial": 3,
+          "directions": 1,
+          "relative_RM": 0.004308834339998947
+        },
+        {
+          "trial": 3,
+          "directions": 2,
+          "relative_RM": 0.0022846687525478384
+        },
+        {
+          "trial": 3,
+          "directions": 3,
+          "relative_RM": 0.003547033572556731
+        },
+        {
+          "trial": 4,
+          "directions": 1,
+          "relative_RM": 0.004029425526085549
+        },
+        {
+          "trial": 4,
+          "directions": 2,
+          "relative_RM": 0.0028673144924128116
+        },
+        {
+          "trial": 4,
+          "directions": 3,
+          "relative_RM": 0.003765235173035744
+        },
+        {
+          "trial": 5,
+          "directions": 1,
+          "relative_RM": 0.003918637915091147
+        },
+        {
+          "trial": 5,
+          "directions": 2,
+          "relative_RM": 0.0021097661700269174
+        },
+        {
+          "trial": 5,
+          "directions": 3,
+          "relative_RM": 0.00382131166396072
+        },
+        {
+          "trial": 6,
+          "directions": 1,
+          "relative_RM": 0.004269955363166677
+        },
+        {
+          "trial": 6,
+          "directions": 2,
+          "relative_RM": 0.002313335869202997
+        },
+        {
+          "trial": 6,
+          "directions": 3,
+          "relative_RM": 0.0037295203069273117
+        },
+        {
+          "trial": 7,
+          "directions": 1,
+          "relative_RM": 0.004830224459525533
+        },
+        {
+          "trial": 7,
+          "directions": 2,
+          "relative_RM": 0.0034242934468379444
+        },
+        {
+          "trial": 7,
+          "directions": 3,
+          "relative_RM": 0.0032800178801450242
+        },
+        {
+          "trial": 8,
+          "directions": 1,
+          "relative_RM": 0.003664073897507577
+        },
+        {
+          "trial": 8,
+          "directions": 2,
+          "relative_RM": 0.0025978809398343513
+        },
+        {
+          "trial": 8,
+          "directions": 3,
+          "relative_RM": 0.003396747452215282
+        },
+        {
+          "trial": 9,
+          "directions": 1,
+          "relative_RM": 0.007356522390108697
+        },
+        {
+          "trial": 9,
+          "directions": 2,
+          "relative_RM": 0.0020146215941918644
+        },
+        {
+          "trial": 9,
+          "directions": 3,
+          "relative_RM": 0.0034249025476012613
+        },
+        {
+          "trial": 10,
+          "directions": 1,
+          "relative_RM": 0.005143432982163573
+        },
+        {
+          "trial": 10,
+          "directions": 2,
+          "relative_RM": 0.0017775488571750689
+        },
+        {
+          "trial": 10,
+          "directions": 3,
+          "relative_RM": 0.00409905931568432
+        },
+        {
+          "trial": 11,
+          "directions": 1,
+          "relative_RM": 0.0037051978973552005
+        },
+        {
+          "trial": 11,
+          "directions": 2,
+          "relative_RM": 0.002198193543072088
+        },
+        {
+          "trial": 11,
+          "directions": 3,
+          "relative_RM": 0.00351464081872236
+        }
+      ],
+      "summary": {
+        "1": {
+          "reads_per_configuration": 8,
+          "median_percent": 0.4149690444626113,
+          "maximum_percent": 0.7356522390108697
+        },
+        "2": {
+          "reads_per_configuration": 16,
+          "median_percent": 0.23188579446022103,
+          "maximum_percent": 0.34242934468379443
+        },
+        "3": {
+          "reads_per_configuration": 24,
+          "median_percent": 0.35308371956395457,
+          "maximum_percent": 0.409905931568432
+        }
+      }
+    }
+  ]
+}

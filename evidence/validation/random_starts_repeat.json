@@ -1,0 +1,3750 @@
+{
+  "seed": 2026112512,
+  "budget_per_start": 1600,
+  "rows": [
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "bound": 90,
+      "candidate": 78,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06710174910420583,
+            "start_rmse": 0.7093826016306054,
+            "nfev": 929,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06710174910381493,
+            "start_rmse": 0.6373109352703231,
+            "nfev": 871,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.33173748587852475,
+          "R_A": 0.33479190569867634
+        },
+        "initial": {
+          "R_M": 4.803075694416469,
+          "R_A": 5.534541555555742
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "bound": 90,
+      "candidate": 78,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007185804630348251,
+            "start_rmse": 0.26149395344013115,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007185804630348266,
+            "start_rmse": 0.20871055587732307,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0038489561322921856,
+          "R_A": 0.0039213133414129995
+        },
+        "initial": {
+          "R_M": 1.2250854281658594,
+          "R_A": 1.1649324486844783
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "bound": 135,
+      "candidate": 66,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007058693899306331,
+            "start_rmse": 0.6807482455962973,
+            "nfev": 581,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.041792862930535545,
+            "start_rmse": 1.1800674696344833,
+            "nfev": 813,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00831531451416207,
+          "R_A": 0.008299892341650137
+        },
+        "initial": {
+          "R_M": 5.958337606672184,
+          "R_A": 5.744801729385538
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "bound": 135,
+      "candidate": 66,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07163683001775098,
+            "start_rmse": 0.1958967430768898,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.041792862930193755,
+            "start_rmse": 0.11909023366439848,
+            "nfev": 697,
+            "accepted_steps": 24,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3250122978605447,
+          "R_A": 0.31952469976395265
+        },
+        "initial": {
+          "R_M": 0.9731271189890366,
+          "R_A": 0.9660820322623321
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "bound": 90,
+      "candidate": 32,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1277336113933942,
+            "start_rmse": 0.46146042077096633,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0752549082037687,
+            "start_rmse": 0.5877962220445999,
+            "nfev": 817,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3175743228954853,
+          "R_A": 0.3600681399759941
+        },
+        "initial": {
+          "R_M": 3.0135779260324314,
+          "R_A": 2.4669970485558053
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "bound": 90,
+      "candidate": 32,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007141222784595797,
+            "start_rmse": 0.23826119222469952,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00714122278459564,
+            "start_rmse": 0.22818011077642408,
+            "nfev": 440,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0039691382491122305,
+          "R_A": 0.004148904472183449
+        },
+        "initial": {
+          "R_M": 0.9264174423081419,
+          "R_A": 0.9849512241634539
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "bound": 135,
+      "candidate": 70,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10593044852388471,
+            "start_rmse": 1.5961284448966138,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006991805645147103,
+            "start_rmse": 0.6985493980826926,
+            "nfev": 552,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006192920366520615,
+          "R_A": 0.006493754038089739
+        },
+        "initial": {
+          "R_M": 7.995512350572137,
+          "R_A": 9.268880527091572
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "bound": 135,
+      "candidate": 70,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10555010142068741,
+            "start_rmse": 0.20588800738132726,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.06363400507916889,
+            "start_rmse": 0.1989463084247662,
+            "nfev": 1248,
+            "accepted_steps": 43,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3343687241433196,
+          "R_A": 0.34698344294994216
+        },
+        "initial": {
+          "R_M": 0.9612285785322687,
+          "R_A": 0.9517776942474253
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "bound": 90,
+      "candidate": 52,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10073446322060627,
+            "start_rmse": 0.3690649640081452,
+            "nfev": 1509,
+            "accepted_steps": 52,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007125883774254997,
+            "start_rmse": 1.128731916873657,
+            "nfev": 616,
+            "accepted_steps": 21,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.007981723309539918,
+          "R_A": 0.009009334684257972
+        },
+        "initial": {
+          "R_M": 7.320736680487507,
+          "R_A": 8.094845471617937
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "bound": 90,
+      "candidate": 52,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10073446322096052,
+            "start_rmse": 0.21055351179936954,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007125883774254983,
+            "start_rmse": 0.18619029527258432,
+            "nfev": 639,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.007981725084042978,
+          "R_A": 0.009009337027805734
+        },
+        "initial": {
+          "R_M": 1.1979743729421881,
+          "R_A": 1.3093048928132716
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "bound": 135,
+      "candidate": 55,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007037979472633359,
+            "start_rmse": 1.2594866215498217,
+            "nfev": 1422,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06693969931699119,
+            "start_rmse": 0.7498712623193474,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0068176344433682895,
+          "R_A": 0.007047471285889313
+        },
+        "initial": {
+          "R_M": 9.17609552315423,
+          "R_A": 7.897504487964868
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "bound": 135,
+      "candidate": 55,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0464560156492556,
+            "start_rmse": 0.1395178206183104,
+            "nfev": 900,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.046456015649037216,
+            "start_rmse": 0.14910398004945266,
+            "nfev": 842,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.2993396506626643,
+          "R_A": 0.29022452388858627
+        },
+        "initial": {
+          "R_M": 1.06627301826438,
+          "R_A": 1.0831074205612727
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "bound": 90,
+      "candidate": 24,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05819620902663026,
+            "start_rmse": 0.39674972493080607,
+            "nfev": 900,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05819620902652327,
+            "start_rmse": 1.1685366918148805,
+            "nfev": 1248,
+            "accepted_steps": 43,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3079432735481012,
+          "R_A": 0.30319152468569477
+        },
+        "initial": {
+          "R_M": 9.372361721966959,
+          "R_A": 8.58808459295506
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "bound": 90,
+      "candidate": 24,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007054792075708673,
+            "start_rmse": 0.20707878245651673,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054792075708674,
+            "start_rmse": 0.1775238510123987,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0052774220160705316,
+          "R_A": 0.005267566400439191
+        },
+        "initial": {
+          "R_M": 1.0685042509961067,
+          "R_A": 1.0518159378075627
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.08671017493670231,
+            "start_rmse": 0.6496913887792718,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.060045554157651705,
+            "start_rmse": 0.7027548681748256,
+            "nfev": 1576,
+            "accepted_steps": 54,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.33518255575053796,
+          "R_A": 0.34305354181690845
+        },
+        "initial": {
+          "R_M": 6.579110740527918,
+          "R_A": 6.286241933878909
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007233309056672642,
+            "start_rmse": 0.17069938408682478,
+            "nfev": 581,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.04037294253882138,
+            "start_rmse": 0.16349928646699355,
+            "nfev": 871,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004591482702928084,
+          "R_A": 0.004753104188940371
+        },
+        "initial": {
+          "R_M": 1.063720546083389,
+          "R_A": 1.0567826817334318
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "bound": 90,
+      "candidate": 26,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10743783828859732,
+            "start_rmse": 1.744697817846679,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.11018992606823887,
+            "start_rmse": 1.202418377532866,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.4699240161613371,
+          "R_A": 0.5077445759900042
+        },
+        "initial": {
+          "R_M": 7.281771027741202,
+          "R_A": 4.682506703865051
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "bound": 90,
+      "candidate": 26,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00700627618049154,
+            "start_rmse": 0.21911780042936643,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007006276180491545,
+            "start_rmse": 0.2113832236366859,
+            "nfev": 1190,
+            "accepted_steps": 41,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003680957719096419,
+          "R_A": 0.0037318099547251115
+        },
+        "initial": {
+          "R_M": 1.0485569378845225,
+          "R_A": 1.0079120983464016
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "bound": 135,
+      "candidate": 53,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07817654378356241,
+            "start_rmse": 0.8142590249638607,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007066261681570485,
+            "start_rmse": 1.0108643654896652,
+            "nfev": 552,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.005844032637531432,
+          "R_A": 0.005846195817396223
+        },
+        "initial": {
+          "R_M": 8.408825373583186,
+          "R_A": 9.069152225754799
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "bound": 135,
+      "candidate": 53,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.08544921072883749,
+            "start_rmse": 0.21288653637050076,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.1032796215764111,
+            "start_rmse": 0.24853991344145474,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.32532042247247034,
+          "R_A": 0.326882112916158
+        },
+        "initial": {
+          "R_M": 1.197634470414296,
+          "R_A": 1.1663420110866125
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "bound": 90,
+      "candidate": 77,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069526728512729515,
+            "start_rmse": 0.5342500960369894,
+            "nfev": 1106,
+            "accepted_steps": 38,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07246637851588308,
+            "start_rmse": 0.4305163979022156,
+            "nfev": 958,
+            "accepted_steps": 33,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004144255972019299,
+          "R_A": 0.004206384228123048
+        },
+        "initial": {
+          "R_M": 3.1972080951605455,
+          "R_A": 3.6430157037539326
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "bound": 90,
+      "candidate": 77,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006952672851272947,
+            "start_rmse": 0.20865435979650357,
+            "nfev": 411,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00695267285127297,
+            "start_rmse": 0.23385320487469594,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004144255941116706,
+          "R_A": 0.004206384185979933
+        },
+        "initial": {
+          "R_M": 0.9433151268346477,
+          "R_A": 0.989643944381808
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "bound": 135,
+      "candidate": 21,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006852159215711669,
+            "start_rmse": 0.4652363206657171,
+            "nfev": 697,
+            "accepted_steps": 24,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12322169824615543,
+            "start_rmse": 0.6803990806160314,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004948182223917099,
+          "R_A": 0.00562232730033854
+        },
+        "initial": {
+          "R_M": 3.862547716887242,
+          "R_A": 4.259625078202321
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "bound": 135,
+      "candidate": 21,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12144126129423616,
+            "start_rmse": 0.22612079757423217,
+            "nfev": 1600,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.00685215921571167,
+            "start_rmse": 0.22634863092666235,
+            "nfev": 697,
+            "accepted_steps": 24,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004948181976036637,
+          "R_A": 0.005622327014793772
+        },
+        "initial": {
+          "R_M": 1.0229928058475541,
+          "R_A": 1.0673619624201107
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "bound": 90,
+      "candidate": 2,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007031138882772826,
+            "start_rmse": 1.3188803397338997,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007031138882772857,
+            "start_rmse": 1.0173472259088328,
+            "nfev": 552,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006898885487921277,
+          "R_A": 0.006991357849588097
+        },
+        "initial": {
+          "R_M": 8.13415707732292,
+          "R_A": 7.9275156143851175
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "bound": 90,
+      "candidate": 2,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007031138882772822,
+            "start_rmse": 0.13628722486516626,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007031138882772859,
+            "start_rmse": 0.15333885841097533,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0068988855024573964,
+          "R_A": 0.00699135786709378
+        },
+        "initial": {
+          "R_M": 0.9707305225590742,
+          "R_A": 0.9808016984245184
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "bound": 135,
+      "candidate": 77,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06432573627955789,
+            "start_rmse": 0.35813521276500226,
+            "nfev": 1132,
+            "accepted_steps": 39,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007062579224850998,
+            "start_rmse": 0.5426496865061656,
+            "nfev": 465,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004510074139460248,
+          "R_A": 0.004767226957288345
+        },
+        "initial": {
+          "R_M": 5.302580805388813,
+          "R_A": 6.489623448377135
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "bound": 135,
+      "candidate": 77,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06432573627996849,
+            "start_rmse": 0.20111440315019072,
+            "nfev": 1398,
+            "accepted_steps": 48,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06432573628014793,
+            "start_rmse": 0.19882142011517506,
+            "nfev": 726,
+            "accepted_steps": 25,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.29395817399301954,
+          "R_A": 0.32129956212304345
+        },
+        "initial": {
+          "R_M": 0.9226322006836278,
+          "R_A": 0.9174416407004462
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "bound": 90,
+      "candidate": 54,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00726248539265055,
+            "start_rmse": 0.36744157709220265,
+            "nfev": 639,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0637490102078163,
+            "start_rmse": 0.8294892352584992,
+            "nfev": 987,
+            "accepted_steps": 34,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005701656876271057,
+          "R_A": 0.0062193204080563955
+        },
+        "initial": {
+          "R_M": 3.1538082589118415,
+          "R_A": 3.596859516490402
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "bound": 90,
+      "candidate": 54,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11168032401720306,
+            "start_rmse": 0.20138072214969002,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007262485392650505,
+            "start_rmse": 0.19137327981987856,
+            "nfev": 464,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.005701657491770706,
+          "R_A": 0.006219321047151185
+        },
+        "initial": {
+          "R_M": 0.930453360507178,
+          "R_A": 0.9257164938313478
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "bound": 135,
+      "candidate": 15,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10599943462476004,
+            "start_rmse": 1.2386039292070297,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0654741111999882,
+            "start_rmse": 0.5688006274628209,
+            "nfev": 668,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3357560894560011,
+          "R_A": 0.36045541947023835
+        },
+        "initial": {
+          "R_M": 3.59519123630464,
+          "R_A": 3.787480113424459
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "bound": 135,
+      "candidate": 15,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10599208542313235,
+            "start_rmse": 0.20364754150776648,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.00692183248637822,
+            "start_rmse": 0.21186342901991748,
+            "nfev": 647,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0036636047380653974,
+          "R_A": 0.003585333249283284
+        },
+        "initial": {
+          "R_M": 1.0104025191257424,
+          "R_A": 1.02607747877324
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "bound": 90,
+      "candidate": 6,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.04623455847619695,
+            "start_rmse": 0.27835095806464016,
+            "nfev": 726,
+            "accepted_steps": 25,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.08371187439664032,
+            "start_rmse": 0.5215769061191856,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.27426384496506867,
+          "R_A": 0.2758774954300278
+        },
+        "initial": {
+          "R_M": 2.2916494881939817,
+          "R_A": 2.299484612156119
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "bound": 90,
+      "candidate": 6,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07347564213669212,
+            "start_rmse": 0.19561940139439687,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.046234558476349816,
+            "start_rmse": 0.17290683655055208,
+            "nfev": 965,
+            "accepted_steps": 33,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.2742639567924678,
+          "R_A": 0.27587762505358543
+        },
+        "initial": {
+          "R_M": 1.2543166286028484,
+          "R_A": 1.2584123020565148
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "bound": 135,
+      "candidate": 3,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070406581839063155,
+            "start_rmse": 0.6630543392253436,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0946506805032521,
+            "start_rmse": 0.34220704687894504,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005848226551432905,
+          "R_A": 0.006129771515148499
+        },
+        "initial": {
+          "R_M": 4.91602297411511,
+          "R_A": 5.4120014391660725
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "bound": 135,
+      "candidate": 3,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05789001249657571,
+            "start_rmse": 0.20716778433575633,
+            "nfev": 1161,
+            "accepted_steps": 40,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.08855318056793916,
+            "start_rmse": 0.18188912422392278,
+            "nfev": 1509,
+            "accepted_steps": 52,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.2667538742597738,
+          "R_A": 0.272287292078456
+        },
+        "initial": {
+          "R_M": 1.1237396647407787,
+          "R_A": 1.1483631325389043
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "bound": 90,
+      "candidate": 28,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006803694379535216,
+            "start_rmse": 0.43168902891011235,
+            "nfev": 494,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006803694379535199,
+            "start_rmse": 1.0860148431075984,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006137783841449573,
+          "R_A": 0.006364395703005122
+        },
+        "initial": {
+          "R_M": 6.169840039511863,
+          "R_A": 5.416000152415633
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "bound": 90,
+      "candidate": 28,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09275797151823188,
+            "start_rmse": 0.20001541221056443,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.05354378870975466,
+            "start_rmse": 0.16567344282699034,
+            "nfev": 1103,
+            "accepted_steps": 38,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3260985590258592,
+          "R_A": 0.3391683744503781
+        },
+        "initial": {
+          "R_M": 1.038131626741073,
+          "R_A": 1.0674804712623953
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "bound": 135,
+      "candidate": 74,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00724848834552266,
+            "start_rmse": 0.9744183202274682,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10753542935792498,
+            "start_rmse": 1.125177874429433,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006761526480451366,
+          "R_A": 0.007156288523419203
+        },
+        "initial": {
+          "R_M": 6.635967501652108,
+          "R_A": 7.269519380701254
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "bound": 135,
+      "candidate": 74,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10753542915246214,
+            "start_rmse": 0.19488200468803296,
+            "nfev": 1335,
+            "accepted_steps": 46,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072484883455226495,
+            "start_rmse": 0.2193445479729262,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006761526453562656,
+          "R_A": 0.007156288512559049
+        },
+        "initial": {
+          "R_M": 1.0531649279323443,
+          "R_A": 1.0838965298569452
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "bound": 90,
+      "candidate": 73,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007037055199120025,
+            "start_rmse": 0.6412352202596188,
+            "nfev": 900,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007037055199120038,
+            "start_rmse": 1.0320156342759026,
+            "nfev": 610,
+            "accepted_steps": 21,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006024507978992852,
+          "R_A": 0.006819697191216286
+        },
+        "initial": {
+          "R_M": 3.850881472320103,
+          "R_A": 4.192012395462565
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "bound": 90,
+      "candidate": 73,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00703705519912011,
+            "start_rmse": 0.18592194495147515,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0556385260855724,
+            "start_rmse": 0.181626840084689,
+            "nfev": 610,
+            "accepted_steps": 21,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006024507276240707,
+          "R_A": 0.006819696234662337
+        },
+        "initial": {
+          "R_M": 1.0195040170239473,
+          "R_A": 1.0570471972856144
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "bound": 135,
+      "candidate": 67,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006891592993991551,
+            "start_rmse": 0.47114627021069344,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10532513914985454,
+            "start_rmse": 0.7512633489778741,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006962470762383222,
+          "R_A": 0.007672182936255174
+        },
+        "initial": {
+          "R_M": 3.3944666178089435,
+          "R_A": 3.6749391455350584
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "bound": 135,
+      "candidate": 67,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09595317475674302,
+            "start_rmse": 0.1766252402611922,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0959537148221045,
+            "start_rmse": 0.17206152038106326,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.4591813277971957,
+          "R_A": 0.5058719442759165
+        },
+        "initial": {
+          "R_M": 1.0314578945821107,
+          "R_A": 1.0887264705291144
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "bound": 90,
+      "candidate": 34,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10679397245380587,
+            "start_rmse": 0.2900163985512016,
+            "nfev": 1567,
+            "accepted_steps": 54,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06070791381815931,
+            "start_rmse": 1.3770882526903077,
+            "nfev": 842,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.3236738457719849,
+          "R_A": 0.3298454763994837
+        },
+        "initial": {
+          "R_M": 7.434446668316022,
+          "R_A": 7.067648048631353
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "bound": 90,
+      "candidate": 34,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0071217955103804334,
+            "start_rmse": 0.1803367357027667,
+            "nfev": 320,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007121795510380442,
+            "start_rmse": 0.17352595078739597,
+            "nfev": 523,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004839521104778286,
+          "R_A": 0.004960040512666657
+        },
+        "initial": {
+          "R_M": 1.0116866393334207,
+          "R_A": 1.0358004607830056
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "bound": 135,
+      "candidate": 5,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05883076155860739,
+            "start_rmse": 0.4028869279039557,
+            "nfev": 958,
+            "accepted_steps": 33,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.14708163051078368,
+            "start_rmse": 0.38819405711859173,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.3048325810328866,
+          "R_A": 0.31285809310682466
+        },
+        "initial": {
+          "R_M": 2.509118909430458,
+          "R_A": 2.5011709804105013
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "bound": 135,
+      "candidate": 5,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 0.6894939532639174,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05883076155886729,
+            "start_rmse": 0.20108865361483408,
+            "nfev": 1335,
+            "accepted_steps": 46,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09226852138388993,
+            "start_rmse": 0.23188760626246488,
+            "nfev": 871,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.3048324739542973,
+          "R_A": 0.3128579838499852
+        },
+        "initial": {
+          "R_M": 0.939692976418203,
+          "R_A": 0.951996969371399
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "bound": 90,
+      "candidate": 61,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007076520785512776,
+            "start_rmse": 1.5673171946312958,
+            "nfev": 330,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06279526760153142,
+            "start_rmse": 2.7538395641191054,
+            "nfev": 726,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0037636679740829346,
+          "R_A": 0.003855787900052983
+        },
+        "initial": {
+          "R_M": 5.079093575377792,
+          "R_A": 4.314370260590874
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "bound": 90,
+      "candidate": 61,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06279526760139852,
+            "start_rmse": 0.45338942062055476,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00707652078551272,
+            "start_rmse": 0.4207831404787887,
+            "nfev": 426,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003763667940560136,
+          "R_A": 0.003855787884465073
+        },
+        "initial": {
+          "R_M": 1.47104681305553,
+          "R_A": 1.3679727875950014
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "bound": 135,
+      "candidate": 3,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07754029333199208,
+            "start_rmse": 1.2558465776089278,
+            "nfev": 701,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006996760307659605,
+            "start_rmse": 1.3014377172368348,
+            "nfev": 582,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031947837362939803,
+          "R_A": 0.003468289905035892
+        },
+        "initial": {
+          "R_M": 6.231802257080529,
+          "R_A": 7.288187460941265
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "bound": 135,
+      "candidate": 3,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07754029333261346,
+            "start_rmse": 0.5892261312722636,
+            "nfev": 826,
+            "accepted_steps": 33,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006996760307659643,
+            "start_rmse": 0.35066082851628766,
+            "nfev": 251,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031947836310709343,
+          "R_A": 0.003468289797635745
+        },
+        "initial": {
+          "R_M": 1.0220326977337815,
+          "R_A": 1.1045786149130108
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "bound": 90,
+      "candidate": 51,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.14633510565032148,
+            "start_rmse": 3.630128268462255,
+            "nfev": 1576,
+            "accepted_steps": 63,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006934330279020399,
+            "start_rmse": 0.7595797705487912,
+            "nfev": 1209,
+            "accepted_steps": 48,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0017714788789684544,
+          "R_A": 0.0019538329255754097
+        },
+        "initial": {
+          "R_M": 2.2827927182975043,
+          "R_A": 2.6095266309826566
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "bound": 90,
+      "candidate": 51,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069343302790204195,
+            "start_rmse": 0.4642224721193735,
+            "nfev": 250,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.006934330279020453,
+            "start_rmse": 0.5180422317346455,
+            "nfev": 226,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0017714789560984185,
+          "R_A": 0.0019538329984718733
+        },
+        "initial": {
+          "R_M": 1.1735227000219566,
+          "R_A": 1.059281665024387
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "bound": 135,
+      "candidate": 41,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006965564736762635,
+            "start_rmse": 2.3810936276302432,
+            "nfev": 376,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06485811496611282,
+            "start_rmse": 1.1709391403143603,
+            "nfev": 576,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0025886764221272327,
+          "R_A": 0.003073487619602303
+        },
+        "initial": {
+          "R_M": 8.261934820658432,
+          "R_A": 9.892883701088097
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "bound": 135,
+      "candidate": 41,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0648581149665567,
+            "start_rmse": 0.302948098591906,
+            "nfev": 476,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09559194904276447,
+            "start_rmse": 0.27662216383155214,
+            "nfev": 1051,
+            "accepted_steps": 42,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.17872379729388047,
+          "R_A": 0.18091800055992985
+        },
+        "initial": {
+          "R_M": 1.1710226549553042,
+          "R_A": 1.409022518647263
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "bound": 90,
+      "candidate": 40,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006878327280980627,
+            "start_rmse": 1.7130342888236803,
+            "nfev": 276,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09747757007323668,
+            "start_rmse": 2.869729081042289,
+            "nfev": 876,
+            "accepted_steps": 35,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0030320028458528615,
+          "R_A": 0.004134931563554001
+        },
+        "initial": {
+          "R_M": 7.971459828020841,
+          "R_A": 10.704245897978163
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "bound": 90,
+      "candidate": 40,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10940503964578831,
+            "start_rmse": 0.33752234898256206,
+            "nfev": 1476,
+            "accepted_steps": 59,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09747757007344268,
+            "start_rmse": 0.4564264368664884,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.20574933454382524,
+          "R_A": 0.21894300901440325
+        },
+        "initial": {
+          "R_M": 1.4512644923478208,
+          "R_A": 1.8536042975291749
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "bound": 135,
+      "candidate": 43,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00723198116550155,
+            "start_rmse": 1.2925635372765292,
+            "nfev": 551,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07920575102845978,
+            "start_rmse": 1.5148106018663008,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0021629379848047744,
+          "R_A": 0.0023394679921582145
+        },
+        "initial": {
+          "R_M": 7.542105264333409,
+          "R_A": 9.201164411518707
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "bound": 135,
+      "candidate": 43,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07920575102858379,
+            "start_rmse": 0.5421917894143506,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007231981165501588,
+            "start_rmse": 0.4024071082790678,
+            "nfev": 251,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0021629379585242094,
+          "R_A": 0.002339467961065236
+        },
+        "initial": {
+          "R_M": 1.1895342699772393,
+          "R_A": 1.3111136100823901
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "bound": 90,
+      "candidate": 75,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006679571773756009,
+            "start_rmse": 2.445599537928921,
+            "nfev": 426,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.1373142865787765,
+            "start_rmse": 1.2809458562648415,
+            "nfev": 1026,
+            "accepted_steps": 41,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0023101855031291483,
+          "R_A": 0.0025721827874861454
+        },
+        "initial": {
+          "R_M": 11.449010474080064,
+          "R_A": 14.652486869450883
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "bound": 90,
+      "candidate": 75,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006679571773756019,
+            "start_rmse": 0.3816440452513961,
+            "nfev": 226,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006679571773756003,
+            "start_rmse": 0.3994218455973073,
+            "nfev": 301,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0023101855144021088,
+          "R_A": 0.002572182821444848
+        },
+        "initial": {
+          "R_M": 1.1004425702780458,
+          "R_A": 1.154364110690814
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "bound": 135,
+      "candidate": 23,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.092502812255955,
+            "start_rmse": 1.2668059936324365,
+            "nfev": 801,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09250281225687385,
+            "start_rmse": 2.047383135845581,
+            "nfev": 776,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.19598163857721587,
+          "R_A": 0.25596131697709856
+        },
+        "initial": {
+          "R_M": 5.452846041715512,
+          "R_A": 8.72471350841667
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "bound": 135,
+      "candidate": 23,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09250281225625613,
+            "start_rmse": 0.4529094068412745,
+            "nfev": 576,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09250281225626639,
+            "start_rmse": 0.43297063452292267,
+            "nfev": 1259,
+            "accepted_steps": 50,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.19598184502287236,
+          "R_A": 0.25596156445154894
+        },
+        "initial": {
+          "R_M": 1.1771206449366063,
+          "R_A": 1.6310934610151089
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "bound": 90,
+      "candidate": 23,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006934334996737989,
+            "start_rmse": 3.019526237770329,
+            "nfev": 426,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006934334996737992,
+            "start_rmse": 1.0953537139271874,
+            "nfev": 326,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002255108703082034,
+          "R_A": 0.0029466125687551458
+        },
+        "initial": {
+          "R_M": 5.495471527787829,
+          "R_A": 5.1908864400189865
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "bound": 90,
+      "candidate": 23,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006934334996737974,
+            "start_rmse": 0.42290296452143483,
+            "nfev": 251,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09926378430848964,
+            "start_rmse": 0.432301153369053,
+            "nfev": 1151,
+            "accepted_steps": 46,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002255108800474254,
+          "R_A": 0.002946612810780675
+        },
+        "initial": {
+          "R_M": 1.3858400734030505,
+          "R_A": 2.251446965937829
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "bound": 135,
+      "candidate": 23,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09926378430768558,
+            "start_rmse": 2.1706320226675886,
+            "nfev": 626,
+            "accepted_steps": 25,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09926378430714136,
+            "start_rmse": 2.022202641284294,
+            "nfev": 626,
+            "accepted_steps": 25,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.18423225470476082,
+          "R_A": 0.23414087089264649
+        },
+        "initial": {
+          "R_M": 8.670714830258229,
+          "R_A": 14.679470651387215
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "bound": 135,
+      "candidate": 23,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09926378430811454,
+            "start_rmse": 0.47306186376480125,
+            "nfev": 801,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006934334996737987,
+            "start_rmse": 0.4264616515294031,
+            "nfev": 751,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0022551088131986213,
+          "R_A": 0.0029466128427735445
+        },
+        "initial": {
+          "R_M": 0.9389939662331112,
+          "R_A": 0.9536183227719247
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "bound": 90,
+      "candidate": 2,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06759459138907208,
+            "start_rmse": 2.71301442894811,
+            "nfev": 726,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06759459138911526,
+            "start_rmse": 2.353200748799703,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.18621032056062636,
+          "R_A": 0.18105673466970287
+        },
+        "initial": {
+          "R_M": 10.659492745124659,
+          "R_A": 9.945818711570107
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "bound": 90,
+      "candidate": 2,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06759459138925855,
+            "start_rmse": 0.32766612041035564,
+            "nfev": 451,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006942867107816116,
+            "start_rmse": 0.30863513362543876,
+            "nfev": 601,
+            "accepted_steps": 24,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0041268664443543475,
+          "R_A": 0.004473302779889838
+        },
+        "initial": {
+          "R_M": 1.3331851313327534,
+          "R_A": 1.4433999855512458
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "bound": 135,
+      "candidate": 11,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07166159691455316,
+            "start_rmse": 1.1871109160448057,
+            "nfev": 826,
+            "accepted_steps": 33,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007133774438604777,
+            "start_rmse": 1.1628835533642126,
+            "nfev": 351,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0032641207312327234,
+          "R_A": 0.0031167129122074548
+        },
+        "initial": {
+          "R_M": 4.131394460195509,
+          "R_A": 3.4161606738353374
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "bound": 135,
+      "candidate": 11,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07166159691419227,
+            "start_rmse": 0.3579987813807747,
+            "nfev": 876,
+            "accepted_steps": 35,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07166159691502992,
+            "start_rmse": 0.2580446407991783,
+            "nfev": 1051,
+            "accepted_steps": 42,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.18589425318781796,
+          "R_A": 0.16794675957628882
+        },
+        "initial": {
+          "R_M": 1.4020894223377425,
+          "R_A": 1.3414145166955342
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "bound": 90,
+      "candidate": 43,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006876681322440732,
+            "start_rmse": 0.8414909561695707,
+            "nfev": 326,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07778133741971399,
+            "start_rmse": 1.1725071098499398,
+            "nfev": 807,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00222488968792825,
+          "R_A": 0.002406727571396864
+        },
+        "initial": {
+          "R_M": 4.964838927250619,
+          "R_A": 5.6182346229975195
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "bound": 90,
+      "candidate": 43,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006876681322440737,
+            "start_rmse": 0.37954693951854546,
+            "nfev": 451,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07778133741905513,
+            "start_rmse": 0.7352019442395366,
+            "nfev": 551,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002224889727516044,
+          "R_A": 0.002406727617831029
+        },
+        "initial": {
+          "R_M": 1.046095130648128,
+          "R_A": 1.1192889415427356
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "bound": 135,
+      "candidate": 58,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12150405934964534,
+            "start_rmse": 0.6745429321391122,
+            "nfev": 1401,
+            "accepted_steps": 56,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.140143979576767,
+            "start_rmse": 1.901709479064797,
+            "nfev": 1404,
+            "accepted_steps": 56,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.30820057861048483,
+          "R_A": 0.31922199170714083
+        },
+        "initial": {
+          "R_M": 3.2569214975195275,
+          "R_A": 3.548809286302398
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "bound": 135,
+      "candidate": 58,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12150405934996697,
+            "start_rmse": 0.4595098343293959,
+            "nfev": 876,
+            "accepted_steps": 35,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006937326383706307,
+            "start_rmse": 0.4177723626003326,
+            "nfev": 251,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003426753400869603,
+          "R_A": 0.00341633500686466
+        },
+        "initial": {
+          "R_M": 1.1339232288315768,
+          "R_A": 1.0836582730632067
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "bound": 90,
+      "candidate": 19,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10102026094702479,
+            "start_rmse": 1.295970468505129,
+            "nfev": 1576,
+            "accepted_steps": 63,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.10663337009668636,
+            "start_rmse": 1.5147019819192031,
+            "nfev": 1451,
+            "accepted_steps": 58,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.3535592480790609,
+          "R_A": 0.33975843488188023
+        },
+        "initial": {
+          "R_M": 7.364798942390103,
+          "R_A": 7.016313070586637
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "bound": 90,
+      "candidate": 19,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.04566770937801176,
+            "start_rmse": 0.22650565942193193,
+            "nfev": 476,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.09703010187512566,
+            "start_rmse": 0.2494652055267388,
+            "nfev": 1326,
+            "accepted_steps": 53,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.19299359874089314,
+          "R_A": 0.18144544145103866
+        },
+        "initial": {
+          "R_M": 0.8123859069464527,
+          "R_A": 0.7546396019456287
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.09248047438226803,
+            "start_rmse": 1.218074994220322,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007186982653959333,
+            "start_rmse": 1.575772486642951,
+            "nfev": 776,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003568600333328636,
+          "R_A": 0.004809660512387086
+        },
+        "initial": {
+          "R_M": 6.16255267581972,
+          "R_A": 8.355482176255927
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.060158026268210915,
+            "start_rmse": 0.3594036207657286,
+            "nfev": 351,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.060158026268223,
+            "start_rmse": 0.37516438154781456,
+            "nfev": 601,
+            "accepted_steps": 24,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.20606017526156742,
+          "R_A": 0.2534090741401816
+        },
+        "initial": {
+          "R_M": 0.9538463594914902,
+          "R_A": 1.1408579635172422
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "bound": 90,
+      "candidate": 33,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05627574743508706,
+            "start_rmse": 1.1587721116820546,
+            "nfev": 951,
+            "accepted_steps": 38,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05627574743482717,
+            "start_rmse": 1.2824806299122105,
+            "nfev": 701,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.17178625443966927,
+          "R_A": 0.17324158294622993
+        },
+        "initial": {
+          "R_M": 5.5925754521104105,
+          "R_A": 5.366563975552378
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "bound": 90,
+      "candidate": 33,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007226881141392319,
+            "start_rmse": 0.24895190127731923,
+            "nfev": 201,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.056275747435029305,
+            "start_rmse": 0.24214124797919873,
+            "nfev": 751,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0035916723735777774,
+          "R_A": 0.003738436035486729
+        },
+        "initial": {
+          "R_M": 1.0773004430216333,
+          "R_A": 1.1127355841044098
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "bound": 135,
+      "candidate": 54,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1132173774794538,
+            "start_rmse": 3.026386821659259,
+            "nfev": 1151,
+            "accepted_steps": 46,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007059560392804074,
+            "start_rmse": 2.794520997307398,
+            "nfev": 551,
+            "accepted_steps": 22,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003365153627788094,
+          "R_A": 0.004281734394073686
+        },
+        "initial": {
+          "R_M": 9.051670971133634,
+          "R_A": 10.552711102566462
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "bound": 135,
+      "candidate": 54,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007059560392804066,
+            "start_rmse": 0.47951039964920894,
+            "nfev": 326,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007059560392804069,
+            "start_rmse": 0.6142718224662199,
+            "nfev": 351,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003365153601059981,
+          "R_A": 0.004281734353645445
+        },
+        "initial": {
+          "R_M": 1.2523868712066193,
+          "R_A": 1.3542876466801865
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "bound": 90,
+      "candidate": 73,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10778056237449153,
+            "start_rmse": 1.2611294958654866,
+            "nfev": 1576,
+            "accepted_steps": 63,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.007051949845214241,
+            "start_rmse": 2.386584580751511,
+            "nfev": 1114,
+            "accepted_steps": 44,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035340915419725507,
+          "R_A": 0.004018863805525327
+        },
+        "initial": {
+          "R_M": 8.275532195749445,
+          "R_A": 7.806990564541237
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "bound": 90,
+      "candidate": 73,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070519498452144315,
+            "start_rmse": 0.419707358897891,
+            "nfev": 226,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0070519498452143925,
+            "start_rmse": 0.48999734203086476,
+            "nfev": 276,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035340896266655934,
+          "R_A": 0.004018861348068418
+        },
+        "initial": {
+          "R_M": 1.5188936613609796,
+          "R_A": 1.4500208785880044
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07445670335539657,
+            "start_rmse": 1.5239729887853495,
+            "nfev": 801,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054775539438196,
+            "start_rmse": 1.6149992703928053,
+            "nfev": 676,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.002647235811314965,
+          "R_A": 0.003255069313930701
+        },
+        "initial": {
+          "R_M": 11.567725433178534,
+          "R_A": 16.946511917252483
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "bound": 135,
+      "candidate": 36,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070547755394381765,
+            "start_rmse": 0.37329177669265023,
+            "nfev": 276,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054775539438186,
+            "start_rmse": 0.47107046656675083,
+            "nfev": 226,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0026472356293726147,
+          "R_A": 0.003255068986773875
+        },
+        "initial": {
+          "R_M": 1.2802605115534016,
+          "R_A": 1.5917097292049285
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "bound": 90,
+      "candidate": 48,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07193877711368178,
+            "start_rmse": 1.4096279891181918,
+            "nfev": 501,
+            "accepted_steps": 20,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.07193877711375767,
+            "start_rmse": 1.963059978999282,
+            "nfev": 626,
+            "accepted_steps": 25,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.17574213033007777,
+          "R_A": 0.16922763259403212
+        },
+        "initial": {
+          "R_M": 5.3569072298546025,
+          "R_A": 5.6473821820574255
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "bound": 90,
+      "candidate": 48,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0069791864800623485,
+            "start_rmse": 0.2588602660018347,
+            "nfev": 201,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0719387771142351,
+            "start_rmse": 0.2631628545762116,
+            "nfev": 451,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0036676840690417793,
+          "R_A": 0.0038327647995592463
+        },
+        "initial": {
+          "R_M": 0.739617883785578,
+          "R_A": 0.6874457900175495
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "bound": 135,
+      "candidate": 2,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007068615722283279,
+            "start_rmse": 2.275181834312893,
+            "nfev": 576,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007068615722283298,
+            "start_rmse": 0.3006131952083931,
+            "nfev": 701,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003861990244682335,
+          "R_A": 0.004145939216832365
+        },
+        "initial": {
+          "R_M": 8.110769159088212,
+          "R_A": 8.315360623913966
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "bound": 135,
+      "candidate": 2,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06904342886855891,
+            "start_rmse": 0.297117661811226,
+            "nfev": 751,
+            "accepted_steps": 30,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0070686157222833,
+            "start_rmse": 0.2638417535435235,
+            "nfev": 351,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0038619904409957356,
+          "R_A": 0.004145939411117518
+        },
+        "initial": {
+          "R_M": 1.089307105780305,
+          "R_A": 1.1467752554358617
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "bound": 90,
+      "candidate": 75,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07821253927874017,
+            "start_rmse": 1.350829444393892,
+            "nfev": 776,
+            "accepted_steps": 31,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12010372293290367,
+            "start_rmse": 1.4147706891594654,
+            "nfev": 926,
+            "accepted_steps": 37,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.1742138047998844,
+          "R_A": 0.17851802236705533
+        },
+        "initial": {
+          "R_M": 5.4297264910058916,
+          "R_A": 6.9573767753921265
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "bound": 90,
+      "candidate": 75,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006808164639671823,
+            "start_rmse": 0.3336224116957823,
+            "nfev": 200,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.07821253927838646,
+            "start_rmse": 0.3625152930375617,
+            "nfev": 476,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002297245906195728,
+          "R_A": 0.0024467288663879896
+        },
+        "initial": {
+          "R_M": 0.9101892166591642,
+          "R_A": 0.9340501238317076
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "bound": 135,
+      "candidate": 42,
+      "initializer": "isotropic",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.14165872840969013,
+            "start_rmse": 1.2106773355727383,
+            "nfev": 1576,
+            "accepted_steps": 63,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.17405751248090706,
+            "start_rmse": 0.8845881835168109,
+            "nfev": 1576,
+            "accepted_steps": 63,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.29874450920444595,
+          "R_A": 0.29498858602083783
+        },
+        "initial": {
+          "R_M": 4.302262520874163,
+          "R_A": 4.928175595395347
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "bound": 135,
+      "candidate": 42,
+      "initializer": "prior_and_wide_restart",
+      "restart_point_radius_m": 1.3094074595767473,
+      "fit": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007076622809721038,
+            "start_rmse": 0.40801126644424157,
+            "nfev": 325,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.07661328250009564,
+            "start_rmse": 0.3390140038207634,
+            "nfev": 701,
+            "accepted_steps": 28,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0023789247788597494,
+          "R_A": 0.002493222908768038
+        },
+        "initial": {
+          "R_M": 0.9964812551905604,
+          "R_A": 0.8571470588116513
+        }
+      }
+    }
+  ]
+}

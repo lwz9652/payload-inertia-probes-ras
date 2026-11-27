@@ -1,0 +1,2741 @@
+{
+  "torque_read_sd_Nm": 0.01,
+  "rows": [
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.1027648715616673,
+        "R_A": 0.1072425833024589
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.0032833211889749143,
+          0.009793476375973168,
+          0.026047323459391196,
+          0.03109025624032448,
+          -0.014431697033668712,
+          0.02157527436856003
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.011166786141333407,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.039600081281840595,
+        "R_A": 0.041184956783431266
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007185332264941046,
+            "start_rmse": 0.020922055768317915,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007185332264941048,
+            "start_rmse": 0.030869260937748916,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003355843380821604,
+          "R_A": 0.003467432993231178
+        },
+        "initial": {
+          "R_M": 0.10276487156166719,
+          "R_A": 0.10724258330245878
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 0,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.0977233901137016,
+        "R_A": 0.10378842216664187
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.00017651945647883944,
+          0.018066988698638226,
+          0.0008790592866832176,
+          0.030208168034921084,
+          -0.016970929473532837,
+          0.020761461568965345
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.007207495856301185,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.001667985947693885,
+        "R_A": 0.0017719754672605732
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00718488458589238,
+            "start_rmse": 0.018811500815294955,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007184884585892367,
+            "start_rmse": 0.03090362143572748,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0033902902999847,
+          "R_A": 0.0035168017489901186
+        },
+        "initial": {
+          "R_M": 0.15208357254629062,
+          "R_A": 0.15044274746025738
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.08370169355076679,
+        "R_A": 0.08887368624464151
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.06679243976381787,
+          -0.03300146974384055,
+          0.007630192762059734,
+          0.020849694947650776,
+          0.01663395824426501,
+          -0.011523847535794817
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.00881529548932508,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0235687090708938,
+        "R_A": 0.024744690140277248
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0072342500066215525,
+            "start_rmse": 0.016063384742584754,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072342500066215586,
+            "start_rmse": 0.031855488975648105,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004129961492069101,
+          "R_A": 0.004440103843680576
+        },
+        "initial": {
+          "R_M": 0.08370169355076676,
+          "R_A": 0.0888736862446415
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 1,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.07945928744425262,
+        "R_A": 0.08445397468389113
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.06949105939500831,
+          -0.02424418482390293,
+          -0.028933927655436495,
+          0.02139418921341437,
+          0.016465765278740017,
+          -0.009563225144636055
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007270073752901462,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0003353641157788828,
+        "R_A": 0.00035612213838378273
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007234568685804466,
+            "start_rmse": 0.015313470937666595,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007234568685804461,
+            "start_rmse": 0.03392486998131039,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004047705524168729,
+          "R_A": 0.004321626254416434
+        },
+        "initial": {
+          "R_M": 0.1656909245353127,
+          "R_A": 0.17106461122677777
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.0726134425929091,
+        "R_A": 0.07756996874302634
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.04600250225025461,
+          0.00226547745786335,
+          -0.058080166501201624,
+          -0.017437558876239764,
+          -0.004081274093392934,
+          -0.0012562230158828596
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.009969999525961835,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.040195754422463086,
+        "R_A": 0.04233933472104891
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007078300971832105,
+            "start_rmse": 0.0143186164859967,
+            "nfev": 150,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007078300971832163,
+            "start_rmse": 0.019134350241035318,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003946243866064917,
+          "R_A": 0.004637570541516443
+        },
+        "initial": {
+          "R_M": 0.07261344259290901,
+          "R_A": 0.07756996874302625
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 2,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.05306918063040897,
+        "R_A": 0.05664034756065781
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.05515188294248883,
+          -0.0014659765106646413,
+          -0.04812938806446956,
+          -0.01620935903324152,
+          -0.0071049995372580894,
+          0.00016100257957847613
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007098979068529075,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0010551953239301968,
+        "R_A": 0.0011232511344513025
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007078246503633693,
+            "start_rmse": 0.012794364559873386,
+            "nfev": 151,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007078246503633712,
+            "start_rmse": 0.016312143377708428,
+            "nfev": 150,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0038487149278366474,
+          "R_A": 0.004521496484562459
+        },
+        "initial": {
+          "R_M": 0.05306918063040892,
+          "R_A": 0.05664034756065774
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.07841452802383887,
+        "R_A": 0.0808439166522577
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.01891125612663424,
+          -0.03482865718739197,
+          0.040460832664826404,
+          -0.0009898515984039615,
+          -0.029104649309796997,
+          -0.005691064064726382
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.010220399733681731,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.035617448694487665,
+        "R_A": 0.03679220791757057
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007074034654576915,
+            "start_rmse": 0.015903044114418546,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00707403465457687,
+            "start_rmse": 0.021894920216020058,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003459557565971004,
+          "R_A": 0.0035943844443174213
+        },
+        "initial": {
+          "R_M": 0.10229447199822995,
+          "R_A": 0.10279092316442713
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 3,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.06862623094655093,
+        "R_A": 0.07221573573419669
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.028519154810612245,
+          -0.03167174844866286,
+          0.04994520011707403,
+          -0.0011772386572502988,
+          -0.028754693906492598,
+          -0.0031420180002599044
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007102435492461594,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0006465051546133041,
+        "R_A": 0.0006726862647548717
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007073994151405704,
+            "start_rmse": 0.013905397604043714,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007073994151405662,
+            "start_rmse": 0.021421316077592335,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0034436445749526155,
+          "R_A": 0.003568261190560454
+        },
+        "initial": {
+          "R_M": 0.09985055386691014,
+          "R_A": 0.09928158058790747
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.06348153610579085,
+        "R_A": 0.06813445325263548
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.01696403265000179,
+          0.052460683486261685,
+          0.03932431298765734,
+          0.0010686737522542574,
+          0.018094283014206368,
+          -0.008848930070045518
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.009093553053443395,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.027515426951700575,
+        "R_A": 0.03049533626858205
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070369132933277055,
+            "start_rmse": 0.015029350379883056,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007036913293327721,
+            "start_rmse": 0.0227563968044832,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00420544917576058,
+          "R_A": 0.004402688680432261
+        },
+        "initial": {
+          "R_M": 0.06348153610579081,
+          "R_A": 0.06813445325263545
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 4,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.05385885663386654,
+        "R_A": 0.05776026303181584
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.017041209985642486,
+          0.05525679981992503,
+          0.011664893474294967,
+          0.0033334529146322473,
+          0.018474025453943926,
+          -0.0028171243521059753
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.0070679874470167894,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.002175220846264803,
+        "R_A": 0.0023447937606377524
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007037324506864754,
+            "start_rmse": 0.012915173253872167,
+            "nfev": 151,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007037324506864821,
+            "start_rmse": 0.022585716170946495,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004154389108786038,
+          "R_A": 0.004360850290119505
+        },
+        "initial": {
+          "R_M": 0.05385885663386655,
+          "R_A": 0.05776026303181585
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.0694974046700754,
+        "R_A": 0.07551471673410638
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.04146550938303317,
+          -0.02627402380094574,
+          -0.10453734320422116,
+          0.020791732137920568,
+          0.006488532070871379,
+          0.002940697370498432
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.011585527005433858,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.04660739658208205,
+        "R_A": 0.04744916044957773
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006989510643974463,
+            "start_rmse": 0.016342231175512468,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006989510643974457,
+            "start_rmse": 0.04158802996200455,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003264964739723827,
+          "R_A": 0.00335424969521496
+        },
+        "initial": {
+          "R_M": 0.16361971289530203,
+          "R_A": 0.1609957646688215
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 5,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.06116723586988172,
+        "R_A": 0.06514643466887496
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.031296338266068306,
+          -0.02038602422578688,
+          -0.074941517661607,
+          0.023227325677413042,
+          0.006568884980459784,
+          0.0098981534390362
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007014642018139876,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0011337149337045287,
+        "R_A": 0.0012025539367164061
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006989081382824546,
+            "start_rmse": 0.013251071191635704,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006989081382824543,
+            "start_rmse": 0.038478891112130695,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003233429023068315,
+          "R_A": 0.0033287579836761643
+        },
+        "initial": {
+          "R_M": 0.15323155283159667,
+          "R_A": 0.1496234744250586
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.11759393467892588,
+        "R_A": 0.12193794666687499
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.06197605213917153,
+          -0.022291901540723656,
+          -0.0069209162269556704,
+          -0.008076623191516731,
+          0.03246607156035667,
+          0.021578448732730415
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.007989961772010487,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.019678407478856328,
+        "R_A": 0.01954909029194915
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070542218991522165,
+            "start_rmse": 0.022435532232771102,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0070542218991522165,
+            "start_rmse": 0.035035541032059046,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0029530081682814565,
+          "R_A": 0.003120711721552092
+        },
+        "initial": {
+          "R_M": 0.11759393467892588,
+          "R_A": 0.121937946666875
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 6,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.11581053659720629,
+        "R_A": 0.12127822645411404
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.06445372885845177,
+          -0.01689304470600887,
+          -0.01288646457266586,
+          -0.008392977155660676,
+          0.03372985594882798,
+          0.023609417880150706
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007074110928623333,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0009486393940169948,
+        "R_A": 0.0009960731825647978
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007054501937256581,
+            "start_rmse": 0.023070128328338508,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007054501937256573,
+            "start_rmse": 0.03539400029284178,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0029189012609436905,
+          "R_A": 0.0030950880773152716
+        },
+        "initial": {
+          "R_M": 0.19131972745041712,
+          "R_A": 0.20012858276944495
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.050319479975826274,
+        "R_A": 0.05418267830073586
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.02222419709058791,
+          0.021334560921963185,
+          0.023865913288131358,
+          -0.011368681072525871,
+          0.00952423264752691,
+          0.011872918921733134
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.00871551541697798,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.025980423329074707,
+        "R_A": 0.02735012616507021
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007175308740674681,
+            "start_rmse": 0.012231783988377012,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007175308740674677,
+            "start_rmse": 0.023030565009203016,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0045769875008344445,
+          "R_A": 0.005238335795365479
+        },
+        "initial": {
+          "R_M": 0.11462713679761498,
+          "R_A": 0.11622294708753862
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 7,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.04764789477487689,
+        "R_A": 0.05141579000060011
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.012459170060147524,
+          0.021240145918866665,
+          -0.021564307862859896,
+          -0.010403896996005888,
+          0.009790466545296096,
+          0.013917078857490276
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007214246951837106,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0007087333127980663,
+        "R_A": 0.0007751645975587588
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007175819175902589,
+            "start_rmse": 0.011189286887783624,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00717581917590258,
+            "start_rmse": 0.025042141108372225,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004534157121409453,
+          "R_A": 0.005199227415219939
+        },
+        "initial": {
+          "R_M": 0.12293536731528593,
+          "R_A": 0.12389952979063969
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.08909582571752345,
+        "R_A": 0.0966296051875452
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.059840252273462215,
+          0.039128221544543554,
+          0.00020649289473385335,
+          -0.02834983961408824,
+          -0.000978676054262411,
+          -0.01745384224660099
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.010067313792421055,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.03890475328637749,
+        "R_A": 0.03750601058656952
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006938274621434619,
+            "start_rmse": 0.01807266178715331,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006938274621434629,
+            "start_rmse": 0.04136299273619595,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003816180807243573,
+          "R_A": 0.004128687109535036
+        },
+        "initial": {
+          "R_M": 0.08909582571752345,
+          "R_A": 0.09662960518754517
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 8,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.09230385912888209,
+        "R_A": 0.09978033876441172
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.0583244412508346,
+          0.029181250163605024,
+          -0.035218854528599394,
+          -0.028223484151093964,
+          0.00016954929952277725,
+          -0.022357877472505318
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.006965625219191722,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0010969476340989843,
+        "R_A": 0.0011916003247357566
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006939194806710665,
+            "start_rmse": 0.018774042417072406,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006939194806710675,
+            "start_rmse": 0.04029688838969757,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0037745680736462287,
+          "R_A": 0.004074518843366004
+        },
+        "initial": {
+          "R_M": 0.09230385912888207,
+          "R_A": 0.09978033876441168
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.08200773228018728,
+        "R_A": 0.09048167631300331
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.07830127579974241,
+          0.06621451262942268,
+          0.0861199560702937,
+          -0.0005672302356599254,
+          -0.02133338389836308,
+          0.009252757566908057
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.009542486013259117,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.033958166456247774,
+        "R_A": 0.03942036203328668
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007136968347642023,
+            "start_rmse": 0.019883076278611682,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007136968347642026,
+            "start_rmse": 0.02766775449385552,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004211421227829223,
+          "R_A": 0.004285160817029033
+        },
+        "initial": {
+          "R_M": 0.08200773228018737,
+          "R_A": 0.09048167631300338
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 9,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.07038554907784408,
+        "R_A": 0.0775817306615941
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.0796670581487127,
+          0.052442348405924724,
+          0.07604475324686594,
+          -0.0015823221025170193,
+          -0.019961041565104583,
+          0.007070991266128534
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.007173113404096734,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0015494210382439783,
+        "R_A": 0.00168331641369326
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007137072089663822,
+            "start_rmse": 0.01759999495242626,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0071370720896638245,
+            "start_rmse": 0.02542153949322614,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00425105790316731,
+          "R_A": 0.004339836446543397
+        },
+        "initial": {
+          "R_M": 0.07038554907784411,
+          "R_A": 0.07758173066159413
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.11976721422012651,
+        "R_A": 0.12833225488623995
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.042059779638699446,
+          -0.041093362693216826,
+          0.09288132921140148,
+          -0.028912897132651487,
+          -0.030551589040047723,
+          -0.018800649134921077
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.008434587277828986,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.028075838208718538,
+        "R_A": 0.02767437740441483
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006994420204651822,
+            "start_rmse": 0.01933330402192219,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006994420204651822,
+            "start_rmse": 0.025938297433677145,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005208013502756854,
+          "R_A": 0.005709345589036067
+        },
+        "initial": {
+          "R_M": 0.11976721422012647,
+          "R_A": 0.12833225488623995
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 10,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.11692694187959803,
+        "R_A": 0.12579645919155122
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.04658568606850073,
+          -0.041167660675921126,
+          0.0741144609827274,
+          -0.02797065091355358,
+          -0.02908726760169346,
+          -0.02020584668643666
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007039944609142165,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0014589664056615357,
+        "R_A": 0.0015853155639403698
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00699419910163018,
+            "start_rmse": 0.018143496493458585,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.006994199101630148,
+            "start_rmse": 0.02481007125897031,
+            "nfev": 151,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00520819675844996,
+          "R_A": 0.0057113024185269715
+        },
+        "initial": {
+          "R_M": 0.16109453338774893,
+          "R_A": 0.1775770548751294
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.030120627538542066,
+        "R_A": 0.03287296210628528
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.03817886521406043,
+          -0.01796578176180178,
+          -0.03696086089061203,
+          0.0015606463905332665,
+          -0.0015811069925366998,
+          0.001505908149471907
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008601334415060224,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.02629402960724916,
+        "R_A": 0.028449624038137677
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007034535813811621,
+            "start_rmse": 0.010142011445674521,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.007034535813811553,
+            "start_rmse": 0.021535898744166195,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003141312144022916,
+          "R_A": 0.003237971743852581
+        },
+        "initial": {
+          "R_M": 0.0963065981280429,
+          "R_A": 0.10605427713795619
+        }
+      }
+    },
+    {
+      "robot": "Panda",
+      "trial": 11,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.01228289299247523,
+        "R_A": 0.013293017747028986
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.03471954827426072,
+          -0.01863007809939426,
+          0.00040419198721658163,
+          -0.0005304504126327857,
+          -0.001270356791821358,
+          0.0033271648838943705
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.0070611013577204385,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0015635849287187558,
+        "R_A": 0.0016802520577407453
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007034391318305893,
+            "start_rmse": 0.008199828810171185,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007034391318305829,
+            "start_rmse": 0.021334795469162168,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003147594970411527,
+          "R_A": 0.003238437864469822
+        },
+        "initial": {
+          "R_M": 0.09009388515786258,
+          "R_A": 0.09887354303287096
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.0824719752303469,
+        "R_A": 0.08751042646966804
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.04724614367927497,
+          0.027555825552093113,
+          -0.009002317490502707,
+          0.03063293507884661,
+          -0.02118849450712807,
+          0.004747291811903738
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008756006964734674,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.017568397340518283,
+        "R_A": 0.017474903993310493
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007230129637363437,
+            "start_rmse": 0.018651154540988757,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007230129637363439,
+            "start_rmse": 0.030335348637939106,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0028457364254078784,
+          "R_A": 0.003042630485332772
+        },
+        "initial": {
+          "R_M": 0.08247197523034688,
+          "R_A": 0.087510426469668
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 0,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.08282924337426845,
+        "R_A": 0.08792981691282735
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.05348991197455467,
+          0.031216840243941488,
+          -0.025286075254127082,
+          0.031524145855633096,
+          -0.021794763962534533,
+          0.002895714180343718
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.0072549575428832004,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0006308579239698938,
+        "R_A": 0.0006734224427752069
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007230371363178351,
+            "start_rmse": 0.01855811149260225,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072303713631783504,
+            "start_rmse": 0.030851481133263407,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.002839104080109723,
+          "R_A": 0.0030333787487148334
+        },
+        "initial": {
+          "R_M": 0.1258972897187702,
+          "R_A": 0.12866382988437958
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.04643978520978156,
+        "R_A": 0.04928858013000346
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.023568479277024247,
+          0.018763430974004448,
+          -0.019165376140481003,
+          0.012806802024066283,
+          0.0017640515408377335,
+          -0.013931149854856821
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008540746414163336,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.024001267495362362,
+        "R_A": 0.024672133764646987
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007116305797554899,
+            "start_rmse": 0.011221855752102895,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007116305797554898,
+            "start_rmse": 0.03708735165386776,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004124721759657112,
+          "R_A": 0.004530386591730421
+        },
+        "initial": {
+          "R_M": 0.16577916358983186,
+          "R_A": 0.16491800513313257
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 1,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.03335884421936809,
+        "R_A": 0.035881369506484385
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.028612687263302114,
+          0.019237547610640348,
+          -0.029981219396128588,
+          0.011456018361352006,
+          0.0012012383832047965,
+          -0.011097619346748936
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007139101717563345,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0024437280248691515,
+        "R_A": 0.0026131574538184018
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007116549437154807,
+            "start_rmse": 0.009672837583039218,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007116549437154806,
+            "start_rmse": 0.03764106405494996,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004054321562884337,
+          "R_A": 0.0044524797068926595
+        },
+        "initial": {
+          "R_M": 0.16354115454414697,
+          "R_A": 0.16244786341487003
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.05579524650790462,
+        "R_A": 0.05850716526521014
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.04599664018326507,
+          0.057659692602223436,
+          0.010298015205362129,
+          -0.014736955582217999,
+          0.025300026142161907,
+          0.02545047187253913
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008399334007933752,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.01842863492624902,
+        "R_A": 0.018669787539288205
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007156851538551612,
+            "start_rmse": 0.013781554007726208,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007156851538551614,
+            "start_rmse": 0.024800659069997295,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0030182294166120932,
+          "R_A": 0.0032869832572962995
+        },
+        "initial": {
+          "R_M": 0.055795246507904676,
+          "R_A": 0.05850716526521019
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 2,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.05654904429158595,
+        "R_A": 0.05941574634582344
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.05032219920415977,
+          0.06431010636425066,
+          0.04980242595661379,
+          -0.014815885507593005,
+          0.02458200591710167,
+          0.02974873218140873
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007179968228305293,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0013938087629623431,
+        "R_A": 0.001474545310136053
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007156773720196804,
+            "start_rmse": 0.014365257483179404,
+            "nfev": 129,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007156773720196825,
+            "start_rmse": 0.025718549286127202,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002957282916010702,
+          "R_A": 0.003216563972708387
+        },
+        "initial": {
+          "R_M": 0.056549044291586,
+          "R_A": 0.0594157463458235
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.07442910383473805,
+        "R_A": 0.08033999546159415
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.07739298133903923,
+          0.04884644232490212,
+          -0.02915056112593484,
+          0.013963284824261301,
+          -0.002935462148139127,
+          0.03773922725977474
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.010189260534489522,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.027822824861520653,
+        "R_A": 0.029668757743937884
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007137155869369293,
+            "start_rmse": 0.017791729837586267,
+            "nfev": 125,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.007137155869368919,
+            "start_rmse": 0.025679838992504558,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0025221975348378597,
+          "R_A": 0.002614230811533337
+        },
+        "initial": {
+          "R_M": 0.09776591090861927,
+          "R_A": 0.10187009558049732
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 3,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.06131789670259512,
+        "R_A": 0.0658116939737525
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.07139491844560904,
+          0.0457900779907902,
+          0.0038881901163557073,
+          0.012399858761804881,
+          -0.0014752354387796297,
+          0.03457582220725988
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.00715805208284836,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0005956244201776076,
+        "R_A": 0.0006382063903448762
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007137138859017966,
+            "start_rmse": 0.015225318788017268,
+            "nfev": 125,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.007137138859017429,
+            "start_rmse": 0.02333734692015294,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0025836699971886696,
+          "R_A": 0.002684137787830783
+        },
+        "initial": {
+          "R_M": 0.08686581754465617,
+          "R_A": 0.0895061052418065
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.08166368430330474,
+        "R_A": 0.08768568176817863
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.0759476999646856,
+          -0.04132294643961816,
+          -0.009303468625102227,
+          -0.03041020034810798,
+          0.014977092977312065,
+          0.024640584723598143
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.010785115729155179,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.02966256365286704,
+        "R_A": 0.02922885599871643
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007031625353728888,
+            "start_rmse": 0.018639326160590813,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007031625353728874,
+            "start_rmse": 0.0346969400264617,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003029587326491242,
+          "R_A": 0.003180148084856635
+        },
+        "initial": {
+          "R_M": 0.13933965175983803,
+          "R_A": 0.14178009777969103
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 4,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.07821641607078683,
+        "R_A": 0.08404253928399716
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.07406604085682549,
+          -0.037476562598171864,
+          0.002259076105343436,
+          -0.03278082470723431,
+          0.013861109373663734,
+          0.028345404020925346
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007065917680133782,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.001021567418988115,
+        "R_A": 0.0010915196464800039
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007031546598694264,
+            "start_rmse": 0.017371417706360893,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007031546598694268,
+            "start_rmse": 0.028895862128760188,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003017493798682398,
+          "R_A": 0.003163598802087802
+        },
+        "initial": {
+          "R_M": 0.07821641607078682,
+          "R_A": 0.08404253928399714
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.08994355986342373,
+        "R_A": 0.09478932570809248
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.03840559143319934,
+          -0.07641396503784945,
+          0.05260225516010988,
+          -0.021035393332521732,
+          -0.03392397423067687,
+          0.0189096562476901
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.009983457154932027,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.02835676027189867,
+        "R_A": 0.02985688957343732
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007034269364881116,
+            "start_rmse": 0.02177456492774487,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007034269364881104,
+            "start_rmse": 0.040561899452952556,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0036148038173294556,
+          "R_A": 0.003831256501016803
+        },
+        "initial": {
+          "R_M": 0.1618374884750194,
+          "R_A": 0.166230844317247
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 5,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.08887770555921155,
+        "R_A": 0.09361377642696168
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.0364519408594101,
+          -0.0704877716565087,
+          0.04615898417228308,
+          -0.021661807416101596,
+          -0.03545746373300655,
+          0.024886399392312
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007068784220784914,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0015545948371095562,
+        "R_A": 0.0016617209742512712
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070333104333088455,
+            "start_rmse": 0.02142176519164207,
+            "nfev": 125,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0070333104333088325,
+            "start_rmse": 0.03977071003760874,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0036314841986993165,
+          "R_A": 0.003848283606038528
+        },
+        "initial": {
+          "R_M": 0.15563184168359206,
+          "R_A": 0.1588810755983436
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.10584175596463041,
+        "R_A": 0.11334321644176337
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.061636054988012424,
+          0.0013390337993548493,
+          0.04016892264741747,
+          0.030941684579435767,
+          0.023698351949212035,
+          -0.034600212094868354
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.010048843046769547,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.028005476053107808,
+        "R_A": 0.0277570122566368
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007023420470990523,
+            "start_rmse": 0.0234842039938286,
+            "nfev": 125,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.007023420470990484,
+            "start_rmse": 0.037456874116274,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0028710904504566,
+          "R_A": 0.002957994155416146
+        },
+        "initial": {
+          "R_M": 0.14685164818329333,
+          "R_A": 0.149736149721806
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 6,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.09598508952055139,
+        "R_A": 0.10276340078215872
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.06467831429686455,
+          0.00354273468814692,
+          0.050045600944762576,
+          0.02925778115901641,
+          0.02322701458681718,
+          -0.03220901263443097
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007056250260400455,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0017589370769767235,
+        "R_A": 0.0018809953973503407
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007023774052450417,
+            "start_rmse": 0.022078080650322754,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007023774052450416,
+            "start_rmse": 0.0386751534508346,
+            "nfev": 129,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0028600689151798567,
+          "R_A": 0.0029473270643226657
+        },
+        "initial": {
+          "R_M": 0.15111910128587172,
+          "R_A": 0.15243496444549678
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.0839549609471184,
+        "R_A": 0.08960546160605386
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.06659118419633485,
+          0.004817340967893794,
+          0.00689020868435235,
+          -0.03092829117922046,
+          -0.03253261618896572,
+          -0.002102081700776076
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008439385842557738,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.016032821658061386,
+        "R_A": 0.016373207856089297
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007223818689639389,
+            "start_rmse": 0.021718479887781052,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007223818689639392,
+            "start_rmse": 0.03895788832764298,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0031621523477476255,
+          "R_A": 0.00337453371400578
+        },
+        "initial": {
+          "R_M": 0.08395496094711832,
+          "R_A": 0.08960546160605376
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 7,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.08111582894715459,
+        "R_A": 0.08633425504429085
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.06461664092086068,
+          0.0017553470633854065,
+          0.03775233919786626,
+          -0.028884845080100797,
+          -0.03235775477196274,
+          -0.001206588672097764
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007264479658114051,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0009949559442434795,
+        "R_A": 0.0010668012493123453
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007224654866423564,
+            "start_rmse": 0.020591257957407023,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0072246548664235575,
+            "start_rmse": 0.03749823200955297,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031428851716384307,
+          "R_A": 0.00335257971484641
+        },
+        "initial": {
+          "R_M": 0.14194027434448517,
+          "R_A": 0.14280589945014457
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.04462044753331159,
+        "R_A": 0.046905421222462634
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.03981979402264159,
+          -0.03737564836124254,
+          -0.01903007076110298,
+          0.01253214420790626,
+          -0.0012809600321205983,
+          0.024286677720633223
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008714439266031262,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.01924731679177727,
+        "R_A": 0.018776701548774803
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0072379073546671065,
+            "start_rmse": 0.012107496256369298,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007237907354667097,
+            "start_rmse": 0.03360020118432303,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.002540969666439985,
+          "R_A": 0.0025990125639803277
+        },
+        "initial": {
+          "R_M": 0.13095113990279353,
+          "R_A": 0.13474036831969705
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 8,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.04071302471997608,
+        "R_A": 0.043409140892546765
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.03605775287598975,
+          -0.037907741748172866,
+          -0.013867005196387502,
+          0.009161195275666424,
+          0.00033816511132998584,
+          0.025119514575060568
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007260913954326982,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0014034591332672004,
+        "R_A": 0.0014861254352697216
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007238242488136251,
+            "start_rmse": 0.010922005007561342,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007238242488136255,
+            "start_rmse": 0.030667491512580355,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002512920761952355,
+          "R_A": 0.0025730524560652894
+        },
+        "initial": {
+          "R_M": 0.04071302471997605,
+          "R_A": 0.04340914089254675
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.07228664600826046,
+        "R_A": 0.0763029052245152
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.040443414805409646,
+          0.028626030861551983,
+          0.022912485731381337,
+          -0.016234179650483762,
+          0.027277632768386635,
+          -0.03319464658840267
+        ],
+        "evaluations": 5,
+        "train_rmse": 0.009602788201634821,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.02607664531780194,
+        "R_A": 0.025805028260802672
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006992799443017587,
+            "start_rmse": 0.018369951830052043,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0069927994430175845,
+            "start_rmse": 0.028685745884313975,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0029815705922115517,
+          "R_A": 0.0031677288487852793
+        },
+        "initial": {
+          "R_M": 0.11588568589410889,
+          "R_A": 0.1210627031436909
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 9,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.06901416306701927,
+        "R_A": 0.07404488017984391
+      },
+      "fixture_fit": {
+        "parameters": [
+          0.03221720789892869,
+          0.02548123890959661,
+          -0.012403615916871873,
+          -0.015844747177508466,
+          0.027554961188083992,
+          -0.032954655724655064
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007021477009890108,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0008999211777914336,
+        "R_A": 0.0009652313420364212
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006992453767776547,
+            "start_rmse": 0.017283821557775206,
+            "nfev": 130,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0069924537677765975,
+            "start_rmse": 0.027638529368712913,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002971553704397595,
+          "R_A": 0.0031560533321191592
+        },
+        "initial": {
+          "R_M": 0.06901416306701927,
+          "R_A": 0.07404488017984391
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.06256622058103116,
+        "R_A": 0.06697162591925991
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.04451222200605364,
+          -0.009397696726526166,
+          -0.0783821614408191,
+          -0.016501802052410672,
+          0.009171141780416055,
+          -0.01716197830390019
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.01012270436299353,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.030893467704482522,
+        "R_A": 0.03198069569184961
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070281608795869175,
+            "start_rmse": 0.016677746404351778,
+            "nfev": 101,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007028160879586889,
+            "start_rmse": 0.03237005045792857,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035843457078071233,
+          "R_A": 0.003598527560388131
+        },
+        "initial": {
+          "R_M": 0.12234828753632164,
+          "R_A": 0.12600268905642464
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 10,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.04843952606003296,
+        "R_A": 0.05156902938675387
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.03835141677105944,
+          -0.020034165103860437,
+          -0.04670979378308515,
+          -0.01935312121785679,
+          0.00831597133893787,
+          -0.012219865770038502
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007081496420823573,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0010991151575253544,
+        "R_A": 0.0011708657051261453
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0070295279312965545,
+            "start_rmse": 0.01382603461052954,
+            "nfev": 125,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.007029527931296667,
+            "start_rmse": 0.03282653054907426,
+            "nfev": 101,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0035192045885707388,
+          "R_A": 0.0035217931023380222
+        },
+        "initial": {
+          "R_M": 0.048439526060032975,
+          "R_A": 0.05156902938675389
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "target": "fixture_and_joint_errors",
+      "uncorrected": {
+        "R_M": 0.06479625234490141,
+        "R_A": 0.06846378278233206
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.03781562977416259,
+          0.054638843408704674,
+          -0.08723689007952047,
+          -0.02359576022513281,
+          -0.020103537660270485,
+          -0.028222125621353383
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.008595585217323566,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0216429576357305,
+        "R_A": 0.022328286004032645
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007047383731997821,
+            "start_rmse": 0.01722028418506868,
+            "nfev": 129,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007047383731997828,
+            "start_rmse": 0.02934082368706406,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002714955436040269,
+          "R_A": 0.0028650336743714796
+        },
+        "initial": {
+          "R_M": 0.06479625234490143,
+          "R_A": 0.06846378278233207
+        }
+      }
+    },
+    {
+      "robot": "UR10e",
+      "trial": 11,
+      "target": "fixture_only",
+      "uncorrected": {
+        "R_M": 0.05944522827525504,
+        "R_A": 0.06382354818477969
+      },
+      "fixture_fit": {
+        "parameters": [
+          -0.038981812193792806,
+          0.05293078901761114,
+          -0.0741656190173193,
+          -0.0243055261100072,
+          -0.020856556820561964,
+          -0.024298093969175615
+        ],
+        "evaluations": 4,
+        "train_rmse": 0.007066622763091609,
+        "converged": true
+      },
+      "fixture": {
+        "R_M": 0.0014878777939995994,
+        "R_A": 0.0015997998987019443
+      },
+      "chain": {
+        "eligible": null,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00704682334234573,
+            "start_rmse": 0.015572486823671178,
+            "nfev": 130,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0070468233423457574,
+            "start_rmse": 0.0261576050952057,
+            "nfev": 126,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0027629575047832763,
+          "R_A": 0.002919205536651504
+        },
+        "initial": {
+          "R_M": 0.05944522827525505,
+          "R_A": 0.06382354818477971
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "calibration_loads": 3,
+  "directions": 2,
+  "wrench_matrix_rank": 6,
+  "gram_map_derivative_rank": 9,
+  "local_ambiguity_dimension": 3,
+  "fourth_load_response_changes": true,
+  "tangent_directions": [
+    {
+      "heldout_change_is_nonzero": true
+    },
+    {
+      "heldout_change_is_nonzero": true
+    },
+    {
+      "heldout_change_is_nonzero": true
+    }
+  ],
+  "scope": "Fixed-configuration, general full-row-rank tool Jacobian. Variations are not restricted to a serial revolute chain."
+}

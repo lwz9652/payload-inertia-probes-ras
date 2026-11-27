@@ -1,0 +1,24 @@
+% Generated from the case-level records by generate_validation_artifacts.py.
+
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Transfer error \(R_M\) in percent with an uncertain fixture pose and, in the second condition, joint geometry errors. Fits share calibration data at \(0.01\,\torqueunit\) raw noise.}
+\label{tab:fixture-baseline}
+\begin{tabular}{llrrrrrr}
+\toprule
+& & \multicolumn{3}{c}{Panda} & \multicolumn{3}{c}{UR10e}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Target changes & Model fit & Median & Max. & Below \(1\%\) & Median & Max. & Below \(1\%\)\\
+\midrule
+Fixture only & Nominal & 6.951 & 11.69 & 0/12 & 6.517 & 9.599 & 0/12\\
+ & Fixture transform & 0.112 & 0.218 & 12/12 & 0.125 & 0.244 & 12/12\\
+ & Full chain & 0.381 & 0.521 & 12/12 & 0.296 & 0.405 & 12/12\\
+\addlinespace
+Fixture and joints & Nominal & 8.021 & 11.98 & 0/12 & 7.336 & 10.58 & 0/12\\
+ & Fixture transform & 3.102 & 4.661 & 0/12 & 2.504 & 3.089 & 0/12\\
+ & Full chain & 0.388 & 0.521 & 12/12 & 0.300 & 0.412 & 12/12\\
+\bottomrule
+\end{tabular}
+\end{table}

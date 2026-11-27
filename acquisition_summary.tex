@@ -1,0 +1,24 @@
+% Generated from the case-level records by generate_validation_artifacts.py.
+
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Acquisition tests across 12 simulated Panda cases at \(0.01\,\torqueunit\) raw noise. The full levels include 3~mrad of cross-load position error, 0.3~mrad position and 10~mrad/s velocity within a sign pair, and \(0.3\%\) off-span acceleration. The half levels halve all four offsets. \(R_A\) measures transfer outside the probe span.}
+\label{tab:acquisition}
+\begin{tabular}{lrrr}
+\toprule
+Condition & Median \(R_A\) (\%) & Max. \(R_A\) (\%) & Below \(1\%\)\\
+\midrule
+Alignment, no offset & 0.358 & 0.602 & 12/12\\
+Alignment, half levels combined & 0.593 & 0.961 & 12/12\\
+Alignment, full levels combined & 1.019 & 1.421 & 5/12\\
+\addlinespace
+\(2\,\mathrm{\mu rad}\) encoder noise, no correction & 9.014 & 16.68 & 0/12\\
+\(2\,\mathrm{\mu rad}\) encoder noise, corrected & 0.406 & 0.591 & 12/12\\
+\addlinespace
+Same-direction crossing, velocity offsets and filter & 0.551 & 0.704 & 12/12\\
+Near reversal, velocity offsets and filter & 1.950 & 2.964 & 0/12\\
+\bottomrule
+\end{tabular}
+\end{table}

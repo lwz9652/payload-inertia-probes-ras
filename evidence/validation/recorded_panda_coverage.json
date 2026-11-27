@@ -1,0 +1,65 @@
+{
+  "inspected_on": "2026-11-25",
+  "dataset_url": "https://huggingface.co/datasets/frankzydou/NAD",
+  "dataset_card": "https://huggingface.co/datasets/frankzydou/NAD/blob/main/README.md#franka-panda-csvs",
+  "panda_splits": {
+    "train": {
+      "url": "https://huggingface.co/datasets/frankzydou/NAD/resolve/main/parquet/franka/train.parquet",
+      "sha256": "dbfe85ed3bf306db4dbbaf7f7b1e25f7adc5221017387533a99b4b363a1f9902",
+      "rows": 27872,
+      "trajectories": 30,
+      "trajectories_per_payload": {
+        "200g": 6,
+        "300g": 6,
+        "400g": 6,
+        "500g": 6,
+        "600g": 6
+      },
+      "payload_held_flags": [
+        1
+      ],
+      "link_side_torque_columns": [
+        "tau1",
+        "tau2",
+        "tau3",
+        "tau4",
+        "tau5",
+        "tau6",
+        "tau7"
+      ]
+    },
+    "test": {
+      "url": "https://huggingface.co/datasets/frankzydou/NAD/resolve/main/parquet/franka/test.parquet",
+      "sha256": "f5971bd598d4262ec6e5d090be6803d5d27bf80bb25a334871576a9da66f192b",
+      "rows": 4666,
+      "trajectories": 5,
+      "trajectories_per_payload": {
+        "200g": 1,
+        "300g": 1,
+        "400g": 1,
+        "500g": 1,
+        "600g": 1
+      },
+      "payload_held_flags": [
+        1
+      ],
+      "link_side_torque_columns": [
+        "tau1",
+        "tau2",
+        "tau3",
+        "tau4",
+        "tau5",
+        "tau6",
+        "tau7"
+      ]
+    }
+  },
+  "payload_labels": [
+    "200g",
+    "300g",
+    "400g",
+    "500g",
+    "600g"
+  ],
+  "conclusion": "The released Panda trajectories are all loaded. They lack the matched unloaded sign pairs needed for the directional contrast. The released schema does not provide registered spatial inertias."
+}

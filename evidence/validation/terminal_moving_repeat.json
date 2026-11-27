@@ -1,0 +1,818 @@
+[
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.0725127284230857,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.012091747886808332,
+      "R_A": 0.011284696201200048
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0011559951816668458,
+        "start_rmse": 0.03431070109733902,
+        "nfev": 203,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.03986167665823551,
+        "start_rmse": 0.07955660529772908,
+        "nfev": 611,
+        "accepted_steps": 21,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.05481517648655208,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.028015025026113066,
+      "R_A": 0.02863491395659965
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.03296318704263913,
+        "start_rmse": 0.18414016396907704,
+        "nfev": 701,
+        "accepted_steps": 24,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.001172341274862003,
+        "start_rmse": 0.1576923171952281,
+        "nfev": 496,
+        "accepted_steps": 16,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.05527226517359737,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.010971068651034156,
+      "R_A": 0.012486056280220714
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012528747435304013,
+        "start_rmse": 0.02237212009271602,
+        "nfev": 203,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.02701817708272992,
+        "start_rmse": 0.05608402070653255,
+        "nfev": 439,
+        "accepted_steps": 15,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.09807455643631544,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.008812331520707479,
+      "R_A": 0.009827075981404533
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.04779170995191341,
+        "start_rmse": 0.12123347051239303,
+        "nfev": 465,
+        "accepted_steps": 16,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.0012245405487413916,
+        "start_rmse": 0.05199191195974537,
+        "nfev": 174,
+        "accepted_steps": 5,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.07012198506762639,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.028824445861914585,
+      "R_A": 0.032935966284620324
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012182179536414598,
+        "start_rmse": 0.04457708651275024,
+        "nfev": 319,
+        "accepted_steps": 10,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.025071768774685102,
+        "start_rmse": 0.30692090789405435,
+        "nfev": 1577,
+        "accepted_steps": 54,
+        "crossed_initial_hemisphere": true,
+        "termination": "evaluation_budget"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.025643449901947418,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.04990038648425422,
+      "R_A": 0.05113526667337578
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.00132263075798187,
+        "start_rmse": 0.027665763070488035,
+        "nfev": 203,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.013214883053255742,
+        "start_rmse": 0.03656656764769155,
+        "nfev": 494,
+        "accepted_steps": 17,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.07768270217417536,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 1.0884071114668323,
+      "R_A": 1.1400418466102562
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.05854936785478227,
+        "start_rmse": 0.290175749784698,
+        "nfev": 1578,
+        "accepted_steps": 54,
+        "crossed_initial_hemisphere": true,
+        "termination": "evaluation_budget"
+      },
+      {
+        "train_rmse": 0.04210577650374681,
+        "start_rmse": 0.29024988161640813,
+        "nfev": 1377,
+        "accepted_steps": 47,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.03714302624029469,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.027508551177643985,
+      "R_A": 0.03167554428485169
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0010900101466886005,
+        "start_rmse": 0.017692446534205448,
+        "nfev": 174,
+        "accepted_steps": 5,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.021730739147586622,
+        "start_rmse": 0.03204833922611666,
+        "nfev": 523,
+        "accepted_steps": 18,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.0667593957093831,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.019840406638222317,
+      "R_A": 0.019391000218474293
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012694991318207196,
+        "start_rmse": 0.291952094714844,
+        "nfev": 587,
+        "accepted_steps": 19,
+        "crossed_initial_hemisphere": true,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.050314909596027205,
+        "start_rmse": 0.3060011292298918,
+        "nfev": 1574,
+        "accepted_steps": 54,
+        "crossed_initial_hemisphere": true,
+        "termination": "evaluation_budget"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.06887094388560339,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.014646325332634196,
+      "R_A": 0.017638151031152318
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.001087098962135467,
+        "start_rmse": 0.05363516842743941,
+        "nfev": 203,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.03218091220613659,
+        "start_rmse": 0.08589421151587909,
+        "nfev": 842,
+        "accepted_steps": 29,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.03261081241338719,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.03113052303105978,
+      "R_A": 0.028297257472858873
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012074553455761411,
+        "start_rmse": 0.01313422677414953,
+        "nfev": 232,
+        "accepted_steps": 7,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.015210862149740144,
+        "start_rmse": 0.024852360026378105,
+        "nfev": 1162,
+        "accepted_steps": 40,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.06489609338228898,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.022497828046462005,
+      "R_A": 0.023628409088965165
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.0011455206915389215,
+        "start_rmse": 0.05770235296454504,
+        "nfev": 1286,
+        "accepted_steps": 43,
+        "crossed_initial_hemisphere": true,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.0011455206915278768,
+        "start_rmse": 0.015274076016357125,
+        "nfev": 146,
+        "accepted_steps": 5,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.09746651531816398,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.010325486786954942,
+      "R_A": 0.011597155641425855
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.052659622797633976,
+        "start_rmse": 0.10411323942864838,
+        "nfev": 1004,
+        "accepted_steps": 40,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.001106516388653691,
+        "start_rmse": 0.11013554597903112,
+        "nfev": 175,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.06542745709724679,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.01284926733473065,
+      "R_A": 0.013369811767966214
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.001334601695969982,
+        "start_rmse": 0.21211511023337276,
+        "nfev": 885,
+        "accepted_steps": 34,
+        "crossed_initial_hemisphere": true,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.03388086707843434,
+        "start_rmse": 0.21134374762635227,
+        "nfev": 504,
+        "accepted_steps": 20,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.12341093728534,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.010614128804295325,
+      "R_A": 0.010289964089981254
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012248027640134448,
+        "start_rmse": 0.49009252499620176,
+        "nfev": 427,
+        "accepted_steps": 16,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.0012248027640406084,
+        "start_rmse": 0.505141513504333,
+        "nfev": 528,
+        "accepted_steps": 20,
+        "crossed_initial_hemisphere": true,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.0740836732475738,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.009447140165272754,
+      "R_A": 0.010203057140342496
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0011055609094726504,
+        "start_rmse": 0.025352666560472872,
+        "nfev": 150,
+        "accepted_steps": 5,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.042150644523920706,
+        "start_rmse": 0.06980283159530964,
+        "nfev": 1401,
+        "accepted_steps": 56,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.049538369912649906,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.017125449441683455,
+      "R_A": 0.01905279463377414
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0013641703767957977,
+        "start_rmse": 0.14593636881311015,
+        "nfev": 275,
+        "accepted_steps": 10,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.03394972641795883,
+        "start_rmse": 0.15940919721143185,
+        "nfev": 701,
+        "accepted_steps": 28,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.0862309817252898,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0064037764122846785,
+      "R_A": 0.0061288459724662915
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.02644208458871807,
+        "start_rmse": 0.09283509105409618,
+        "nfev": 580,
+        "accepted_steps": 23,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.0013587934513040437,
+        "start_rmse": 0.08041123413359222,
+        "nfev": 150,
+        "accepted_steps": 5,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.09372997620068822,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.02049833137496618,
+      "R_A": 0.021013006739746983
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.023313288130604036,
+        "start_rmse": 0.08336500809942476,
+        "nfev": 912,
+        "accepted_steps": 36,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.0011950848820624902,
+        "start_rmse": 0.03450206864998928,
+        "nfev": 200,
+        "accepted_steps": 7,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.13408787572733769,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007004291011731143,
+      "R_A": 0.008827257675069743
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012249831305807025,
+        "start_rmse": 0.15514274410114257,
+        "nfev": 175,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.04742693775727263,
+        "start_rmse": 0.2348748822338122,
+        "nfev": 578,
+        "accepted_steps": 23,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.08560906915797754,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.009964654373295516,
+      "R_A": 0.010548508994049507
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.03742808052983085,
+        "start_rmse": 0.40738101597947457,
+        "nfev": 754,
+        "accepted_steps": 30,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.0013083555143621557,
+        "start_rmse": 0.4351837166170453,
+        "nfev": 250,
+        "accepted_steps": 9,
+        "crossed_initial_hemisphere": true,
+        "termination": "gradient"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.05593645703120757,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.011264506259634264,
+      "R_A": 0.011222144841695444
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.0012479072662750742,
+        "start_rmse": 0.03551562956563316,
+        "nfev": 225,
+        "accepted_steps": 8,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.02962061622372185,
+        "start_rmse": 0.05252111123505565,
+        "nfev": 1251,
+        "accepted_steps": 50,
+        "crossed_initial_hemisphere": true,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.07155402129638802,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.023307076811800508,
+      "R_A": 0.027226656585674025
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 0,
+    "stages": [
+      {
+        "train_rmse": 0.001073768605163792,
+        "start_rmse": 0.13456815099617922,
+        "nfev": 275,
+        "accepted_steps": 10,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      },
+      {
+        "train_rmse": 0.03739004737238947,
+        "start_rmse": 0.1319629705461471,
+        "nfev": 701,
+        "accepted_steps": 28,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      }
+    ]
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "step_rad": 0.5,
+    "sigma": 0.01,
+    "clean_orientation_gap_Nm": 0.08371852520257095,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007378125311726552,
+      "R_A": 0.008269456616979505
+    },
+    "repetitions": 25,
+    "solver": "moving_chart",
+    "eligible": 2,
+    "selected": 1,
+    "stages": [
+      {
+        "train_rmse": 0.042793839589148105,
+        "start_rmse": 0.06934166174407014,
+        "nfev": 526,
+        "accepted_steps": 21,
+        "crossed_initial_hemisphere": false,
+        "termination": "relative_objective"
+      },
+      {
+        "train_rmse": 0.001126683759683573,
+        "start_rmse": 0.016469452319056076,
+        "nfev": 175,
+        "accepted_steps": 6,
+        "crossed_initial_hemisphere": false,
+        "termination": "gradient"
+      }
+    ]
+  }
+]

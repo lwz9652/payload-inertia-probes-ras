@@ -1,0 +1,257 @@
+{
+  "split": "val",
+  "low": 0.025,
+  "high": 0.1,
+  "anchors": 224,
+  "records": [
+    {
+      "payload": 21,
+      "family": "mixmotion_11point_15",
+      "shards": [
+        "shards/003458",
+        "shards/003359",
+        "shards/001116",
+        "shards/001011"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_11point_19",
+      "shards": [
+        "shards/003459",
+        "shards/003360",
+        "shards/001117",
+        "shards/001012"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_5point_5",
+      "shards": [
+        "shards/003470",
+        "shards/003371",
+        "shards/001128",
+        "shards/001023"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_5point_9",
+      "shards": [
+        "shards/003471",
+        "shards/003372",
+        "shards/001129",
+        "shards/001024"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_8point_10",
+      "shards": [
+        "shards/003472",
+        "shards/003373",
+        "shards/001130",
+        "shards/001025"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_8point_18",
+      "shards": [
+        "shards/003474",
+        "shards/003375",
+        "shards/001132",
+        "shards/001027"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_8point_2",
+      "shards": [
+        "shards/003475",
+        "shards/003376",
+        "shards/001133",
+        "shards/001028"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "mixmotion_8point_6",
+      "shards": [
+        "shards/003476",
+        "shards/003377",
+        "shards/001134",
+        "shards/001029"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "rotation_8point_2",
+      "shards": [
+        "shards/003481",
+        "shards/003384",
+        "shards/001139",
+        "shards/001036"
+      ]
+    },
+    {
+      "payload": 21,
+      "family": "rotation_8point_6",
+      "shards": [
+        "shards/003482",
+        "shards/003385",
+        "shards/001140",
+        "shards/001037"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "mixmotion_11point_15",
+      "shards": [
+        "shards/000694",
+        "shards/000631",
+        "shards/001116",
+        "shards/001011"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "mixmotion_5point_5",
+      "shards": [
+        "shards/000706",
+        "shards/000636",
+        "shards/001128",
+        "shards/001023"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "mixmotion_8point_10",
+      "shards": [
+        "shards/000708",
+        "shards/000637",
+        "shards/001130",
+        "shards/001025"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "mixmotion_8point_2",
+      "shards": [
+        "shards/000711",
+        "shards/000639",
+        "shards/001133",
+        "shards/001028"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "mixmotion_8point_6",
+      "shards": [
+        "shards/000712",
+        "shards/000640",
+        "shards/001134",
+        "shards/001029"
+      ]
+    },
+    {
+      "payload": 24,
+      "family": "rotation_8point_6",
+      "shards": [
+        "shards/000716",
+        "shards/000645",
+        "shards/001140",
+        "shards/001037"
+      ]
+    },
+    {
+      "payload": 28,
+      "family": "mixmotion_11point_15",
+      "shards": [
+        "shards/001187",
+        "shards/001146",
+        "shards/001116",
+        "shards/001011"
+      ]
+    },
+    {
+      "payload": 28,
+      "family": "mixmotion_8point_10",
+      "shards": [
+        "shards/001197",
+        "shards/001149",
+        "shards/001130",
+        "shards/001025"
+      ]
+    },
+    {
+      "payload": 29,
+      "family": "mixmotion_5point_5",
+      "shards": [
+        "shards/001580",
+        "shards/001546",
+        "shards/001128",
+        "shards/001023"
+      ]
+    },
+    {
+      "payload": 29,
+      "family": "mixmotion_8point_6",
+      "shards": [
+        "shards/001582",
+        "shards/001547",
+        "shards/001134",
+        "shards/001029"
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "max_q_rms_rad": 0.001,
+      "rows": 0,
+      "pairs": 0,
+      "payloads": 0,
+      "families": 0,
+      "torque_contrast_rms": null,
+      "acceleration_mismatch_median_l2": null
+    },
+    {
+      "max_q_rms_rad": 0.002,
+      "rows": 0,
+      "pairs": 0,
+      "payloads": 0,
+      "families": 0,
+      "torque_contrast_rms": null,
+      "acceleration_mismatch_median_l2": null
+    },
+    {
+      "max_q_rms_rad": 0.004,
+      "rows": 0,
+      "pairs": 0,
+      "payloads": 0,
+      "families": 0,
+      "torque_contrast_rms": null,
+      "acceleration_mismatch_median_l2": null
+    },
+    {
+      "max_q_rms_rad": 0.008,
+      "rows": 0,
+      "pairs": 0,
+      "payloads": 0,
+      "families": 0,
+      "torque_contrast_rms": null,
+      "acceleration_mismatch_median_l2": null
+    },
+    {
+      "max_q_rms_rad": 0.016,
+      "rows": 0,
+      "pairs": 0,
+      "payloads": 0,
+      "families": 0,
+      "torque_contrast_rms": null,
+      "acceleration_mismatch_median_l2": null
+    }
+  ],
+  "manifest_sha256": "78bb0f3f67e9f07bcd1f5b26292ed38355bdf548c23abe9584f98ecbb8e0ce89",
+  "original_TEST_read": false
+}

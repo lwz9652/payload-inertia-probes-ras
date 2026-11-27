@@ -1,0 +1,1154 @@
+[
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0075620821496911825,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0069711480322975075,
+      "R_A": 0.006951672427665535
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0725127284230857,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.006419917286883094,
+      "R_A": 0.006390981784595493
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.008002652671101732,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007171816569889117,
+      "R_A": 0.008082902285363862
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 0,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 3.669173535171439e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999989046,
+    "two_pose_fit": {
+      "R_M": 1.1986371911141394,
+      "R_A": 1.318698316459783
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.005737548053645982,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.017242646728910474,
+      "R_A": 0.01760990811960132
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.05481517648655208,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0193411956911731,
+      "R_A": 0.01943949132651867
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0055684379016319365,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.04608461339390377,
+      "R_A": 0.04626889478900582
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 1,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 5.395888451842588e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999983891,
+    "two_pose_fit": {
+      "R_M": 0.013509064068617804,
+      "R_A": 0.011620861948901549
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.005717617940822077,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.011190373020688626,
+      "R_A": 0.011621833611458389
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.05527226517359737,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.010947990556631908,
+      "R_A": 0.011521407608201967
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00689243296788685,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004388683447669072,
+      "R_A": 0.005447584765388235
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 2,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.6852911225949624e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999991983,
+    "two_pose_fit": {
+      "R_M": 0.0043371578423503625,
+      "R_A": 0.005412625033653587
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.010195374341952255,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.005830083859064987,
+      "R_A": 0.0058824919890176595
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.09807455643631544,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004628173030162782,
+      "R_A": 0.004746512308621256
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.010965511523765821,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.003052657797687958,
+      "R_A": 0.0031099226252737813
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 3,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 7.165377868548288e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999978608,
+    "two_pose_fit": {
+      "R_M": 1.2198223473148546,
+      "R_A": 1.408654317275008
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0073032869967990105,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.018934828440042763,
+      "R_A": 0.021100035520322028
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.07012198506762639,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.01646661064334234,
+      "R_A": 0.018405992725273778
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007714602167621633,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.013024645461759066,
+      "R_A": 0.016163793055986916
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 4,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 6.346741287820914e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999810524,
+    "two_pose_fit": {
+      "R_M": 1.1521094088200763,
+      "R_A": 1.3347086464580247
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0027320593258225853,
+    "ideal_known_candidates_error_probability": 3.3374828749599392e-93,
+    "two_pose_fit": {
+      "R_M": 4.28561370172145,
+      "R_A": 4.980789567015348
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.025643449901947418,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.028151815601358498,
+      "R_A": 0.030800603840100086
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0028439796847305344,
+    "ideal_known_candidates_error_probability": 8.263988858448547e-101,
+    "two_pose_fit": {
+      "R_M": 0.020772493862302593,
+      "R_A": 0.024044508438490063
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 5,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 9.773951547323117e-17,
+    "ideal_known_candidates_error_probability": 0.49999999999970823,
+    "two_pose_fit": {
+      "R_M": 0.9999871206224914,
+      "R_A": 1.054322919201358
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.008157818813714832,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.008244681904283067,
+      "R_A": 0.00802717248914505
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.07768270217417536,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.008711377140946221,
+      "R_A": 0.008843765087199511
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007649218974406311,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007326770262316713,
+      "R_A": 0.007448834686038094
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 6,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 1.854169343074975e-15,
+    "ideal_known_candidates_error_probability": 0.49999999999446454,
+    "two_pose_fit": {
+      "R_M": 1.1007822844310573,
+      "R_A": 1.1569020824415845
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0038740310949195323,
+    "ideal_known_candidates_error_probability": 4.3226646828218244e-185,
+    "two_pose_fit": {
+      "R_M": 0.010810270079201125,
+      "R_A": 0.00975759564497847
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.03714302624029469,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.01118921429968351,
+      "R_A": 0.01006419845987224
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.004405363587039693,
+    "ideal_known_candidates_error_probability": 1.2183574322597933e-238,
+    "two_pose_fit": {
+      "R_M": 0.010518684475756065,
+      "R_A": 0.011257755774175501
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 7,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.4727870396862697e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999926176,
+    "two_pose_fit": {
+      "R_M": 1.0238546260088799,
+      "R_A": 1.057658386879395
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.006941799255151515,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.3069854996267329,
+      "R_A": 0.31321215767669847
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0667593957093831,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007229959222127016,
+      "R_A": 0.006520784204463707
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007522195613038219,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007859067573576354,
+      "R_A": 0.007764660267187688
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 8,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.403476218574256e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999928246,
+    "two_pose_fit": {
+      "R_M": 1.029780087796808,
+      "R_A": 1.1088664276644844
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007171325992133211,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.009449419780370808,
+      "R_A": 0.01009283854201044
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.06887094388560339,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.009030946725519863,
+      "R_A": 0.009733470608532883
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007676296875296562,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.00550750650618293,
+      "R_A": 0.006025106597950537
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 9,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 4.960438927745383e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999851913,
+    "two_pose_fit": {
+      "R_M": 0.005507796463634757,
+      "R_A": 0.005975394242136691
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00341223720597419,
+    "ideal_known_candidates_error_probability": 4.0454226398296814e-144,
+    "two_pose_fit": {
+      "R_M": 0.014249654562057327,
+      "R_A": 0.014764867875865843
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.03261081241338719,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.011327791422126351,
+      "R_A": 0.011688556995055959
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00384483700222831,
+    "ideal_known_candidates_error_probability": 2.3948795306743127e-182,
+    "two_pose_fit": {
+      "R_M": 0.005849624639452554,
+      "R_A": 0.00638747339796181
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 10,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 8.738832862057913e-17,
+    "ideal_known_candidates_error_probability": 0.4999999999997391,
+    "two_pose_fit": {
+      "R_M": 0.9981529377388172,
+      "R_A": 1.0328860561619733
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.006722453752194365,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007435955013682672,
+      "R_A": 0.008278494140182915
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.06489609338228898,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.008983409708560732,
+      "R_A": 0.0097977847828633
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0076972158785218805,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0062710727606334095,
+      "R_A": 0.006843309166173745
+    }
+  },
+  {
+    "robot": "Panda",
+    "trial": 11,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.329048199996436e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999930467,
+    "two_pose_fit": {
+      "R_M": 0.006214167391437773,
+      "R_A": 0.006775519150032223
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.010133757295404883,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004707872031020651,
+      "R_A": 0.004179789290491553
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.09746651531816398,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.005666920992763713,
+      "R_A": 0.004852224067933382
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.010926689763940182,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004822014974097573,
+      "R_A": 0.004273457414824928
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 0,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 5.207460529732075e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999985607,
+    "two_pose_fit": {
+      "R_M": 0.004785841132568249,
+      "R_A": 0.004219587121897712
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.006821409228537049,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.003963384581020354,
+      "R_A": 0.0038539490174230354
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.06542745709724679,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.002795000234210597,
+      "R_A": 0.0023247428739662547
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.006998074028729081,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004435810217717873,
+      "R_A": 0.0051301344739648385
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 1,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 3.3823251694036054e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999906514,
+    "two_pose_fit": {
+      "R_M": 0.8481852472285815,
+      "R_A": 0.8730061985333047
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.012876225357245853,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007764813386461096,
+      "R_A": 0.008159368705204388
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.12341093728534,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0049660488167947115,
+      "R_A": 0.005650947486207449
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.01278882821288631,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.00964306190237934,
+      "R_A": 0.010199476752433583
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 2,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 4.834876147549903e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999986637,
+    "two_pose_fit": {
+      "R_M": 0.009845987212942867,
+      "R_A": 0.010486060848078514
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007745921796843492,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.005973704435533544,
+      "R_A": 0.008364588412333972
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0740836732475738,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.006383518351411046,
+      "R_A": 0.008243667509304702
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007661178614868843,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0033432301367683844,
+      "R_A": 0.003638178136465801
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 3,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 6.018495205966912e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999983365,
+    "two_pose_fit": {
+      "R_M": 0.9404402372392507,
+      "R_A": 0.896709994528185
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0052133282989545605,
+    "ideal_known_candidates_error_probability": 5.707648667827469e-286,
+    "two_pose_fit": {
+      "R_M": 0.0047268471960003,
+      "R_A": 0.00613549160862022
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.049538369912649906,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0038967909303492284,
+      "R_A": 0.004892528152148424
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.005077381314755193,
+    "ideal_known_candidates_error_probability": 2.2371319209612106e-271,
+    "two_pose_fit": {
+      "R_M": 0.005901239415592673,
+      "R_A": 0.006491747196969896
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 4,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 5.131620518363024e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999858163,
+    "two_pose_fit": {
+      "R_M": 0.00594919305132376,
+      "R_A": 0.006577598973620879
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00901512265427326,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.01117656443023793,
+      "R_A": 0.01096634118661754
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0862309817252898,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0102233637150425,
+      "R_A": 0.010060366856353477
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00911943443936906,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0076050931080430244,
+      "R_A": 0.007838666029789566
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 5,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.0172234353088247e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999944245,
+    "two_pose_fit": {
+      "R_M": 0.007625750145972678,
+      "R_A": 0.00785058202542948
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.009780864819423453,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.012004916376153607,
+      "R_A": 0.010965897683178313
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.09372997620068822,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.00792113363582941,
+      "R_A": 0.0066443328561792475
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.0100830169069957,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.011173386261756393,
+      "R_A": 0.00864646548580801
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 6,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 4.0870788609460616e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999887035,
+    "two_pose_fit": {
+      "R_M": 0.6531509292152375,
+      "R_A": 0.6208773963771701
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.014035491862356173,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0050413681399962985,
+      "R_A": 0.005393181737511297
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.13408787572733769,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.00518095725105901,
+      "R_A": 0.00547840911696854
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.013381654621859702,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0032104881790387114,
+      "R_A": 0.0042415753760201855
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 7,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 4.747414282989814e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999986878,
+    "two_pose_fit": {
+      "R_M": 0.8897882911607315,
+      "R_A": 0.8715509206465655
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.008925229323262477,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.011429730078800113,
+      "R_A": 0.010576412081647672
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.08560906915797754,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0044763415428318585,
+      "R_A": 0.005707852995743567
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.009136050936593355,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.0025059270386706828,
+      "R_A": 0.0024603324809574704
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 8,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 4.165215202157418e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999884875,
+    "two_pose_fit": {
+      "R_M": 0.886427508442045,
+      "R_A": 0.8458110512362681
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.005840075683189358,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.009054464083339875,
+      "R_A": 0.008756069008999653
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.05593645703120757,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.010019367444853973,
+      "R_A": 0.009502871740588817
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.006127707767152497,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.008023414730890136,
+      "R_A": 0.008613271242032233
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 9,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 2.68185166007648e-16,
+    "ideal_known_candidates_error_probability": 0.49999999999925876,
+    "two_pose_fit": {
+      "R_M": 0.007917759731249507,
+      "R_A": 0.008473836946187205
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007468024579973035,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 1.4062454782920668,
+      "R_A": 2.2591834455975888
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.07155402129638802,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.007130199520923582,
+      "R_A": 0.007416105543168872
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.007460338196589084,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 1.2990624538992217,
+      "R_A": 1.935866777994735
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 10,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 7.733597401867333e-16,
+    "ideal_known_candidates_error_probability": 0.4999999999978625,
+    "two_pose_fit": {
+      "R_M": 1.3056245518964098,
+      "R_A": 1.9428873061032859
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "step_rad": 0.05,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.008778626496493764,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.004794778835814509,
+      "R_A": 0.006846748737625424
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "step_rad": 0.5,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.08371852520257095,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.005344523388714595,
+      "R_A": 0.007669998735843598
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "step_rad": 3.0915926535897933,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 0.00844573161926673,
+    "ideal_known_candidates_error_probability": 0.0,
+    "two_pose_fit": {
+      "R_M": 0.003928302189931302,
+      "R_A": 0.005648064094260962
+    }
+  },
+  {
+    "robot": "UR10e",
+    "trial": 11,
+    "step_rad": 3.141592653589793,
+    "sigma": 0.001,
+    "clean_orientation_gap_Nm": 6.971997084726899e-16,
+    "ideal_known_candidates_error_probability": 0.499999999998073,
+    "two_pose_fit": {
+      "R_M": 0.8955924404169235,
+      "R_A": 0.8950497979119416
+    }
+  }
+]

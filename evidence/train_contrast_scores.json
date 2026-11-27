@@ -1,0 +1,1048 @@
+{
+  "split": "train",
+  "speeds": [
+    0.025,
+    0.1
+  ],
+  "scores": {
+    "0.002": {
+      "rows": 117,
+      "groups": [
+        {
+          "payload": 1,
+          "family": "mixmotion_11point_7",
+          "shards": [
+            "shards/003078",
+            "shards/002982",
+            "shards/001119",
+            "shards/001014"
+          ]
+        },
+        {
+          "payload": 12,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/002211",
+            "shards/002162",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 17,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/001535",
+            "shards/001506",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "mixmotion_14point_8",
+          "shards": [
+            "shards/001426",
+            "shards/001340",
+            "shards/001124",
+            "shards/001019"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "rotation_5point_1",
+          "shards": [
+            "shards/001436",
+            "shards/001354",
+            "shards/001137",
+            "shards/001034"
+          ]
+        }
+      ],
+      "metrics": {
+        "zero_contrast": {
+          "rmse_Nm": 0.2552517049262559,
+          "prediction_rms_Nm": 0.0,
+          "inner_product": 0.0,
+          "explained_power": 0.0
+        },
+        "rigid_kinetic": {
+          "rmse_Nm": 0.25160790045094633,
+          "prediction_rms_Nm": 0.018421019292081134,
+          "inner_product": 0.23247903445116877,
+          "explained_power": 0.0283468915931977
+        },
+        "C16_zero_payload_at_observed_states": {
+          "rmse_Nm": 0.3486129806547025,
+          "prediction_rms_Nm": 0.24603737964504727,
+          "inner_product": 0.03309488925661048,
+          "explained_power": -0.8653047879706219
+        },
+        "C16_zero_payload_plus_rigid_kinetic": {
+          "rmse_Nm": 0.347452026869531,
+          "prediction_rms_Nm": 0.24882227417893446,
+          "inner_product": 0.04993556405659107,
+          "explained_power": -0.8529017683653339
+        },
+        "C16_full": {
+          "rmse_Nm": 0.43584908571894376,
+          "prediction_rms_Nm": 0.352535367295283,
+          "inner_product": -0.002943857128605286,
+          "explained_power": -1.915647221652974
+        }
+      },
+      "per_pair": [
+        {
+          "group": 2,
+          "rows": 3,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.11027937615919295,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.10995738075979561,
+              "prediction_rms_Nm": 0.008108087819352074,
+              "inner_product": 0.07641646637670872,
+              "explained_power": 0.005831105090792654
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.24289190212987802,
+              "prediction_rms_Nm": 0.21821350050422497,
+              "inner_product": 0.016252117338792713,
+              "explained_power": -3.8510692075192487
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.24150406099881197,
+              "prediction_rms_Nm": 0.21698277229205887,
+              "inner_product": 0.019199786191886312,
+              "explained_power": -3.7957912906768927
+            },
+            "C16_full": {
+              "rmse_Nm": 0.24314316470134342,
+              "prediction_rms_Nm": 0.21561275442337965,
+              "inner_product": -0.0098453392327224,
+              "explained_power": -3.861110897356239
+            }
+          }
+        },
+        {
+          "group": 50,
+          "rows": 6,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.13795742952493628,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.13493157752067475,
+              "prediction_rms_Nm": 0.0106763104099843,
+              "inner_product": 0.3190034786831667,
+              "explained_power": 0.043385393028750885
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.2621146587226082,
+              "prediction_rms_Nm": 0.2467117517781106,
+              "inner_product": 0.16445732310610098,
+              "explained_power": -2.609877223864128
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.26436340641166134,
+              "prediction_rms_Nm": 0.25097870457593047,
+              "inner_product": 0.1752313388932399,
+              "explained_power": -2.672083015897756
+            },
+            "C16_full": {
+              "rmse_Nm": 0.4121958509047517,
+              "prediction_rms_Nm": 0.41182895391865815,
+              "inner_product": 0.16483292278204317,
+              "explained_power": -7.927236581315723
+            }
+          }
+        },
+        {
+          "group": 86,
+          "rows": 5,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.12994932748894697,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.12587268837506269,
+              "prediction_rms_Nm": 0.011820681891506623,
+              "inner_product": 0.3849458093164322,
+              "explained_power": 0.061757841891648235
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.26000279673239235,
+              "prediction_rms_Nm": 0.2078948860005467,
+              "inner_product": -0.13870295892606346,
+              "explained_power": -3.0032062534338433
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.2565488849036851,
+              "prediction_rms_Nm": 0.20644316946385757,
+              "inner_product": -0.11763680018837357,
+              "explained_power": -2.8975544404663496
+            },
+            "C16_full": {
+              "rmse_Nm": 0.3469864385255841,
+              "prediction_rms_Nm": 0.29522389104660424,
+              "inner_product": -0.2131627655472162,
+              "explained_power": -6.129793147290598
+            }
+          }
+        },
+        {
+          "group": 93,
+          "rows": 3,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.18641014961548077,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.19518429669432114,
+              "prediction_rms_Nm": 0.015189100288271577,
+              "inner_product": -0.5505146435168244,
+              "explained_power": -0.09635357778645082
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.25754293366121844,
+              "prediction_rms_Nm": 0.22467571821583368,
+              "inner_product": 0.22562955868787302,
+              "explained_power": -0.9087988592773399
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.25992438289271685,
+              "prediction_rms_Nm": 0.2204405667528324,
+              "inner_product": 0.19203208212508574,
+              "explained_power": -0.9442626489210868
+            },
+            "C16_full": {
+              "rmse_Nm": 0.2551176319902157,
+              "prediction_rms_Nm": 0.24291093783094292,
+              "inner_product": 0.3165723013701393,
+              "explained_power": -0.8730175219479284
+            }
+          }
+        },
+        {
+          "group": 97,
+          "rows": 100,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.2698813283413633,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.2658541555771891,
+              "prediction_rms_Nm": 0.01934688051421879,
+              "inner_product": 0.24244643698492013,
+              "explained_power": 0.029621360069745806
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.36184142727205254,
+              "prediction_rms_Nm": 0.24913717919996525,
+              "inner_product": 0.029567195103511214,
+              "explained_power": -0.7975910515109821
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.3605344807315229,
+              "prediction_rms_Nm": 0.2523034452817842,
+              "inner_product": 0.047787178724109224,
+              "explained_power": -0.7846289505816064
+            },
+            "C16_full": {
+              "rmse_Nm": 0.4497976935509657,
+              "prediction_rms_Nm": 0.3573655084643537,
+              "inner_product": -0.00918608333510118,
+              "explained_power": -1.777721946712815
+            }
+          }
+        }
+      ]
+    },
+    "0.004": {
+      "rows": 246,
+      "groups": [
+        {
+          "payload": 1,
+          "family": "mixmotion_11point_7",
+          "shards": [
+            "shards/003078",
+            "shards/002982",
+            "shards/001119",
+            "shards/001014"
+          ]
+        },
+        {
+          "payload": 12,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/002211",
+            "shards/002162",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 14,
+          "family": "mixmotion_14point_16",
+          "shards": [
+            "shards/003204",
+            "shards/003107",
+            "shards/001121",
+            "shards/001016"
+          ]
+        },
+        {
+          "payload": 14,
+          "family": "mixmotion_14point_8",
+          "shards": [
+            "shards/003207",
+            "shards/003110",
+            "shards/001124",
+            "shards/001019"
+          ]
+        },
+        {
+          "payload": 17,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/001535",
+            "shards/001506",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "mixmotion_14point_8",
+          "shards": [
+            "shards/001426",
+            "shards/001340",
+            "shards/001124",
+            "shards/001019"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "rotation_5point_1",
+          "shards": [
+            "shards/001436",
+            "shards/001354",
+            "shards/001137",
+            "shards/001034"
+          ]
+        }
+      ],
+      "metrics": {
+        "zero_contrast": {
+          "rmse_Nm": 0.30561044808868365,
+          "prediction_rms_Nm": 0.0,
+          "inner_product": 0.0,
+          "explained_power": -2.220446049250313e-16
+        },
+        "rigid_kinetic": {
+          "rmse_Nm": 0.3029983575876044,
+          "prediction_rms_Nm": 0.0499025020957725,
+          "inner_product": 0.13376415616476386,
+          "explained_power": 0.0170211953563012
+        },
+        "C16_zero_payload_at_observed_states": {
+          "rmse_Nm": 0.37609161032913907,
+          "prediction_rms_Nm": 0.2476609130970022,
+          "inner_product": 0.08778681015299555,
+          "explained_power": -0.514435898579295
+        },
+        "C16_zero_payload_plus_rigid_kinetic": {
+          "rmse_Nm": 0.37555687356183926,
+          "prediction_rms_Nm": 0.25497842024614153,
+          "inner_product": 0.11144679465926466,
+          "explained_power": -0.510132431978467
+        },
+        "C16_full": {
+          "rmse_Nm": 0.5482973317983597,
+          "prediction_rms_Nm": 0.43825798481550693,
+          "inner_product": -0.05660215332918057,
+          "explained_power": -2.218813911402824
+        }
+      },
+      "per_pair": [
+        {
+          "group": 2,
+          "rows": 8,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.12832705238264444,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.12648190086198738,
+              "prediction_rms_Nm": 0.030178239225791655,
+              "inner_product": 0.17828553492253144,
+              "explained_power": 0.028550274067703163
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.22680042595644676,
+              "prediction_rms_Nm": 0.2049358268102797,
+              "inner_product": 0.13361996443998725,
+              "explained_power": -2.123570367262254
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.2267162229131119,
+              "prediction_rms_Nm": 0.20818595744838458,
+              "inner_product": 0.15737786455833588,
+              "explained_power": -2.121251453566001
+            },
+            "C16_full": {
+              "rmse_Nm": 0.26240462727172714,
+              "prediction_rms_Nm": 0.23049054458650958,
+              "inner_product": 0.012467557134371131,
+              "explained_power": -3.181253904769915
+            }
+          }
+        },
+        {
+          "group": 50,
+          "rows": 14,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.14998146791883682,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 1.1102230246251565e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.14584293933735423,
+              "prediction_rms_Nm": 0.01288762142510008,
+              "inner_product": 0.35965787169891367,
+              "explained_power": 0.05442579256887037
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.23310779102824053,
+              "prediction_rms_Nm": 0.24333005057875753,
+              "inner_product": 0.3749104447791727,
+              "explained_power": -1.4156742955584072
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.23603785734448104,
+              "prediction_rms_Nm": 0.2489468013992046,
+              "inner_product": 0.3850706715042762,
+              "explained_power": -1.4767839661154172
+            },
+            "C16_full": {
+              "rmse_Nm": 0.38526678715325574,
+              "prediction_rms_Nm": 0.4127252764976586,
+              "inner_product": 0.35868560155284784,
+              "explained_power": -5.5985413523721
+            }
+          }
+        },
+        {
+          "group": 63,
+          "rows": 23,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.13659656107803161,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.13233525175841535,
+              "prediction_rms_Nm": 0.021264342985202172,
+              "inner_product": 0.2751074237868926,
+              "explained_power": 0.06141941953763075
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.2638679068506747,
+              "prediction_rms_Nm": 0.24971843632532362,
+              "inner_product": 0.16698063177922717,
+              "explained_power": -2.7315873524483902
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.2702989848108891,
+              "prediction_rms_Nm": 0.25960111765510413,
+              "inner_product": 0.18315838279584634,
+              "explained_power": -2.915698976581896
+            },
+            "C16_full": {
+              "rmse_Nm": 0.2853194809260021,
+              "prediction_rms_Nm": 0.29306814327644937,
+              "inner_product": 0.2890224419630552,
+              "explained_power": -3.362980971884098
+            }
+          }
+        },
+        {
+          "group": 66,
+          "rows": 16,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.309661023688465,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.30518737996658435,
+              "prediction_rms_Nm": 0.022542602825771266,
+              "inner_product": 0.2334181706475874,
+              "explained_power": 0.028685099039360784
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.38953259776108856,
+              "prediction_rms_Nm": 0.32690904557861233,
+              "inner_product": 0.25201684337050095,
+              "explained_power": -0.5823936227357922
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.39346809264372096,
+              "prediction_rms_Nm": 0.336466641636857,
+              "inner_product": 0.2604966674342988,
+              "explained_power": -0.6145293702599481
+            },
+            "C16_full": {
+              "rmse_Nm": 0.4447253117331547,
+              "prediction_rms_Nm": 0.38816811609356466,
+              "inner_product": 0.20292685287623322,
+              "explained_power": -1.0625790683812122
+            }
+          }
+        },
+        {
+          "group": 86,
+          "rows": 13,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.13306556403684117,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.12845845782009355,
+              "prediction_rms_Nm": 0.038756212006203765,
+              "inner_product": 0.26244438564097766,
+              "explained_power": 0.06804691694753762
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.25238976855994205,
+              "prediction_rms_Nm": 0.2081672758493065,
+              "inner_product": -0.04802429960726065,
+              "explained_power": -2.597593852144868
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.25192185745467743,
+              "prediction_rms_Nm": 0.2140199865437588,
+              "inner_product": 0.0008142352905420306,
+              "explained_power": -2.5842668958177897
+            },
+            "C16_full": {
+              "rmse_Nm": 0.3602424010336953,
+              "prediction_rms_Nm": 0.32569630960121854,
+              "inner_product": -0.06910706495938755,
+              "explained_power": -6.329229125056008
+            }
+          }
+        },
+        {
+          "group": 93,
+          "rows": 8,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.17194133026641037,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.177314375169571,
+              "prediction_rms_Nm": 0.03405171969963265,
+              "inner_product": -0.061234796538770814,
+              "explained_power": -0.06347510305175708
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.2984203159043691,
+              "prediction_rms_Nm": 0.2613815137562673,
+              "inner_product": 0.09823078429392278,
+              "explained_power": -2.012286022921539
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.3047989888851041,
+              "prediction_rms_Nm": 0.26730317514190854,
+              "inner_product": 0.0882539496812361,
+              "explained_power": -2.142436272238719
+            },
+            "C16_full": {
+              "rmse_Nm": 0.3255206756353369,
+              "prediction_rms_Nm": 0.31666491380582007,
+              "inner_product": 0.21926307702939252,
+              "explained_power": -2.5842359508710304
+            }
+          }
+        },
+        {
+          "group": 97,
+          "rows": 164,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.35007924949985064,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.34746417871110896,
+              "prediction_rms_Nm": 0.05820796483503147,
+              "inner_product": 0.1278939523297761,
+              "explained_power": 0.014884078860817662
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.4135912659904194,
+              "prediction_rms_Nm": 0.2428193137781456,
+              "inner_product": 0.06151897739697361,
+              "explained_power": -0.3957575296100577
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.4115676762271536,
+              "prediction_rms_Nm": 0.25000745702554594,
+              "inner_product": 0.08952709979928368,
+              "explained_power": -0.382132817146261
+            },
+            "C16_full": {
+              "rmse_Nm": 0.6234955550738822,
+              "prediction_rms_Nm": 0.48054828950576245,
+              "inner_product": -0.10481058955189225,
+              "explained_power": -2.17200588864506
+            }
+          }
+        }
+      ]
+    },
+    "0.008": {
+      "rows": 290,
+      "groups": [
+        {
+          "payload": 1,
+          "family": "mixmotion_11point_7",
+          "shards": [
+            "shards/003078",
+            "shards/002982",
+            "shards/001119",
+            "shards/001014"
+          ]
+        },
+        {
+          "payload": 12,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/002211",
+            "shards/002162",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 14,
+          "family": "mixmotion_14point_16",
+          "shards": [
+            "shards/003204",
+            "shards/003107",
+            "shards/001121",
+            "shards/001016"
+          ]
+        },
+        {
+          "payload": 14,
+          "family": "mixmotion_14point_8",
+          "shards": [
+            "shards/003207",
+            "shards/003110",
+            "shards/001124",
+            "shards/001019"
+          ]
+        },
+        {
+          "payload": 15,
+          "family": "mixmotion_11point_7",
+          "shards": [
+            "shards/002076",
+            "shards/001980",
+            "shards/001119",
+            "shards/001014"
+          ]
+        },
+        {
+          "payload": 17,
+          "family": "mixmotion_14point_4",
+          "shards": [
+            "shards/001535",
+            "shards/001506",
+            "shards/001123",
+            "shards/001018"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "mixmotion_14point_8",
+          "shards": [
+            "shards/001426",
+            "shards/001340",
+            "shards/001124",
+            "shards/001019"
+          ]
+        },
+        {
+          "payload": 19,
+          "family": "rotation_5point_1",
+          "shards": [
+            "shards/001436",
+            "shards/001354",
+            "shards/001137",
+            "shards/001034"
+          ]
+        }
+      ],
+      "metrics": {
+        "zero_contrast": {
+          "rmse_Nm": 0.3695549351021098,
+          "prediction_rms_Nm": 0.0,
+          "inner_product": 0.0,
+          "explained_power": 2.220446049250313e-16
+        },
+        "rigid_kinetic": {
+          "rmse_Nm": 0.3651419435717847,
+          "prediction_rms_Nm": 0.06925635133480668,
+          "inner_product": 0.15704159186043956,
+          "explained_power": 0.023740140019334555
+        },
+        "C16_zero_payload_at_observed_states": {
+          "rmse_Nm": 0.4280437246745141,
+          "prediction_rms_Nm": 0.25107146590244506,
+          "inner_product": 0.08830281792857643,
+          "explained_power": -0.3415851929967768
+        },
+        "C16_zero_payload_plus_rigid_kinetic": {
+          "rmse_Nm": 0.4251222610913243,
+          "prediction_rms_Nm": 0.2618836400688784,
+          "inner_product": 0.12618751439386103,
+          "explained_power": -0.3233346413104783
+        },
+        "C16_full": {
+          "rmse_Nm": 0.6569244800006291,
+          "prediction_rms_Nm": 0.5355452389828875,
+          "inner_product": -0.020640896333876325,
+          "explained_power": -2.1598966561297472
+        }
+      },
+      "per_pair": [
+        {
+          "group": 2,
+          "rows": 16,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.12438346050723142,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.1236400889645126,
+              "prediction_rms_Nm": 0.022265035031245956,
+              "inner_product": 0.12278921724531572,
+              "explained_power": 0.011917182207952792
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.215794680468004,
+              "prediction_rms_Nm": 0.19994422158859793,
+              "inner_product": 0.17856213632873996,
+              "explained_power": -2.0099286368075804
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.21748004487475395,
+              "prediction_rms_Nm": 0.2034404654454256,
+              "inner_product": 0.18893180121623385,
+              "explained_power": -2.0571275395942226
+            },
+            "C16_full": {
+              "rmse_Nm": 0.27932166425151334,
+              "prediction_rms_Nm": 0.2385953981712744,
+              "inner_product": -0.09471176306420148,
+              "explained_power": -4.042941978543168
+            }
+          }
+        },
+        {
+          "group": 50,
+          "rows": 16,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.14773164261662675,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 1.1102230246251565e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.14361542787808157,
+              "prediction_rms_Nm": 0.02217694543812232,
+              "inner_product": 0.25808026594142297,
+              "explained_power": 0.05494923182472
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.23806387645102584,
+              "prediction_rms_Nm": 0.23623227970470861,
+              "inner_product": 0.30023681638553174,
+              "explained_power": -1.5968086468644507
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.23915413117793316,
+              "prediction_rms_Nm": 0.24086727294847296,
+              "inner_product": 0.3182211457132003,
+              "explained_power": -1.6206481801064108
+            },
+            "C16_full": {
+              "rmse_Nm": 0.3708606324724513,
+              "prediction_rms_Nm": 0.395188483596221,
+              "inner_product": 0.34652012020047823,
+              "explained_power": -5.301942202528955
+            }
+          }
+        },
+        {
+          "group": 63,
+          "rows": 23,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.13659656107803161,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.13233525175841535,
+              "prediction_rms_Nm": 0.021264342985202172,
+              "inner_product": 0.2751074237868926,
+              "explained_power": 0.06141941953763075
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.2638679068506747,
+              "prediction_rms_Nm": 0.24971843632532362,
+              "inner_product": 0.16698063177922717,
+              "explained_power": -2.7315873524483902
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.2702989848108891,
+              "prediction_rms_Nm": 0.25960111765510413,
+              "inner_product": 0.18315838279584634,
+              "explained_power": -2.915698976581896
+            },
+            "C16_full": {
+              "rmse_Nm": 0.2853194809260021,
+              "prediction_rms_Nm": 0.29306814327644937,
+              "inner_product": 0.2890224419630552,
+              "explained_power": -3.362980971884098
+            }
+          }
+        },
+        {
+          "group": 66,
+          "rows": 19,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.31602359280139797,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 1.1102230246251565e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.31804235928726327,
+              "prediction_rms_Nm": 0.040180469081227035,
+              "inner_product": 0.01316898836587237,
+              "explained_power": -0.012816856063828652
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.41095026327639894,
+              "prediction_rms_Nm": 0.340936210617536,
+              "inner_product": 0.2191692433700355,
+              "explained_power": -0.6909840597802535
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.41318523645414224,
+              "prediction_rms_Nm": 0.3441131491946381,
+              "inner_product": 0.21868349879822305,
+              "explained_power": -0.7094270750132299
+            },
+            "C16_full": {
+              "rmse_Nm": 0.4715322720870653,
+              "prediction_rms_Nm": 0.39073639276237043,
+              "inner_product": 0.12229789000514633,
+              "explained_power": -1.226300740948631
+            }
+          }
+        },
+        {
+          "group": 73,
+          "rows": 1,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.2220157617947131,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.17514973785144633,
+              "prediction_rms_Nm": 0.0563097350365607,
+              "inner_product": 0.8712592459843874,
+              "explained_power": 0.37762610593925205
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.5406309312593077,
+              "prediction_rms_Nm": 0.5764489827633831,
+              "inner_product": 0.34889081901536295,
+              "explained_power": -4.9297196814049435
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.5243930107190731,
+              "prediction_rms_Nm": 0.5803309483918558,
+              "inner_product": 0.4310956286230952,
+              "explained_power": -4.578869127049576
+            },
+            "C16_full": {
+              "rmse_Nm": 1.2016790630142147,
+              "prediction_rms_Nm": 1.1853309628647501,
+              "inner_product": 0.019508731143616502,
+              "explained_power": -28.296070578033845
+            }
+          }
+        },
+        {
+          "group": 86,
+          "rows": 18,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.13126875359974177,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": -2.220446049250313e-16
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.12702075010627562,
+              "prediction_rms_Nm": 0.03362093073415065,
+              "inner_product": 0.25236699223167774,
+              "explained_power": 0.06367499210327976
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.23062549952441952,
+              "prediction_rms_Nm": 0.18541554609011243,
+              "inner_product": -0.03241080732452757,
+              "explained_power": -2.086682253896312
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.23003343800940254,
+              "prediction_rms_Nm": 0.19061418625310023,
+              "inner_product": 0.012986156354709505,
+              "explained_power": -2.070854342498549
+            },
+            "C16_full": {
+              "rmse_Nm": 0.36599394104460037,
+              "prediction_rms_Nm": 0.33518112368068487,
+              "inner_product": -0.049702409034689594,
+              "explained_power": -6.77365152570095
+            }
+          }
+        },
+        {
+          "group": 93,
+          "rows": 11,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.17206754773236507,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.17863134291900518,
+              "prediction_rms_Nm": 0.031064791604770655,
+              "inner_product": -0.12505460789719605,
+              "explained_power": -0.07774840255355109
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.2995878147038009,
+              "prediction_rms_Nm": 0.26660347233017945,
+              "inner_product": 0.11915071744256779,
+              "explained_power": -2.031449596119275
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.3062010647562306,
+              "prediction_rms_Nm": 0.2715635291867991,
+              "inner_product": 0.10266916088021322,
+              "explained_power": -2.1667622157990625
+            },
+            "C16_full": {
+              "rmse_Nm": 0.3411370854540873,
+              "prediction_rms_Nm": 0.3447415459176528,
+              "inner_product": 0.27039864146204556,
+              "explained_power": -2.9306097836129004
+            }
+          }
+        },
+        {
+          "group": 97,
+          "rows": 186,
+          "metrics": {
+            "zero_contrast": {
+              "rmse_Nm": 0.4399228879489271,
+              "prediction_rms_Nm": 0.0,
+              "inner_product": 0.0,
+              "explained_power": 0.0
+            },
+            "rigid_kinetic": {
+              "rmse_Nm": 0.4343698681894976,
+              "prediction_rms_Nm": 0.08360043019095836,
+              "inner_product": 0.16102125924967015,
+              "explained_power": 0.025086090435405994
+            },
+            "C16_zero_payload_at_observed_states": {
+              "rmse_Nm": 0.48877326561871626,
+              "prediction_rms_Nm": 0.24726916511498873,
+              "inner_product": 0.07250861476703094,
+              "explained_power": -0.23441665100861941
+            },
+            "C16_zero_payload_plus_rigid_kinetic": {
+              "rmse_Nm": 0.48391640546216663,
+              "prediction_rms_Nm": 0.261269629285494,
+              "inner_product": 0.1201463456204061,
+              "explained_power": -0.21000614467641698
+            },
+            "C16_full": {
+              "rmse_Nm": 0.7706593521698568,
+              "prediction_rms_Nm": 0.6141436425963488,
+              "inner_product": -0.04295586827071833,
+              "explained_power": -2.068822649083719
+            }
+          }
+        }
+      ]
+    }
+  },
+  "archived_C16_sha256": "83a673cf16fb9103932e4a1d38084d2620fd259b0e03b7ab93327de388bddb5e",
+  "original_TEST_read": false
+}

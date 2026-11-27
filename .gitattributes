@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.npz binary
+*.obj -text -diff
+figure_sources/panda_meshes/LICENSE.txt -text
+evidence/followup/panda_contact_free.xml -text -diff
+evidence/followup/CADelac_LICENSE.txt -text

@@ -1,0 +1,815 @@
+{
+  "mujoco": "3.2.6",
+  "xml_sha256": "2935f86334a1d27a660a5643f03e41fc899ce1d34c6bf7b4105d146249630cda",
+  "numpy": "2.4.6",
+  "rows": [
+    {
+      "trial": 0,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.005225518450670511,
+      "corrected_within_subspace_max_abs_Nm": 1.9262369477246466e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.008112209279086421,
+          "start_rmse": 0.12197327889271758,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.058888217603448104,
+          "start_rmse": 0.1842041432038379,
+          "nfev": 842,
+          "accepted_steps": 29,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.0053015503180395005,
+        "R_A": 0.005554337930579378
+      }
+    },
+    {
+      "trial": 0,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.01045171834013659,
+      "corrected_within_subspace_max_abs_Nm": 1.9262369477246466e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.010604141737478964,
+          "start_rmse": 0.13617322158953027,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.013773517403453363,
+          "start_rmse": 0.17342671311685687,
+          "nfev": 1575,
+          "accepted_steps": 54,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.00923183422733094,
+        "R_A": 0.009730956925304358
+      }
+    },
+    {
+      "trial": 1,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.0050447042614664775,
+      "corrected_within_subspace_max_abs_Nm": 1.8492152253912764e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.12348586755857911,
+          "start_rmse": 0.2610110112711968,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.00801901357357166,
+          "start_rmse": 0.12999436121520572,
+          "nfev": 174,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "gradient"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.006343100962155041,
+        "R_A": 0.006700317515646389
+      }
+    },
+    {
+      "trial": 1,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.010089358375592614,
+      "corrected_within_subspace_max_abs_Nm": 1.8492152253912764e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.10352679703329196,
+          "start_rmse": 0.29051697862381476,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.010395542631356008,
+          "start_rmse": 0.08730733918177448,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.011478990299584085,
+        "R_A": 0.01246246449625203
+      }
+    },
+    {
+      "trial": 2,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.0053136966570404565,
+      "corrected_within_subspace_max_abs_Nm": 2.0261570199409107e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.12019257401476263,
+          "start_rmse": 0.6090332668547818,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.007997930644207491,
+          "start_rmse": 0.0808234089653799,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.006534226645947108,
+        "R_A": 0.006785360429221303
+      }
+    },
+    {
+      "trial": 2,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.010627820627459941,
+      "corrected_within_subspace_max_abs_Nm": 2.0261570199409107e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.010399361377095788,
+          "start_rmse": 0.10052519651069712,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.01039936137709573,
+          "start_rmse": 0.3006303481632762,
+          "nfev": 610,
+          "accepted_steps": 21,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.010819739964801577,
+        "R_A": 0.010946769240944553
+      }
+    },
+    {
+      "trial": 3,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.004949278736729603,
+      "corrected_within_subspace_max_abs_Nm": 2.1538326677728037e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.007976509794188517,
+          "start_rmse": 0.3858042940956227,
+          "nfev": 470,
+          "accepted_steps": 16,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.00797650979418853,
+          "start_rmse": 0.05542202646960674,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.0056337505786930335,
+        "R_A": 0.006013391300778195
+      }
+    },
+    {
+      "trial": 3,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.009898733339094636,
+      "corrected_within_subspace_max_abs_Nm": 2.1538326677728037e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.010304117774991859,
+          "start_rmse": 0.06673644702463201,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.010304117774991647,
+          "start_rmse": 0.7261646000888162,
+          "nfev": 407,
+          "accepted_steps": 14,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.009699036109844074,
+        "R_A": 0.010274079959640352
+      }
+    },
+    {
+      "trial": 4,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.0045136044426009655,
+      "corrected_within_subspace_max_abs_Nm": 3.6224495625347686e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.12656015436970372,
+          "start_rmse": 0.7860038609468097,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.0079114899269769,
+          "start_rmse": 0.0785136168661395,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.0051531240474533965,
+        "R_A": 0.0050507274484226155
+      }
+    },
+    {
+      "trial": 4,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.009026967632575524,
+      "corrected_within_subspace_max_abs_Nm": 3.6224495625347686e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.009969460093507599,
+          "start_rmse": 0.08746196862566921,
+          "nfev": 180,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.12649580975222516,
+          "start_rmse": 0.20624193289682494,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.008255294372308491,
+        "R_A": 0.008207367207372923
+      }
+    },
+    {
+      "trial": 5,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.005169519958448258,
+      "corrected_within_subspace_max_abs_Nm": 2.475797344914099e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.00795441460731939,
+          "start_rmse": 0.16584739407200547,
+          "nfev": 204,
+          "accepted_steps": 7,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.10311356270628297,
+          "start_rmse": 0.20176546294267836,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.004270652224089934,
+        "R_A": 0.004473297250258038
+      }
+    },
+    {
+      "trial": 5,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 31,
+      "contrast_bias_RMS_Nm": 0.010338893120376936,
+      "corrected_within_subspace_max_abs_Nm": 2.475797344914099e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.010267419704324925,
+          "start_rmse": 0.1659054946523173,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.010267419704324984,
+          "start_rmse": 0.2637000836373017,
+          "nfev": 529,
+          "accepted_steps": 18,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.00826946667024498,
+        "R_A": 0.008323176445592165
+      }
+    },
+    {
+      "trial": 6,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.004692728739777522,
+      "corrected_within_subspace_max_abs_Nm": 2.220446049250313e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.12492465043716226,
+          "start_rmse": 0.21598319318695108,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.007935158663863118,
+          "start_rmse": 0.10331894913889764,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.00431269138181095,
+        "R_A": 0.004588086776285826
+      }
+    },
+    {
+      "trial": 6,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.00938449671853983,
+      "corrected_within_subspace_max_abs_Nm": 2.220446049250313e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.11362449474126694,
+          "start_rmse": 0.20883712215293077,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        },
+        {
+          "train_rmse": 0.010268647943361872,
+          "start_rmse": 0.1270553543865107,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.006962599811255277,
+        "R_A": 0.007356084545928563
+      }
+    },
+    {
+      "trial": 7,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.005233688180758278,
+      "corrected_within_subspace_max_abs_Nm": 2.5091040356528538e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.007955030789380431,
+          "start_rmse": 0.20725385015208517,
+          "nfev": 441,
+          "accepted_steps": 15,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.007955030789380453,
+          "start_rmse": 0.1465670154961428,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.006592427626861805,
+        "R_A": 0.006460676678042917
+      }
+    },
+    {
+      "trial": 7,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.010468580114625736,
+      "corrected_within_subspace_max_abs_Nm": 2.5091040356528538e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.010095230024406196,
+          "start_rmse": 0.20483718614153282,
+          "nfev": 412,
+          "accepted_steps": 14,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.0100952300244062,
+          "start_rmse": 0.12674431445232082,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.010857210324311849,
+        "R_A": 0.010420723971070293
+      }
+    },
+    {
+      "trial": 8,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.004920807701692383,
+      "corrected_within_subspace_max_abs_Nm": 2.3592239273284576e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.008027555469865817,
+          "start_rmse": 0.07880460709798429,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.008027555469865678,
+          "start_rmse": 0.20439772120680902,
+          "nfev": 320,
+          "accepted_steps": 11,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.0035834495758025986,
+        "R_A": 0.003763004708176118
+      }
+    },
+    {
+      "trial": 8,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.009841286419739756,
+      "corrected_within_subspace_max_abs_Nm": 2.3592239273284576e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.010208500154767357,
+          "start_rmse": 0.09148559826659709,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.010208500154767043,
+          "start_rmse": 0.2049168769461846,
+          "nfev": 320,
+          "accepted_steps": 11,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.007071014410186484,
+        "R_A": 0.007663966111136119
+      }
+    },
+    {
+      "trial": 9,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.00459988450026898,
+      "corrected_within_subspace_max_abs_Nm": 2.0594637106796654e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.007950624757111373,
+          "start_rmse": 0.5112242753909223,
+          "nfev": 382,
+          "accepted_steps": 13,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.007950624757111375,
+          "start_rmse": 0.04049379205508593,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.008482505259191928,
+        "R_A": 0.009613764721928144
+      }
+    },
+    {
+      "trial": 9,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.009200850145917329,
+      "corrected_within_subspace_max_abs_Nm": 2.0594637106796654e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.00989724484027412,
+          "start_rmse": 0.2527160517684602,
+          "nfev": 378,
+          "accepted_steps": 13,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.00989724484027418,
+          "start_rmse": 0.05832925373877469,
+          "nfev": 146,
+          "accepted_steps": 5,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.012791185711292324,
+        "R_A": 0.014206571099540532
+      }
+    },
+    {
+      "trial": 10,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.004457493259458092,
+      "corrected_within_subspace_max_abs_Nm": 2.475797344914099e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.05850635833648442,
+          "start_rmse": 0.9937509426332782,
+          "nfev": 900,
+          "accepted_steps": 31,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.007686402721766469,
+          "start_rmse": 0.09818382689502791,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.007464623277631142,
+        "R_A": 0.007719595312370874
+      }
+    },
+    {
+      "trial": 10,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.008916245927302674,
+      "corrected_within_subspace_max_abs_Nm": 2.475797344914099e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.009567666859259803,
+          "start_rmse": 0.08636885273043295,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.12012644909868546,
+          "start_rmse": 0.24365307401196448,
+          "nfev": 1596,
+          "accepted_steps": 55,
+          "crossed_initial_hemisphere": true,
+          "termination": "evaluation_budget"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.012052441188240878,
+        "R_A": 0.012160198234480238
+      }
+    },
+    {
+      "trial": 11,
+      "mode": "joint",
+      "level": 0.5,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.004889598973925273,
+      "corrected_within_subspace_max_abs_Nm": 2.7977620220553945e-14,
+      "winner": 1,
+      "fits": [
+        {
+          "train_rmse": 0.007918825876274207,
+          "start_rmse": 0.19869371247740114,
+          "nfev": 610,
+          "accepted_steps": 21,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.007918825876274205,
+          "start_rmse": 0.09777544422550714,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.005439076994820117,
+        "R_A": 0.005837446644664349
+      }
+    },
+    {
+      "trial": 11,
+      "mode": "joint",
+      "level": 1.0,
+      "sigma": 0.01,
+      "eligible_poses": 32,
+      "contrast_bias_RMS_Nm": 0.009778244674089371,
+      "corrected_within_subspace_max_abs_Nm": 2.7977620220553945e-14,
+      "winner": 0,
+      "fits": [
+        {
+          "train_rmse": 0.009937554005196084,
+          "start_rmse": 0.1089127074435172,
+          "nfev": 175,
+          "accepted_steps": 6,
+          "crossed_initial_hemisphere": false,
+          "termination": "relative_objective"
+        },
+        {
+          "train_rmse": 0.009937554005196091,
+          "start_rmse": 0.22840484968062297,
+          "nfev": 1082,
+          "accepted_steps": 37,
+          "crossed_initial_hemisphere": true,
+          "termination": "relative_objective"
+        }
+      ],
+      "heldout": {
+        "R_M": 0.009415851665661546,
+        "R_A": 0.010112592760772664
+      }
+    }
+  ],
+  "levels": {
+    "cross_load_q": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03
+    ],
+    "sign_pair_q": [
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "sign_pair_v": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "off_space": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1
+    ]
+  },
+  "combined_levels": {
+    "cross_load_q": 0.003,
+    "sign_pair_q": 0.0003,
+    "sign_pair_v": 0.01,
+    "off_space": 0.003
+  }
+}

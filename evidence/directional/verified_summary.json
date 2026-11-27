@@ -1,0 +1,1036 @@
+{
+  "benchmark_case_count": 648,
+  "configurations_per_case": 128,
+  "payloads_per_case": 48,
+  "grouped": [
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 1.1232209452373968e-13,
+      "p90_RM_percent": 1.2763123041835518e-13,
+      "worst_RM_percent": 1.4505345021984495e-13,
+      "median_unprobed_percent": 1.1732907507509215e-13,
+      "worst_unprobed_percent": 1.5153822525228056e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 1.150047026420591e-13,
+      "p90_RM_percent": 1.2741407888828673e-13,
+      "worst_RM_percent": 1.80036858729924e-13,
+      "median_unprobed_percent": 1.2043471658290912e-13,
+      "worst_unprobed_percent": 2.010531247146563e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 3.1028846222098836,
+      "p90_RM_percent": 3.968249877371218,
+      "worst_RM_percent": 4.666782946063307,
+      "median_unprobed_percent": 3.397431468901821,
+      "worst_unprobed_percent": 4.650976774060791
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 1.169508026136935e-13,
+      "p90_RM_percent": 1.251946541378728e-13,
+      "worst_RM_percent": 1.608246308903729e-13,
+      "median_unprobed_percent": 1.2479092649647746e-13,
+      "worst_unprobed_percent": 1.7087102671652987e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 1.196795306795129e-13,
+      "p90_RM_percent": 1.3929738060408576e-13,
+      "worst_RM_percent": 1.5743488606155645e-13,
+      "median_unprobed_percent": 1.2121947064400206e-13,
+      "worst_unprobed_percent": 1.717037741273618e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 3.1080050905443772,
+      "p90_RM_percent": 4.017048218965859,
+      "worst_RM_percent": 4.677207146728043,
+      "median_unprobed_percent": 3.4158900539604105,
+      "worst_unprobed_percent": 4.6392136338911385
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 1.1678011631987867e-13,
+      "p90_RM_percent": 1.3575987525971292e-13,
+      "worst_RM_percent": 1.4185256601245108e-13,
+      "median_unprobed_percent": 1.2453410972925847e-13,
+      "worst_unprobed_percent": 1.488067721605761e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 1.1282991910676717e-13,
+      "p90_RM_percent": 1.2253229690492322e-13,
+      "worst_RM_percent": 1.5990906621511677e-13,
+      "median_unprobed_percent": 1.14326917958858e-13,
+      "worst_unprobed_percent": 1.7387879740311148e-13
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 3.0967506959078777,
+      "p90_RM_percent": 3.949426213903437,
+      "worst_RM_percent": 4.673689046071186,
+      "median_unprobed_percent": 3.4069597276730903,
+      "worst_unprobed_percent": 4.64573611756756
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 34.63222985715699,
+      "p90_RM_percent": 46.138564324970154,
+      "worst_RM_percent": 55.718820600963994,
+      "median_unprobed_percent": 34.6619613992333,
+      "worst_unprobed_percent": 58.30063447149803
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 0.04239052556861728,
+      "p90_RM_percent": 0.05541446343179391,
+      "worst_RM_percent": 0.059800266878311706,
+      "median_unprobed_percent": 0.04895322994778435,
+      "worst_unprobed_percent": 0.057665520014866814
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 3.1040113678555485,
+      "p90_RM_percent": 3.9681909508268505,
+      "worst_RM_percent": 4.667129164338797,
+      "median_unprobed_percent": 3.39893413222817,
+      "worst_unprobed_percent": 4.651466345215791
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.04270612230534538,
+      "p90_RM_percent": 0.05041747174741398,
+      "worst_RM_percent": 0.054423254886662706,
+      "median_unprobed_percent": 0.045890891113563946,
+      "worst_unprobed_percent": 0.06437021051733344
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.04270687275713359,
+      "p90_RM_percent": 0.050417533059092294,
+      "worst_RM_percent": 0.054423170736233414,
+      "median_unprobed_percent": 0.04589077227198843,
+      "worst_unprobed_percent": 0.06437006950909324
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 3.108056763372861,
+      "p90_RM_percent": 4.016701593575974,
+      "worst_RM_percent": 4.6762911082885745,
+      "median_unprobed_percent": 3.417565084543538,
+      "worst_unprobed_percent": 4.6390118905246345
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 8.813546996445774,
+      "p90_RM_percent": 37.45069802807299,
+      "worst_RM_percent": 38.21011501638563,
+      "median_unprobed_percent": 8.97943198624929,
+      "worst_unprobed_percent": 41.623261214700584
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 0.030382849756252158,
+      "p90_RM_percent": 0.041322614987061454,
+      "worst_RM_percent": 0.0425232874866411,
+      "median_unprobed_percent": 0.03253901636447457,
+      "worst_unprobed_percent": 0.042919790144551453
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 3.0960059247595995,
+      "p90_RM_percent": 3.9492678970279154,
+      "worst_RM_percent": 4.674287340544037,
+      "median_unprobed_percent": 3.4067509012595907,
+      "worst_unprobed_percent": 4.64618876300572
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 30.100513658479933,
+      "p90_RM_percent": 42.15023318629072,
+      "worst_RM_percent": 57.793236838118176,
+      "median_unprobed_percent": 32.305260623160756,
+      "worst_unprobed_percent": 58.71042777193687
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 0.4519600614751745,
+      "p90_RM_percent": 0.5400470781071173,
+      "worst_RM_percent": 0.5983299308339968,
+      "median_unprobed_percent": 0.45131997902396226,
+      "worst_unprobed_percent": 0.6145255311511251
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 3.112411502632549,
+      "p90_RM_percent": 3.959437362866061,
+      "worst_RM_percent": 4.6878344079813985,
+      "median_unprobed_percent": 3.3817442937403905,
+      "worst_unprobed_percent": 4.678215308439496
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 3.4716091089173298,
+      "p90_RM_percent": 33.12919501749073,
+      "worst_RM_percent": 39.12215052025889,
+      "median_unprobed_percent": 3.7663637160491454,
+      "worst_unprobed_percent": 41.293964661981015
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.402399482336858,
+      "p90_RM_percent": 0.48231893794270897,
+      "worst_RM_percent": 0.5032055428996822,
+      "median_unprobed_percent": 0.4514028043213273,
+      "worst_unprobed_percent": 0.5837137207473052
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 3.1082459583080544,
+      "p90_RM_percent": 4.069357932698911,
+      "worst_RM_percent": 4.66385809375062,
+      "median_unprobed_percent": 3.408085307708607,
+      "worst_unprobed_percent": 4.632769038491503
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 25.91587483340555,
+      "p90_RM_percent": 39.64959010492166,
+      "worst_RM_percent": 71.58854072412699,
+      "median_unprobed_percent": 26.807655120182165,
+      "worst_unprobed_percent": 72.30345307945164
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 0.34884601506792673,
+      "p90_RM_percent": 0.3905772781863325,
+      "worst_RM_percent": 0.4220897255284842,
+      "median_unprobed_percent": 0.3575384471493164,
+      "worst_unprobed_percent": 0.44049954653663975
+    },
+    {
+      "robot": "Panda",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 56,
+      "median_RM_percent": 3.1077756048584844,
+      "p90_RM_percent": 3.958552032291085,
+      "worst_RM_percent": 4.682381117690352,
+      "median_unprobed_percent": 3.3915512753318335,
+      "worst_unprobed_percent": 4.652374672108818
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 1.0982575682912783e-13,
+      "p90_RM_percent": 1.2149829947111202e-13,
+      "worst_RM_percent": 1.2561993732588783e-13,
+      "median_unprobed_percent": 1.1551696661628255e-13,
+      "worst_unprobed_percent": 1.3221780448240824e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 1.0978320871090575e-13,
+      "p90_RM_percent": 1.1840303164031493e-13,
+      "worst_RM_percent": 1.2032946281668183e-13,
+      "median_unprobed_percent": 1.1155792998671254e-13,
+      "worst_unprobed_percent": 1.2788530941150138e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 2.531239349230754,
+      "p90_RM_percent": 2.948775024256808,
+      "worst_RM_percent": 3.0954937515598644,
+      "median_unprobed_percent": 2.3759228320353687,
+      "worst_unprobed_percent": 3.1610387159406415
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 1.1775317796699893e-13,
+      "p90_RM_percent": 1.4920236740984012e-13,
+      "worst_RM_percent": 1.6521666336634408e-13,
+      "median_unprobed_percent": 1.3083461627081036e-13,
+      "worst_unprobed_percent": 1.5227454058425715e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 1.1733622557054195e-13,
+      "p90_RM_percent": 1.3248113642735587e-13,
+      "worst_RM_percent": 1.4500999760829304e-13,
+      "median_unprobed_percent": 1.1345740241169178e-13,
+      "worst_unprobed_percent": 1.533785911355214e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 2.504017455914078,
+      "p90_RM_percent": 2.9694173536882866,
+      "worst_RM_percent": 3.138803959573671,
+      "median_unprobed_percent": 2.4000503424355495,
+      "worst_unprobed_percent": 3.0704645933287047
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 1.0534019104557297e-13,
+      "p90_RM_percent": 1.197429149796986e-13,
+      "worst_RM_percent": 1.2501659747364706e-13,
+      "median_unprobed_percent": 1.0892747678303651e-13,
+      "worst_unprobed_percent": 1.3654926395629354e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 1.0878796179124197e-13,
+      "p90_RM_percent": 1.159456782778971e-13,
+      "worst_RM_percent": 1.1637260616363114e-13,
+      "median_unprobed_percent": 1.114557314029665e-13,
+      "worst_unprobed_percent": 1.203009261244468e-13
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.0,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 2.5209524627737854,
+      "p90_RM_percent": 2.942365948774228,
+      "worst_RM_percent": 3.094050856745695,
+      "median_unprobed_percent": 2.3793344740481093,
+      "worst_unprobed_percent": 3.1047513626368084
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 12.900302997124363,
+      "p90_RM_percent": 27.74141990330767,
+      "worst_RM_percent": 38.88538934445004,
+      "median_unprobed_percent": 13.544392576988404,
+      "worst_unprobed_percent": 38.01770723863929
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 0.03202371282030132,
+      "p90_RM_percent": 0.040218392384211,
+      "worst_RM_percent": 0.044116344165355696,
+      "median_unprobed_percent": 0.03750660463489053,
+      "worst_unprobed_percent": 0.05141752560434284
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 2.532691336164705,
+      "p90_RM_percent": 2.9483548592206708,
+      "worst_RM_percent": 3.0956208260495304,
+      "median_unprobed_percent": 2.3750365987611968,
+      "worst_unprobed_percent": 3.159046300151268
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.027172472456696583,
+      "p90_RM_percent": 0.03615404344313925,
+      "worst_RM_percent": 0.03775713455095785,
+      "median_unprobed_percent": 0.030004982339744628,
+      "worst_unprobed_percent": 0.038460092513828446
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.02717259208007332,
+      "p90_RM_percent": 0.03615383697707396,
+      "worst_RM_percent": 0.037757109662129695,
+      "median_unprobed_percent": 0.030004923987604657,
+      "worst_unprobed_percent": 0.03845991209917848
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 2.504452553002498,
+      "p90_RM_percent": 2.970397488030716,
+      "worst_RM_percent": 3.138968302189054,
+      "median_unprobed_percent": 2.4024750393519354,
+      "worst_unprobed_percent": 3.0707879363242188
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 0.28264812837154896,
+      "p90_RM_percent": 25.99208399100823,
+      "worst_RM_percent": 31.260525089333395,
+      "median_unprobed_percent": 0.2829734272568066,
+      "worst_unprobed_percent": 33.8504310513104
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 0.02023031057157465,
+      "p90_RM_percent": 0.022400223713329535,
+      "worst_RM_percent": 0.022692783217612214,
+      "median_unprobed_percent": 0.02253611519002822,
+      "worst_unprobed_percent": 0.02744367649347977
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.001,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 2.5215659850714367,
+      "p90_RM_percent": 2.942621488084937,
+      "worst_RM_percent": 3.093145595848962,
+      "median_unprobed_percent": 2.379878671400606,
+      "worst_unprobed_percent": 3.103968844452049
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 18.76469280118877,
+      "p90_RM_percent": 37.53000215922208,
+      "worst_RM_percent": 39.23126407379732,
+      "median_unprobed_percent": 18.07927209856921,
+      "worst_unprobed_percent": 36.70063147397432
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 0.35308371956395457,
+      "p90_RM_percent": 0.38157040148682225,
+      "worst_RM_percent": 0.409905931568432,
+      "median_unprobed_percent": 0.37856703011910187,
+      "worst_unprobed_percent": 0.431936191135341
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_3dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 24,
+      "median_RM_percent": 2.5173599150251484,
+      "p90_RM_percent": 2.9462764611089574,
+      "worst_RM_percent": 3.0933588530360425,
+      "median_unprobed_percent": 2.3765775924690526,
+      "worst_unprobed_percent": 3.158034163850984
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "from_torques",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 4.46522058041912,
+      "p90_RM_percent": 33.167784301638896,
+      "worst_RM_percent": 42.56414283665445,
+      "median_unprobed_percent": 4.005844082628842,
+      "worst_unprobed_percent": 38.80021780216586
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "from_URDF",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 0.2762008787643743,
+      "p90_RM_percent": 0.35737023306299454,
+      "worst_RM_percent": 0.4358301081600185,
+      "median_unprobed_percent": 0.2926049563584466,
+      "worst_unprobed_percent": 0.3882050514183953
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "4loads_2dirs",
+      "start": "mounting_only",
+      "reads_per_configuration": 20,
+      "median_RM_percent": 2.5095843155496556,
+      "p90_RM_percent": 2.9721810662662627,
+      "worst_RM_percent": 3.154799582302211,
+      "median_unprobed_percent": 2.4010487717132163,
+      "worst_unprobed_percent": 3.072098088742261
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "from_torques",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 27.807018483178762,
+      "p90_RM_percent": 32.71935437966813,
+      "worst_RM_percent": 34.77784084050677,
+      "median_unprobed_percent": 26.828761233787773,
+      "worst_unprobed_percent": 34.80140243702593
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "from_URDF",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 0.19245669901840115,
+      "p90_RM_percent": 0.2054865313587481,
+      "worst_RM_percent": 0.20855050184078455,
+      "median_unprobed_percent": 0.20072270462260158,
+      "worst_unprobed_percent": 0.2941366433330052
+    },
+    {
+      "robot": "UR10e",
+      "noise_SD_Nm": 0.01,
+      "arm": "3loads_full",
+      "start": "mounting_only",
+      "reads_per_configuration": 48,
+      "median_RM_percent": 2.515709182164613,
+      "p90_RM_percent": 2.9426593479415843,
+      "worst_RM_percent": 3.0887556402903567,
+      "median_unprobed_percent": 2.3767666330093986,
+      "worst_unprobed_percent": 3.1041007585979927
+    }
+  ],
+  "direct_MuJoCo": {
+    "engine": "3.2.6",
+    "fit_folds": 4,
+    "calibration_configurations": 32,
+    "new_configurations": 128,
+    "new_payloads": 64,
+    "actual_mj_inverse_calls_per_configuration": 24,
+    "full_response_measurement_baseline": 56,
+    "rows": [
+      {
+        "fold": 0,
+        "loads": [
+          0,
+          1,
+          2
+        ],
+        "train_rmse": 2.0446731979996495e-15,
+        "pose_initializations": 32,
+        "geometry": [
+          [
+            [
+              3.940540252865145e-17,
+              -1.0836439313608092e-15,
+              -1.0
+            ],
+            [
+              0.7071067564945016,
+              -0.7071068058785926,
+              1.5905082714829143e-15
+            ],
+            [
+              -2.1911222552348742e-16,
+              -5.347961040248218e-16,
+              -1.0
+            ],
+            [
+              -0.7071067564945023,
+              0.707106805878592,
+              -1.8990378723609992e-16
+            ],
+            [
+              4.795029727992045e-16,
+              8.402795710899892e-16,
+              -1.0
+            ],
+            [
+              -0.707106756494502,
+              0.7071068058785922,
+              1.90091084250523e-15
+            ],
+            [
+              -6.5505252925359855e-16,
+              -4.319414167692109e-16,
+              1.0
+            ]
+          ],
+          [
+            [
+              -0.062225398917316245,
+              -0.06222539457151636,
+              6.497815431211256e-17
+            ],
+            [
+              -0.06222539891731695,
+              -0.06222539457151574,
+              0.5345999999999995
+            ],
+            [
+              -0.062225398917316446,
+              -0.062225394571515796,
+              4.6912244229112696e-17
+            ],
+            [
+              -0.00388908743233204,
+              -0.0038890871607194875,
+              0.21859999999999943
+            ],
+            [
+              -0.062225398917316085,
+              -0.06222539457151585,
+              -8.212399162592823e-17
+            ],
+            [
+              -0.0622253989173161,
+              -0.06222539457151573,
+              -0.1654
+            ],
+            [
+              -1.6919520641479023e-16,
+              5.95360303913745e-17,
+              -8.511567058352808e-32
+            ]
+          ]
+        ],
+        "full_relative_error": 2.246907348432033e-15,
+        "unprobed_relative_error": 2.2457158853300863e-15
+      },
+      {
+        "fold": 1,
+        "loads": [
+          3,
+          4,
+          5
+        ],
+        "train_rmse": 2.2781585267697335e-15,
+        "pose_initializations": 32,
+        "geometry": [
+          [
+            [
+              3.3138231778801447e-15,
+              4.885908444623511e-15,
+              -1.0
+            ],
+            [
+              0.7071067564945017,
+              -0.7071068058785925,
+              -6.086777774672941e-18
+            ],
+            [
+              4.6651208257968515e-15,
+              4.035028681170625e-15,
+              -1.0
+            ],
+            [
+              -0.7071067564945025,
+              0.7071068058785918,
+              -2.4532630813388594e-16
+            ],
+            [
+              5.077446634597459e-15,
+              5.2785327819549674e-15,
+              -1.0
+            ],
+            [
+              -0.7071067564945024,
+              0.7071068058785919,
+              1.3887047051522247e-15
+            ],
+            [
+              -3.282175599004684e-15,
+              -4.282262313599465e-15,
+              1.0
+            ]
+          ],
+          [
+            [
+              -0.06222539891731773,
+              -0.06222539457151525,
+              -5.102315499920358e-16
+            ],
+            [
+              -0.06222539891731889,
+              -0.0622253945715189,
+              0.5345999999999991
+            ],
+            [
+              -0.06222539891731709,
+              -0.062225394571515436,
+              -5.413702561759111e-16
+            ],
+            [
+              -0.003889087432333115,
+              -0.0038890871607205483,
+              0.21859999999999966
+            ],
+            [
+              -0.062225398917316384,
+              -0.06222539457151557,
+              -6.444049274350392e-16
+            ],
+            [
+              -0.062225398917315225,
+              -0.062225394571515026,
+              -0.1654000000000003
+            ],
+            [
+              -6.089851317574509e-17,
+              4.1429645713222663e-16,
+              1.574246491074014e-30
+            ]
+          ]
+        ],
+        "full_relative_error": 2.6339950179222634e-15,
+        "unprobed_relative_error": 2.6691958800882724e-15
+      },
+      {
+        "fold": 2,
+        "loads": [
+          6,
+          7,
+          8
+        ],
+        "train_rmse": 2.6544532929223725e-15,
+        "pose_initializations": 32,
+        "geometry": [
+          [
+            [
+              -1.2001723362673259e-15,
+              7.444923507307179e-16,
+              -1.0
+            ],
+            [
+              0.7071067564945005,
+              -0.7071068058785936,
+              -1.5959309352781607e-15
+            ],
+            [
+              -1.2050580340073726e-15,
+              1.0110742925041294e-15,
+              -1.0
+            ],
+            [
+              -0.7071067564945005,
+              0.7071068058785936,
+              1.0265227602274044e-15
+            ],
+            [
+              -5.053483924816701e-16,
+              6.803232787104919e-16,
+              -1.0
+            ],
+            [
+              -0.7071067564945003,
+              0.7071068058785939,
+              5.304674971620253e-16
+            ],
+            [
+              -2.7673187436156434e-17,
+              -8.768256313915732e-16,
+              1.0
+            ]
+          ],
+          [
+            [
+              -0.06222539891731637,
+              -0.06222539457151637,
+              2.8354872114067224e-17
+            ],
+            [
+              -0.06222539891731536,
+              -0.06222539457151636,
+              0.534599999999999
+            ],
+            [
+              -0.06222539891731642,
+              -0.062225394571516525,
+              1.2070720092439594e-17
+            ],
+            [
+              -0.003889087432332115,
+              -0.00388908716071992,
+              0.21859999999999916
+            ],
+            [
+              -0.06222539891731618,
+              -0.06222539457151611,
+              -1.0887879139550808e-17
+            ],
+            [
+              -0.0622253989173162,
+              -0.06222539457151584,
+              -0.1654
+            ],
+            [
+              -8.083846635335343e-17,
+              3.156078641018503e-17,
+              2.5436248439876986e-32
+            ]
+          ]
+        ],
+        "full_relative_error": 1.8733416956164596e-15,
+        "unprobed_relative_error": 2.0235873497945825e-15
+      },
+      {
+        "fold": 3,
+        "loads": [
+          9,
+          10,
+          11
+        ],
+        "train_rmse": 2.169338021643271e-15,
+        "pose_initializations": 32,
+        "geometry": [
+          [
+            [
+              -2.315188803748173e-15,
+              4.566104220935675e-15,
+              -1.0
+            ],
+            [
+              0.7071067564944992,
+              -0.707106805878595,
+              -3.1635460075014375e-15
+            ],
+            [
+              -1.139747543781572e-15,
+              4.276196418772856e-15,
+              -1.0
+            ],
+            [
+              -0.7071067564944993,
+              0.707106805878595,
+              4.354135624325115e-15
+            ],
+            [
+              -2.0947652548089773e-15,
+              3.884184146956162e-15,
+              -1.0
+            ],
+            [
+              -0.7071067564944993,
+              0.707106805878595,
+              2.435991019126844e-15
+            ],
+            [
+              -2.65811225720417e-16,
+              -1.1433872205875447e-15,
+              1.0
+            ]
+          ],
+          [
+            [
+              -0.06222539891731675,
+              -0.06222539457151615,
+              -1.4006408992025504e-16
+            ],
+            [
+              -0.06222539891731663,
+              -0.062225394571518586,
+              0.5345999999999985
+            ],
+            [
+              -0.06222539891731639,
+              -0.06222539457151602,
+              -1.9516676384660506e-16
+            ],
+            [
+              -0.0038890874323318,
+              -0.00388908716072062,
+              0.21859999999999927
+            ],
+            [
+              -0.062225398917315974,
+              -0.062225394571515776,
+              -1.113472875141504e-16
+            ],
+            [
+              -0.062225398917316294,
+              -0.0622253945715153,
+              -0.16540000000000005
+            ],
+            [
+              1.1474377452438124e-16,
+              -5.477762217103643e-17,
+              -3.213184981442184e-32
+            ]
+          ]
+        ],
+        "full_relative_error": 2.7296991388050196e-15,
+        "unprobed_relative_error": 2.9072536819496553e-15
+      }
+    ]
+  },
+  "rational_certificates": {
+    "cases": [
+      {
+        "loads": 3,
+        "probes": 3,
+        "stacked_rank": 6,
+        "nullspace_constraint_rank": 17,
+        "unique_scale": true
+      },
+      {
+        "loads": 4,
+        "probes": 2,
+        "stacked_rank": 6,
+        "nullspace_constraint_rank": 11,
+        "unique_scale": true
+      }
+    ]
+  }
+}

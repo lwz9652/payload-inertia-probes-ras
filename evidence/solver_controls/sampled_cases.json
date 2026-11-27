@@ -1,0 +1,5648 @@
+{
+  "rows": [
+    {
+      "trial": 0,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.481927366102986e-05,
+      "v_RMS_rad_s": 0.00020879333357763964,
+      "a_RMS_rad_s2": 0.0017692511952273253,
+      "minimum_sigma_T": 0.9296902123767865,
+      "basis_error_RMS": 0.001335118123377721,
+      "probe_orthogonal_RMS_rad_s2": 0.002323920547628263,
+      "torque_contrast_RMS_Nm": 0.002612558674161843,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.002167236553705742,
+            "start_rmse": 0.00661931454709613,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0021672365537057157,
+            "start_rmse": 0.1943352029306989,
+            "nfev": 1516,
+            "accepted_steps": 51,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0019205283856517966,
+          "R_A": 0.0018527273016430207
+        },
+        "initial": {
+          "R_M": 0.9051121463114091,
+          "R_A": 0.9448353740008318
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.481235218259143e-05,
+      "v_RMS_rad_s": 0.00020702662424900228,
+      "a_RMS_rad_s2": 0.0013991003206167297,
+      "minimum_sigma_T": 0.9304527880925471,
+      "basis_error_RMS": 0.0010581713023602158,
+      "probe_orthogonal_RMS_rad_s2": 0.0018633152441194052,
+      "torque_contrast_RMS_Nm": 0.002042723966941274,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0017322338083819119,
+            "start_rmse": 0.004875175600194408,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.001732233808381893,
+            "start_rmse": 0.20365163367543435,
+            "nfev": 1595,
+            "accepted_steps": 54,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0018123964751371473,
+          "R_A": 0.001791473843223166
+        },
+        "initial": {
+          "R_M": 0.9484205825560189,
+          "R_A": 1.0049080344322048
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.2412027992977435e-16,
+      "v_RMS_rad_s": 9.07826814439928e-15,
+      "a_RMS_rad_s2": 3.448841041709267e-13,
+      "minimum_sigma_T": 0.9318758536540646,
+      "basis_error_RMS": 1.8977534143469265e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.499378437393822e-13,
+      "torque_contrast_RMS_Nm": 0.0009714200490394721,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0006877632175276294,
+            "start_rmse": 0.1983562267893407,
+            "nfev": 1276,
+            "accepted_steps": 43,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0006877632175276324,
+            "start_rmse": 0.004143883662647008,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0004185639625128527,
+          "R_A": 0.00045912576384298204
+        },
+        "initial": {
+          "R_M": 0.9264743390688109,
+          "R_A": 0.9701779141931024
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3412048238433513e-06,
+      "v_RMS_rad_s": 0.00016261267742624284,
+      "a_RMS_rad_s2": 0.006234405145921641,
+      "minimum_sigma_T": 0.9231284860310063,
+      "basis_error_RMS": 0.004444048487481044,
+      "probe_orthogonal_RMS_rad_s2": 0.008747804886544367,
+      "torque_contrast_RMS_Nm": 0.008414940260815094,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.006557261469409719,
+            "start_rmse": 0.015930957378730706,
+            "nfev": 150,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0065572614694097775,
+            "start_rmse": 0.200525093987792,
+            "nfev": 468,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004812529128814963,
+          "R_A": 0.004725353536355565
+        },
+        "initial": {
+          "R_M": 0.07418475832854432,
+          "R_A": 0.08216382001459623
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.183895915670425e-06,
+      "v_RMS_rad_s": 8.067362983361073e-05,
+      "a_RMS_rad_s2": 0.0031708605543361596,
+      "minimum_sigma_T": 0.9271847072835641,
+      "basis_error_RMS": 0.0022068987310223816,
+      "probe_orthogonal_RMS_rad_s2": 0.0046512343695924345,
+      "torque_contrast_RMS_Nm": 0.004113243157060453,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.003339970821830452,
+            "start_rmse": 0.2036559631572865,
+            "nfev": 644,
+            "accepted_steps": 21,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0033399708218304755,
+            "start_rmse": 0.005712806108485812,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0024022269730707172,
+          "R_A": 0.0024912397358684154
+        },
+        "initial": {
+          "R_M": 0.9629828571440594,
+          "R_A": 1.019714702659816
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.682409647736607e-07,
+      "v_RMS_rad_s": 3.2522535485234176e-05,
+      "a_RMS_rad_s2": 0.001246881029185999,
+      "minimum_sigma_T": 0.9301382731379666,
+      "basis_error_RMS": 0.0008888096975021214,
+      "probe_orthogonal_RMS_rad_s2": 0.0017495609773123897,
+      "torque_contrast_RMS_Nm": 0.0019315021861937712,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0014669306023303832,
+            "start_rmse": 0.004832626151329994,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.00146693060233034,
+            "start_rmse": 0.19594969265982362,
+            "nfev": 878,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0010343915406741471,
+          "R_A": 0.0010168202928382468
+        },
+        "initial": {
+          "R_M": 0.9183137505729538,
+          "R_A": 0.9581994281809928
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.682409647736607e-07,
+      "v_RMS_rad_s": 3.2522535485234176e-05,
+      "a_RMS_rad_s2": 0.001246881029185999,
+      "minimum_sigma_T": 0.9301382731379666,
+      "basis_error_RMS": 0.0008888096975021214,
+      "probe_orthogonal_RMS_rad_s2": 0.0017495609773123897,
+      "torque_contrast_RMS_Nm": 0.06347011129265609,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.053588155776566615,
+            "start_rmse": 0.1357356325039831,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12263902397764265,
+            "start_rmse": 0.23425359428408585,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.06584474517480139,
+          "R_A": 0.06752210409303636
+        },
+        "initial": {
+          "R_M": 0.694315603574988,
+          "R_A": 0.666534115776856
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6824096477536757e-07,
+      "v_RMS_rad_s": 3.252253548518636e-05,
+      "a_RMS_rad_s2": 0.0012468810291843292,
+      "minimum_sigma_T": 0.027260324724853038,
+      "basis_error_RMS": 0.0008888096974954728,
+      "probe_orthogonal_RMS_rad_s2": 0.001749560977310555,
+      "torque_contrast_RMS_Nm": 0.036984611889366276,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.02795127271945069,
+            "start_rmse": 0.14876611771261655,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06899083854778307,
+            "start_rmse": 1.3986341057619047,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.021634827084730426,
+          "R_A": 0.022405392694076664
+        },
+        "initial": {
+          "R_M": 0.8154210759061544,
+          "R_A": 0.8100743513838508
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6824096477550903e-07,
+      "v_RMS_rad_s": 3.2522535485190096e-05,
+      "a_RMS_rad_s2": 0.0012468810291831702,
+      "minimum_sigma_T": 0.09546517405513313,
+      "basis_error_RMS": 0.0008888096974988396,
+      "probe_orthogonal_RMS_rad_s2": 0.001749560977312083,
+      "torque_contrast_RMS_Nm": 0.0112036435078687,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.008463737050373541,
+            "start_rmse": 0.7632040139471232,
+            "nfev": 558,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00846373705037366,
+            "start_rmse": 0.06089622283184212,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006351778121832118,
+          "R_A": 0.0065447785322440034
+        },
+        "initial": {
+          "R_M": 4.234130023428472,
+          "R_A": 3.4409160814556485
+        }
+      }
+    },
+    {
+      "trial": 0,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3677918313415854e-07,
+      "v_RMS_rad_s": 1.6134725966669166e-05,
+      "a_RMS_rad_s2": 0.0006341721108661557,
+      "minimum_sigma_T": 0.09612809081722677,
+      "basis_error_RMS": 0.00044137974620903737,
+      "probe_orthogonal_RMS_rad_s2": 0.0009302468739168166,
+      "torque_contrast_RMS_Nm": 0.005241731875020439,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004167804792639481,
+            "start_rmse": 0.9097655722686264,
+            "nfev": 557,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0041678047926394825,
+            "start_rmse": 0.030041204960518902,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0030965209584956493,
+          "R_A": 0.003239226840178824
+        },
+        "initial": {
+          "R_M": 4.911705938359326,
+          "R_A": 5.165257677536389
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.217117534145117e-05,
+      "v_RMS_rad_s": 0.00019725011409696202,
+      "a_RMS_rad_s2": 0.0017206941753351063,
+      "minimum_sigma_T": 0.8986713576243973,
+      "basis_error_RMS": 0.00119562848351371,
+      "probe_orthogonal_RMS_rad_s2": 0.0024463673279509555,
+      "torque_contrast_RMS_Nm": 0.0031905446195949027,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10291115405048143,
+            "start_rmse": 0.24840966584618127,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0022997349442651902,
+            "start_rmse": 0.007383682920192886,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003181434044956108,
+          "R_A": 0.0028695367775894284
+        },
+        "initial": {
+          "R_M": 0.03378043880448736,
+          "R_A": 0.036417886658048904
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.21609252245127e-05,
+      "v_RMS_rad_s": 0.00019542325681576631,
+      "a_RMS_rad_s2": 0.001332844211607069,
+      "minimum_sigma_T": 0.9007401565729386,
+      "basis_error_RMS": 0.0009189749123127537,
+      "probe_orthogonal_RMS_rad_s2": 0.001924902508968926,
+      "torque_contrast_RMS_Nm": 0.0022909681066777964,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1028350033060607,
+            "start_rmse": 0.24299499256439547,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0016830401798886637,
+            "start_rmse": 0.005896140248705739,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.002587485783365208,
+          "R_A": 0.0021921680672827184
+        },
+        "initial": {
+          "R_M": 0.026544347036746834,
+          "R_A": 0.025893768577987017
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.1676066070641757e-16,
+      "v_RMS_rad_s": 9.2944671240601e-15,
+      "a_RMS_rad_s2": 3.4865881001834853e-13,
+      "minimum_sigma_T": 0.9006612769155445,
+      "basis_error_RMS": 1.7667152252926663e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.529861610427003e-13,
+      "torque_contrast_RMS_Nm": 0.0009800224162002877,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10272462752580507,
+            "start_rmse": 0.24672338952717274,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0007089047548678678,
+            "start_rmse": 0.005151680796510577,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.000277498978766953,
+          "R_A": 0.00030906362030174307
+        },
+        "initial": {
+          "R_M": 0.026632209809294087,
+          "R_A": 0.02874927526154357
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3396504045310536e-06,
+      "v_RMS_rad_s": 0.0001666626261325411,
+      "a_RMS_rad_s2": 0.006234769249952079,
+      "minimum_sigma_T": 0.8864431076285535,
+      "basis_error_RMS": 0.004385903999266588,
+      "probe_orthogonal_RMS_rad_s2": 0.008775925824861986,
+      "torque_contrast_RMS_Nm": 0.010808500614055817,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1031667436684993,
+            "start_rmse": 0.9037441745206674,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.00804190594283923,
+            "start_rmse": 0.01376134246454314,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.010062682939554394,
+          "R_A": 0.00981531101065298
+        },
+        "initial": {
+          "R_M": 0.05888500840773713,
+          "R_A": 0.06812997253335831
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1783086115538353e-06,
+      "v_RMS_rad_s": 8.358919774791636e-05,
+      "a_RMS_rad_s2": 0.003127107269574085,
+      "minimum_sigma_T": 0.8944600996168937,
+      "basis_error_RMS": 0.002211847730537874,
+      "probe_orthogonal_RMS_rad_s2": 0.004393233604807463,
+      "torque_contrast_RMS_Nm": 0.005192817466563577,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004024415196054308,
+            "start_rmse": 0.007772944525974791,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.10262273828515574,
+            "start_rmse": 0.2569883628122785,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.004346027095310411,
+          "R_A": 0.004432930674415179
+        },
+        "initial": {
+          "R_M": 0.030360380206517584,
+          "R_A": 0.03266223828417141
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6793008090506435e-07,
+      "v_RMS_rad_s": 3.3332525226527335e-05,
+      "a_RMS_rad_s2": 0.0012469538499860608,
+      "minimum_sigma_T": 0.8990019590282997,
+      "basis_error_RMS": 0.0008771807998549091,
+      "probe_orthogonal_RMS_rad_s2": 0.0017551851649588702,
+      "torque_contrast_RMS_Nm": 0.002367236125454301,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0017402781913042023,
+            "start_rmse": 0.005947713333553712,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.10276360064489634,
+            "start_rmse": 0.251875242128674,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0020199087155714484,
+          "R_A": 0.0019818792528549256
+        },
+        "initial": {
+          "R_M": 0.02971972035053109,
+          "R_A": 0.032959497084166234
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.6793008090506435e-07,
+      "v_RMS_rad_s": 3.3332525226527335e-05,
+      "a_RMS_rad_s2": 0.0012469538499860608,
+      "minimum_sigma_T": 0.8990019590282997,
+      "basis_error_RMS": 0.0008771807998549091,
+      "probe_orthogonal_RMS_rad_s2": 0.0017551851649588702,
+      "torque_contrast_RMS_Nm": 0.0799887793406839,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.061162366416148514,
+            "start_rmse": 0.21783936517782854,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13638637756741026,
+            "start_rmse": 0.23803558928618077,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.11124444268981505,
+          "R_A": 0.11784900652837937
+        },
+        "initial": {
+          "R_M": 0.8581005787894015,
+          "R_A": 0.8525654053714369
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6793008090545827e-07,
+      "v_RMS_rad_s": 3.3332525226485736e-05,
+      "a_RMS_rad_s2": 0.0012469538499839709,
+      "minimum_sigma_T": 0.02750757852417489,
+      "basis_error_RMS": 0.000877180799855992,
+      "probe_orthogonal_RMS_rad_s2": 0.001755185164960073,
+      "torque_contrast_RMS_Nm": 0.04645181614326479,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.034029030589859136,
+            "start_rmse": 0.1409313048141904,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.03402903058986117,
+            "start_rmse": 0.2551977572404116,
+            "nfev": 1016,
+            "accepted_steps": 35,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.02094032449273163,
+          "R_A": 0.019688570666676695
+        },
+        "initial": {
+          "R_M": 0.6035469385442784,
+          "R_A": 0.5948590494471697
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.679300809052786e-07,
+      "v_RMS_rad_s": 3.333252522659649e-05,
+      "a_RMS_rad_s2": 0.0012469538499841502,
+      "minimum_sigma_T": 0.09559865276884769,
+      "basis_error_RMS": 0.0008771807998534962,
+      "probe_orthogonal_RMS_rad_s2": 0.0017551851649642324,
+      "torque_contrast_RMS_Nm": 0.014004207687814248,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.010248577620749974,
+            "start_rmse": 2.3093784450359376,
+            "nfev": 470,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.010248577620749965,
+            "start_rmse": 0.0504555965877927,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006910090170464557,
+          "R_A": 0.0065905309978416165
+        },
+        "initial": {
+          "R_M": 0.22963008832289333,
+          "R_A": 0.23501612648675335
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3566172231495997e-07,
+      "v_RMS_rad_s": 1.671783954963028e-05,
+      "a_RMS_rad_s2": 0.0006254214539153747,
+      "minimum_sigma_T": 0.09629438678791108,
+      "basis_error_RMS": 0.00044236954610047107,
+      "probe_orthogonal_RMS_rad_s2": 0.0008786467209597177,
+      "torque_contrast_RMS_Nm": 0.006499654660303747,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10261192267527633,
+            "start_rmse": 0.34671220805972985,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.005228511550173228,
+            "start_rmse": 0.024960532475807297,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0039954890342489,
+          "R_A": 0.004368896813256509
+        },
+        "initial": {
+          "R_M": 0.11414332344602572,
+          "R_A": 0.11615990975701733
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.613221396471168e-05,
+      "v_RMS_rad_s": 0.00021178775040133342,
+      "a_RMS_rad_s2": 0.0017826456769327315,
+      "minimum_sigma_T": 0.9039035687751804,
+      "basis_error_RMS": 0.0011939760871036028,
+      "probe_orthogonal_RMS_rad_s2": 0.0026142408022128086,
+      "torque_contrast_RMS_Nm": 0.0024849265435443755,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0018248050865858848,
+            "start_rmse": 0.005037243687886878,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.12074733490390575,
+            "start_rmse": 0.4344002762236416,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002714382454208785,
+          "R_A": 0.002738478558050141
+        },
+        "initial": {
+          "R_M": 0.026231510327562397,
+          "R_A": 0.02587065368608605
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.612875671803482e-05,
+      "v_RMS_rad_s": 0.00021040254699789766,
+      "a_RMS_rad_s2": 0.0014107260906265555,
+      "minimum_sigma_T": 0.9051168270007375,
+      "basis_error_RMS": 0.0008965694845432493,
+      "probe_orthogonal_RMS_rad_s2": 0.002111717825498252,
+      "torque_contrast_RMS_Nm": 0.0016648678804229995,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0012057933016336835,
+            "start_rmse": 0.0033997253312770806,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.12070692138501815,
+            "start_rmse": 0.3329848433726711,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0023206774794246395,
+          "R_A": 0.0022917202742578986
+        },
+        "initial": {
+          "R_M": 0.016136888743438306,
+          "R_A": 0.016298901339623008
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.2020663092807015e-16,
+      "v_RMS_rad_s": 8.931265975363819e-15,
+      "a_RMS_rad_s2": 3.391929658545297e-13,
+      "minimum_sigma_T": 0.9051299600615078,
+      "basis_error_RMS": 1.8685185923429377e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.3343209700780046e-13,
+      "torque_contrast_RMS_Nm": 0.0009975393998334675,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12102151211552935,
+            "start_rmse": 0.47174228538386576,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0006980436020024633,
+            "start_rmse": 0.0038775729463630475,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00037578502281508577,
+          "R_A": 0.00038548115012427804
+        },
+        "initial": {
+          "R_M": 0.02219529907145219,
+          "R_A": 0.02462502758917549
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3343114489764675e-06,
+      "v_RMS_rad_s": 0.0001664467125616476,
+      "a_RMS_rad_s2": 0.006240950481182152,
+      "minimum_sigma_T": 0.8960543740367096,
+      "basis_error_RMS": 0.00442720050419918,
+      "probe_orthogonal_RMS_rad_s2": 0.008967145659452185,
+      "torque_contrast_RMS_Nm": 0.009165818936075371,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0944928242417654,
+            "start_rmse": 0.36330030699948745,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.006992686559333774,
+            "start_rmse": 0.01695697655012348,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.005326038234205971,
+          "R_A": 0.0055394107708229764
+        },
+        "initial": {
+          "R_M": 0.0844431921524651,
+          "R_A": 0.08330199043574962
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1696985387074353e-06,
+      "v_RMS_rad_s": 8.230301142324911e-05,
+      "a_RMS_rad_s2": 0.0031806033946194163,
+      "minimum_sigma_T": 0.902254714443311,
+      "basis_error_RMS": 0.0022761649205923556,
+      "probe_orthogonal_RMS_rad_s2": 0.004477421127038556,
+      "torque_contrast_RMS_Nm": 0.004575325989244091,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.003566033623967502,
+            "start_rmse": 0.008061483497267591,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.12102311513743685,
+            "start_rmse": 0.2951486445759732,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0032983021393338304,
+          "R_A": 0.003782958533455528
+        },
+        "initial": {
+          "R_M": 0.03618412884017344,
+          "R_A": 0.037547361330847254
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.668622897943036e-07,
+      "v_RMS_rad_s": 3.3289342512238596e-05,
+      "a_RMS_rad_s2": 0.0012481900962354317,
+      "minimum_sigma_T": 0.9033353107392423,
+      "basis_error_RMS": 0.0008854401008413725,
+      "probe_orthogonal_RMS_rad_s2": 0.0017934291318796865,
+      "torque_contrast_RMS_Nm": 0.0020701507355798867,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0015589224788457102,
+            "start_rmse": 0.00463549480670986,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.12101982480780686,
+            "start_rmse": 0.4790009631276868,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.001124248660266905,
+          "R_A": 0.0011622048003107517
+        },
+        "initial": {
+          "R_M": 0.024442444892121003,
+          "R_A": 0.026111403679741216
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.668622897943036e-07,
+      "v_RMS_rad_s": 3.3289342512238596e-05,
+      "a_RMS_rad_s2": 0.0012481900962354317,
+      "minimum_sigma_T": 0.9033353107392423,
+      "basis_error_RMS": 0.0008854401008413725,
+      "probe_orthogonal_RMS_rad_s2": 0.0017934291318796865,
+      "torque_contrast_RMS_Nm": 0.08075197296021693,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.05314990592242391,
+            "start_rmse": 0.36451312339186576,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.05314990592242299,
+            "start_rmse": 0.12649020245389606,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.12045554078302503,
+          "R_A": 0.10801231072641773
+        },
+        "initial": {
+          "R_M": 0.6700292996574925,
+          "R_A": 0.6732453331145618
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.668622897964197e-07,
+      "v_RMS_rad_s": 3.3289342512314e-05,
+      "a_RMS_rad_s2": 0.0012481900962330796,
+      "minimum_sigma_T": 0.025482828154975743,
+      "basis_error_RMS": 0.000885440100841112,
+      "probe_orthogonal_RMS_rad_s2": 0.001793429131879245,
+      "torque_contrast_RMS_Nm": 0.04229709897203872,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.032060486535341846,
+            "start_rmse": 0.13036490208578758,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.06710123609615425,
+            "start_rmse": 0.27638813427993253,
+            "nfev": 1430,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.021715577893946035,
+          "R_A": 0.022593212151411673
+        },
+        "initial": {
+          "R_M": 0.6835529719544354,
+          "R_A": 0.6823605474915231
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6686228979493415e-07,
+      "v_RMS_rad_s": 3.328934251232899e-05,
+      "a_RMS_rad_s2": 0.001248190096234977,
+      "minimum_sigma_T": 0.08953093878341999,
+      "basis_error_RMS": 0.0008854401008419251,
+      "probe_orthogonal_RMS_rad_s2": 0.0017934291318840467,
+      "torque_contrast_RMS_Nm": 0.01271947176386245,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.009636278984219442,
+            "start_rmse": 0.054538745043397695,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.009636278984219388,
+            "start_rmse": 0.3850290285182144,
+            "nfev": 407,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006166846138993183,
+          "R_A": 0.00642869338610079
+        },
+        "initial": {
+          "R_M": 1.9256363252155304,
+          "R_A": 1.8632166775887686
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3393970773599342e-07,
+      "v_RMS_rad_s": 1.6460602284658058e-05,
+      "a_RMS_rad_s2": 0.0006361206789195702,
+      "minimum_sigma_T": 0.09027699172212025,
+      "basis_error_RMS": 0.00045523298412102146,
+      "probe_orthogonal_RMS_rad_s2": 0.000895484225397052,
+      "torque_contrast_RMS_Nm": 0.006370370284367822,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0047018982085888774,
+            "start_rmse": 0.022509809894298974,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12099022146147816,
+            "start_rmse": 0.28775669828434136,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0034412218319086235,
+          "R_A": 0.003756002246992622
+        },
+        "initial": {
+          "R_M": 0.11641017905595105,
+          "R_A": 0.11783908148206892
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 5.379763416057863e-05,
+      "v_RMS_rad_s": 0.00017630199074444706,
+      "a_RMS_rad_s2": 0.0016363269128277138,
+      "minimum_sigma_T": 0.8991023366688362,
+      "basis_error_RMS": 0.0011838246529417445,
+      "probe_orthogonal_RMS_rad_s2": 0.0021575241815436495,
+      "torque_contrast_RMS_Nm": 0.003083083211858534,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.002234171048763041,
+            "start_rmse": 0.533400974805113,
+            "nfev": 499,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0022341710487629464,
+            "start_rmse": 0.0059301725005264086,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0029029636155119584,
+          "R_A": 0.0029565306308294297
+        },
+        "initial": {
+          "R_M": 0.02779416278834176,
+          "R_A": 0.029356672230776357
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 5.380076277549439e-05,
+      "v_RMS_rad_s": 0.000174484799033227,
+      "a_RMS_rad_s2": 0.0012275837656885286,
+      "minimum_sigma_T": 0.9007024700333373,
+      "basis_error_RMS": 0.0008885460775595243,
+      "probe_orthogonal_RMS_rad_s2": 0.001543253560040062,
+      "torque_contrast_RMS_Nm": 0.002314998638796432,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.001639707816656957,
+            "start_rmse": 0.003433449687224701,
+            "nfev": 116,
+            "accepted_steps": 3,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0016397078166558322,
+            "start_rmse": 0.5837523950842022,
+            "nfev": 410,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.002657192971373797,
+          "R_A": 0.002689833576055295
+        },
+        "initial": {
+          "R_M": 3.2236531342131722,
+          "R_A": 3.31225939229893
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 3.830073425406845e-16,
+      "v_RMS_rad_s": 8.336114151222685e-15,
+      "a_RMS_rad_s2": 3.233684468463169e-13,
+      "minimum_sigma_T": 0.9021865634570346,
+      "basis_error_RMS": 1.7726098869525292e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.0176838160700895e-13,
+      "torque_contrast_RMS_Nm": 0.0009922775060011784,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0007107564654716728,
+            "start_rmse": 0.5469919176794658,
+            "nfev": 469,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0007107564654696119,
+            "start_rmse": 0.0034474784108335806,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00026833812957290196,
+          "R_A": 0.0002888346708019828
+        },
+        "initial": {
+          "R_M": 0.01734595109609974,
+          "R_A": 0.018535311630902426
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3202075576655168e-06,
+      "v_RMS_rad_s": 0.00016399067765498945,
+      "a_RMS_rad_s2": 0.006226035170852542,
+      "minimum_sigma_T": 0.889979314496893,
+      "basis_error_RMS": 0.004358129147339893,
+      "probe_orthogonal_RMS_rad_s2": 0.008754131697936901,
+      "torque_contrast_RMS_Nm": 0.00979277161027715,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007663992987503864,
+            "start_rmse": 0.5498546293276051,
+            "nfev": 411,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00766399298750388,
+            "start_rmse": 0.013195509325293607,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0058187715575735,
+          "R_A": 0.005963296162132881
+        },
+        "initial": {
+          "R_M": 2.870008998725993,
+          "R_A": 2.9104624303753917
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1736028827576804e-06,
+      "v_RMS_rad_s": 8.215862199116358e-05,
+      "a_RMS_rad_s2": 0.003138960879065954,
+      "minimum_sigma_T": 0.8979778852093463,
+      "basis_error_RMS": 0.0022227683316738992,
+      "probe_orthogonal_RMS_rad_s2": 0.004393844212352174,
+      "torque_contrast_RMS_Nm": 0.005144949605172486,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0039835334301649185,
+            "start_rmse": 0.005931471528404805,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.003983533430164963,
+            "start_rmse": 0.5612615383632106,
+            "nfev": 442,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.002728863862676891,
+          "R_A": 0.0025944971968560565
+        },
+        "initial": {
+          "R_M": 0.0229367196307531,
+          "R_A": 0.02065956754292689
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.640415115367955e-07,
+      "v_RMS_rad_s": 3.27981355309863e-05,
+      "a_RMS_rad_s2": 0.00124520703416474,
+      "minimum_sigma_T": 0.8997493469788305,
+      "basis_error_RMS": 0.0008716258294657059,
+      "probe_orthogonal_RMS_rad_s2": 0.0017508263395788959,
+      "torque_contrast_RMS_Nm": 0.0021721272396205684,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0016682543042318176,
+            "start_rmse": 0.5391274103980549,
+            "nfev": 499,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0016682543042317675,
+            "start_rmse": 0.005151295922125822,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0011542747891415477,
+          "R_A": 0.0011772989975277436
+        },
+        "initial": {
+          "R_M": 0.024422256946544187,
+          "R_A": 0.026007846295646564
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.640415115367955e-07,
+      "v_RMS_rad_s": 3.27981355309863e-05,
+      "a_RMS_rad_s2": 0.00124520703416474,
+      "minimum_sigma_T": 0.8997493469788305,
+      "basis_error_RMS": 0.0008716258294657059,
+      "probe_orthogonal_RMS_rad_s2": 0.0017508263395788959,
+      "torque_contrast_RMS_Nm": 0.09133927243989574,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1463734947591229,
+            "start_rmse": 0.2003659376301234,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.07335724145000519,
+            "start_rmse": 0.17188821335016405,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.08207031324961614,
+          "R_A": 0.0855891589551376
+        },
+        "initial": {
+          "R_M": 0.709485479610099,
+          "R_A": 0.6582583758323245
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6404151153325086e-07,
+      "v_RMS_rad_s": 3.279813553102428e-05,
+      "a_RMS_rad_s2": 0.0012452070341656871,
+      "minimum_sigma_T": 0.02581518769108158,
+      "basis_error_RMS": 0.0008716258294660322,
+      "probe_orthogonal_RMS_rad_s2": 0.0017508263395771206,
+      "torque_contrast_RMS_Nm": 0.04178527520938657,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.032284583530799625,
+            "start_rmse": 0.15421720351928975,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.032284583530801415,
+            "start_rmse": 0.20939302458906087,
+            "nfev": 523,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.019551599019954485,
+          "R_A": 0.020212379852727665
+        },
+        "initial": {
+          "R_M": 0.7230317533017756,
+          "R_A": 0.7158136559512437
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6404151153389153e-07,
+      "v_RMS_rad_s": 3.279813553103158e-05,
+      "a_RMS_rad_s2": 0.0012452070341636278,
+      "minimum_sigma_T": 0.09097061015557405,
+      "basis_error_RMS": 0.0008716258294663399,
+      "probe_orthogonal_RMS_rad_s2": 0.0017508263395791751,
+      "torque_contrast_RMS_Nm": 0.012613158372830178,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.009750890014483501,
+            "start_rmse": 0.036235222996117956,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.00975089001448351,
+            "start_rmse": 0.39627421695434,
+            "nfev": 465,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005683569757735962,
+          "R_A": 0.005937621930534278
+        },
+        "initial": {
+          "R_M": 0.19366586799641466,
+          "R_A": 0.1968751349953235
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3472057655533875e-07,
+      "v_RMS_rad_s": 1.643172439820234e-05,
+      "a_RMS_rad_s2": 0.0006277921758105641,
+      "minimum_sigma_T": 0.09213473659669837,
+      "basis_error_RMS": 0.0004445536663306622,
+      "probe_orthogonal_RMS_rad_s2": 0.0008787688424662104,
+      "torque_contrast_RMS_Nm": 0.007033945661853606,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.005235531668529338,
+            "start_rmse": 0.652752589302219,
+            "nfev": 472,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.005235531668529334,
+            "start_rmse": 0.017939270871381686,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031776242589753147,
+          "R_A": 0.0031621045740440317
+        },
+        "initial": {
+          "R_M": 0.0851793518624875,
+          "R_A": 0.08122961631383918
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.541764853074344e-05,
+      "v_RMS_rad_s": 0.0002140669081691787,
+      "a_RMS_rad_s2": 0.0017994656336695843,
+      "minimum_sigma_T": 0.9299223587516409,
+      "basis_error_RMS": 0.0011484796549761785,
+      "probe_orthogonal_RMS_rad_s2": 0.002855292809356334,
+      "torque_contrast_RMS_Nm": 0.0026452686435305805,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.002055235292643678,
+            "start_rmse": 0.00799817241659074,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.12981499732220816,
+            "start_rmse": 0.43989130944970267,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0017518193352833306,
+          "R_A": 0.0018327780185946974
+        },
+        "initial": {
+          "R_M": 0.038288958950940276,
+          "R_A": 0.039737150176946456
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.542268991089263e-05,
+      "v_RMS_rad_s": 0.00021222796857420473,
+      "a_RMS_rad_s2": 0.0014056604660005938,
+      "minimum_sigma_T": 0.930838366696639,
+      "basis_error_RMS": 0.0008352042683165173,
+      "probe_orthogonal_RMS_rad_s2": 0.0023835075310472873,
+      "torque_contrast_RMS_Nm": 0.0017316401801696591,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.001402309636648943,
+            "start_rmse": 0.0057439011725286294,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.1312162421915114,
+            "start_rmse": 0.5215665797488824,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0013522728188665283,
+          "R_A": 0.0013815206729952826
+        },
+        "initial": {
+          "R_M": 0.026434881288501563,
+          "R_A": 0.02408319298211158
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.187070723473965e-16,
+      "v_RMS_rad_s": 9.423126575547214e-15,
+      "a_RMS_rad_s2": 3.589180754111585e-13,
+      "minimum_sigma_T": 0.9298799382708894,
+      "basis_error_RMS": 1.9257685514067272e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.674612299145741e-13,
+      "torque_contrast_RMS_Nm": 0.0009786294644444054,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0006796969174529719,
+            "start_rmse": 0.005585138854334933,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.1364302164257237,
+            "start_rmse": 0.6055432172710892,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0002694523371982429,
+          "R_A": 0.0002822251421477573
+        },
+        "initial": {
+          "R_M": 0.0263631499836621,
+          "R_A": 0.027793903959626488
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3534796564465074e-06,
+      "v_RMS_rad_s": 0.00016572869585498444,
+      "a_RMS_rad_s2": 0.0063041459019087765,
+      "minimum_sigma_T": 0.9203408892756005,
+      "basis_error_RMS": 0.004535092733659547,
+      "probe_orthogonal_RMS_rad_s2": 0.008808351470003847,
+      "torque_contrast_RMS_Nm": 0.010130516423401043,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007732485580853025,
+            "start_rmse": 0.01850156290504766,
+            "nfev": 149,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0077324855808530825,
+            "start_rmse": 0.3068067318017662,
+            "nfev": 851,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005687583177722018,
+          "R_A": 0.005970469814234227
+        },
+        "initial": {
+          "R_M": 0.0721223393665181,
+          "R_A": 0.07933107829175187
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.183659758535242e-06,
+      "v_RMS_rad_s": 8.288053686126869e-05,
+      "a_RMS_rad_s2": 0.003152127371395815,
+      "minimum_sigma_T": 0.9251611036156343,
+      "basis_error_RMS": 0.002217132062097647,
+      "probe_orthogonal_RMS_rad_s2": 0.004532847917282556,
+      "torque_contrast_RMS_Nm": 0.0049341043210829475,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0037669021709819564,
+            "start_rmse": 0.4495575021113638,
+            "nfev": 1053,
+            "accepted_steps": 36,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0037669021709819538,
+            "start_rmse": 0.009098894181898425,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0031326035741138093,
+          "R_A": 0.003310147853723008
+        },
+        "initial": {
+          "R_M": 0.035343337145778586,
+          "R_A": 0.0382973534734169
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.7069593129050674e-07,
+      "v_RMS_rad_s": 3.314573917095152e-05,
+      "a_RMS_rad_s2": 0.0012608291803749797,
+      "minimum_sigma_T": 0.928049748607624,
+      "basis_error_RMS": 0.0009070185467247653,
+      "probe_orthogonal_RMS_rad_s2": 0.0017616702939914396,
+      "torque_contrast_RMS_Nm": 0.002236578566583847,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12981243465021433,
+            "start_rmse": 0.45323937251876023,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0016823997147038194,
+            "start_rmse": 0.0059541066569499075,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0011760201172538723,
+          "R_A": 0.0012302471086900713
+        },
+        "initial": {
+          "R_M": 0.0257000723029173,
+          "R_A": 0.026914894009180405
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.7069593129050674e-07,
+      "v_RMS_rad_s": 3.314573917095152e-05,
+      "a_RMS_rad_s2": 0.0012608291803749797,
+      "minimum_sigma_T": 0.928049748607624,
+      "basis_error_RMS": 0.0009070185467247653,
+      "probe_orthogonal_RMS_rad_s2": 0.0017616702939914396,
+      "torque_contrast_RMS_Nm": 0.09048795512628448,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0723674116858588,
+            "start_rmse": 0.1945157935472401,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.1257807868556308,
+            "start_rmse": 0.21991587676123617,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.08544756054954267,
+          "R_A": 0.08724275466499912
+        },
+        "initial": {
+          "R_M": 0.8272231964811424,
+          "R_A": 0.7929424720976406
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.706959312908734e-07,
+      "v_RMS_rad_s": 3.314573917087286e-05,
+      "a_RMS_rad_s2": 0.0012608291803772715,
+      "minimum_sigma_T": 0.02745744082667466,
+      "basis_error_RMS": 0.0009070185467281054,
+      "probe_orthogonal_RMS_rad_s2": 0.0017616702939962682,
+      "torque_contrast_RMS_Nm": 0.042828402244356266,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1057184730907495,
+            "start_rmse": 0.23216528046462337,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.031882049774119195,
+            "start_rmse": 0.20775672996161962,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.020787920384204808,
+          "R_A": 0.022419213058295723
+        },
+        "initial": {
+          "R_M": 0.9585074403246513,
+          "R_A": 1.0130448013610232
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.7069593129181445e-07,
+      "v_RMS_rad_s": 3.314573917092451e-05,
+      "a_RMS_rad_s2": 0.0012608291803821831,
+      "minimum_sigma_T": 0.09739671500104843,
+      "basis_error_RMS": 0.0009070185467277196,
+      "probe_orthogonal_RMS_rad_s2": 0.0017616702940071985,
+      "torque_contrast_RMS_Nm": 0.012938536040506585,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12650534380807693,
+            "start_rmse": 0.256645390388945,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.00963259323949008,
+            "start_rmse": 0.04832593896358609,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.006389307066871282,
+          "R_A": 0.006897048950237974
+        },
+        "initial": {
+          "R_M": 0.2022143154066793,
+          "R_A": 0.20735719828379268
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3673195170225417e-07,
+      "v_RMS_rad_s": 1.6576107372153366e-05,
+      "a_RMS_rad_s2": 0.0006304254742791943,
+      "minimum_sigma_T": 0.09870159297718027,
+      "basis_error_RMS": 0.00044342641241186005,
+      "probe_orthogonal_RMS_rad_s2": 0.0009065695834766947,
+      "torque_contrast_RMS_Nm": 0.0065067499030477685,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004778937559098861,
+            "start_rmse": 0.03354170037219657,
+            "nfev": 151,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12678715336719523,
+            "start_rmse": 0.491555053796731,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0036127663081276344,
+          "R_A": 0.0036903140701923798
+        },
+        "initial": {
+          "R_M": 0.15979043794499884,
+          "R_A": 0.1687119752533293
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 5.469327578740049e-05,
+      "v_RMS_rad_s": 0.00018055954944934852,
+      "a_RMS_rad_s2": 0.0016054694894663433,
+      "minimum_sigma_T": 0.9241402695641115,
+      "basis_error_RMS": 0.0011910249872248463,
+      "probe_orthogonal_RMS_rad_s2": 0.002120430494033833,
+      "torque_contrast_RMS_Nm": 0.00297189564068346,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1328390250228566,
+            "start_rmse": 0.22574859287448282,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.002331159896936954,
+            "start_rmse": 0.007658647498033927,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0023612822792096495,
+          "R_A": 0.0022817130493014053
+        },
+        "initial": {
+          "R_M": 0.04000724992222518,
+          "R_A": 0.043941634719256016
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 5.468505509172448e-05,
+      "v_RMS_rad_s": 0.00017857931690397658,
+      "a_RMS_rad_s2": 0.0012059015287219845,
+      "minimum_sigma_T": 0.9246123226026361,
+      "basis_error_RMS": 0.0009230167067915978,
+      "probe_orthogonal_RMS_rad_s2": 0.0014877676806553173,
+      "torque_contrast_RMS_Nm": 0.0020527404422610927,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0017454959514365213,
+            "start_rmse": 0.003925691534813244,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.13282003914769264,
+            "start_rmse": 0.2247366216679733,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0019385152963888256,
+          "R_A": 0.00177103032682881
+        },
+        "initial": {
+          "R_M": 0.017980676791528597,
+          "R_A": 0.018293535272139512
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.3284934825551437e-16,
+      "v_RMS_rad_s": 9.532013162737554e-15,
+      "a_RMS_rad_s2": 3.5756913679460357e-13,
+      "minimum_sigma_T": 0.9260534209841944,
+      "basis_error_RMS": 1.8348628509928219e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.64189677903697e-13,
+      "torque_contrast_RMS_Nm": 0.001030513910449711,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10300616596963565,
+            "start_rmse": 0.22599422435580432,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0007144863455245347,
+            "start_rmse": 0.007238331000430078,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0004507851657501936,
+          "R_A": 0.00047918950774774807
+        },
+        "initial": {
+          "R_M": 0.03422142213639779,
+          "R_A": 0.03386811752682566
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3201955304805386e-06,
+      "v_RMS_rad_s": 0.00016413528336056463,
+      "a_RMS_rad_s2": 0.006188372832189829,
+      "minimum_sigma_T": 0.9201629071378757,
+      "basis_error_RMS": 0.0043799088007709566,
+      "probe_orthogonal_RMS_rad_s2": 0.008771829369906956,
+      "torque_contrast_RMS_Nm": 0.011027876365252138,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.008470259799963315,
+            "start_rmse": 0.014314683774898057,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13264365299553582,
+            "start_rmse": 0.2271051140128396,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.005664377550344291,
+          "R_A": 0.005778471329109353
+        },
+        "initial": {
+          "R_M": 0.05968476515781536,
+          "R_A": 0.0681031273338163
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.165436880317399e-06,
+      "v_RMS_rad_s": 8.278392793718663e-05,
+      "a_RMS_rad_s2": 0.0030935070305466005,
+      "minimum_sigma_T": 0.9225970394542075,
+      "basis_error_RMS": 0.002148068748824079,
+      "probe_orthogonal_RMS_rad_s2": 0.004402136599016903,
+      "torque_contrast_RMS_Nm": 0.005074814912482276,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004050396887813308,
+            "start_rmse": 0.0069004628781459635,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10275024593234877,
+            "start_rmse": 0.22445110324821882,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0036984702867757352,
+          "R_A": 0.003784187571831756
+        },
+        "initial": {
+          "R_M": 0.025565065735824576,
+          "R_A": 0.02516184642732813
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6403910609456594e-07,
+      "v_RMS_rad_s": 3.2827056672001655e-05,
+      "a_RMS_rad_s2": 0.0012376745664301686,
+      "minimum_sigma_T": 0.9249010969223622,
+      "basis_error_RMS": 0.0008759817601502905,
+      "probe_orthogonal_RMS_rad_s2": 0.0017543658739828855,
+      "torque_contrast_RMS_Nm": 0.00243989976846847,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.10293819065798383,
+            "start_rmse": 0.22640300127384888,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0018367890283740253,
+            "start_rmse": 0.006648029316574449,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0012634130667257461,
+          "R_A": 0.001281093745568743
+        },
+        "initial": {
+          "R_M": 0.0310349907839365,
+          "R_A": 0.032451001952302785
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.6403910609456594e-07,
+      "v_RMS_rad_s": 3.2827056672001655e-05,
+      "a_RMS_rad_s2": 0.0012376745664301686,
+      "minimum_sigma_T": 0.9249010969223622,
+      "basis_error_RMS": 0.0008759817601502905,
+      "probe_orthogonal_RMS_rad_s2": 0.0017543658739828855,
+      "torque_contrast_RMS_Nm": 0.07988892342704101,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11782709421936143,
+            "start_rmse": 0.26373539573042076,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.06479594860043815,
+            "start_rmse": 0.22713152127679742,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0792977938641938,
+          "R_A": 0.08330173764393949
+        },
+        "initial": {
+          "R_M": 0.9555882214557833,
+          "R_A": 0.9645864443874964
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6403910609683106e-07,
+      "v_RMS_rad_s": 3.282705667200543e-05,
+      "a_RMS_rad_s2": 0.0012376745664301253,
+      "minimum_sigma_T": 0.027085084491555868,
+      "basis_error_RMS": 0.0008759817601521027,
+      "probe_orthogonal_RMS_rad_s2": 0.0017543658739697773,
+      "torque_contrast_RMS_Nm": 0.047628578995107314,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.08083113491270374,
+            "start_rmse": 0.22886005407956866,
+            "nfev": 784,
+            "accepted_steps": 27,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.03428903541774207,
+            "start_rmse": 0.1286881851424879,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.03060521560037023,
+          "R_A": 0.0316458710852636
+        },
+        "initial": {
+          "R_M": 0.5798178018584889,
+          "R_A": 0.5799836831391357
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6403910609385533e-07,
+      "v_RMS_rad_s": 3.282705667200224e-05,
+      "a_RMS_rad_s2": 0.0012376745664330053,
+      "minimum_sigma_T": 0.09563314557206572,
+      "basis_error_RMS": 0.0008759817601541072,
+      "probe_orthogonal_RMS_rad_s2": 0.00175436587397808,
+      "torque_contrast_RMS_Nm": 0.014371415036505126,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.13286269282266708,
+            "start_rmse": 0.2520897489065714,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.010356099792653839,
+            "start_rmse": 0.04773904953524296,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.009091605944204453,
+          "R_A": 0.00938139784551591
+        },
+        "initial": {
+          "R_M": 0.1958516681831079,
+          "R_A": 0.19045365947571788
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3308737606797872e-07,
+      "v_RMS_rad_s": 1.6556785587181297e-05,
+      "a_RMS_rad_s2": 0.0006187014061003871,
+      "minimum_sigma_T": 0.09702973680413142,
+      "basis_error_RMS": 0.00042961374975929227,
+      "probe_orthogonal_RMS_rad_s2": 0.0008804273197776153,
+      "torque_contrast_RMS_Nm": 0.006466338881676413,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004853880192733427,
+            "start_rmse": 0.03363688140584676,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.13281215911847202,
+            "start_rmse": 0.2110612106002201,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0041201842222668775,
+          "R_A": 0.0042216440495217505
+        },
+        "initial": {
+          "R_M": 0.1491157695137634,
+          "R_A": 0.1364045704698943
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.558133887812869e-05,
+      "v_RMS_rad_s": 0.00021217379061140034,
+      "a_RMS_rad_s2": 0.001792270704423982,
+      "minimum_sigma_T": 0.9152342418231041,
+      "basis_error_RMS": 0.001360673530984207,
+      "probe_orthogonal_RMS_rad_s2": 0.002482329200846318,
+      "torque_contrast_RMS_Nm": 0.003132323164050899,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0023587748906176253,
+            "start_rmse": 0.3665454685242801,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0023587748906176726,
+            "start_rmse": 0.0036538593162869126,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0028017732465825083,
+          "R_A": 0.002929036630361801
+        },
+        "initial": {
+          "R_M": 2.078738785974994,
+          "R_A": 1.9057432563454881
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.557535858929615e-05,
+      "v_RMS_rad_s": 0.00021053827403615864,
+      "a_RMS_rad_s2": 0.001410791363522202,
+      "minimum_sigma_T": 0.9153577983632428,
+      "basis_error_RMS": 0.0011121339188264515,
+      "probe_orthogonal_RMS_rad_s2": 0.001938820978822885,
+      "torque_contrast_RMS_Nm": 0.002361107009256355,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0017312504574624771,
+            "start_rmse": 0.4233849091988621,
+            "nfev": 499,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0017312504574625413,
+            "start_rmse": 0.012750654310241846,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0025890837719824487,
+          "R_A": 0.002691403698811508
+        },
+        "initial": {
+          "R_M": 2.3297305620834567,
+          "R_A": 2.0568758307868396
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 3.9072680965773117e-16,
+      "v_RMS_rad_s": 8.45325373330437e-15,
+      "a_RMS_rad_s2": 3.29123395007717e-13,
+      "minimum_sigma_T": 0.9164008013585924,
+      "basis_error_RMS": 1.6582172000890043e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.104612525248923e-13,
+      "torque_contrast_RMS_Nm": 0.0010239413968154056,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0007185584782535045,
+            "start_rmse": 0.009087997915105719,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0007185584782535081,
+            "start_rmse": 0.37840181258052646,
+            "nfev": 440,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0003157734241124122,
+          "R_A": 0.0003035367284247003
+        },
+        "initial": {
+          "R_M": 0.04031679172030048,
+          "R_A": 0.042819366144669475
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.346285505275868e-06,
+      "v_RMS_rad_s": 0.00016291977998157174,
+      "a_RMS_rad_s2": 0.0062984759255583014,
+      "minimum_sigma_T": 0.9101582562231545,
+      "basis_error_RMS": 0.004572926284829347,
+      "probe_orthogonal_RMS_rad_s2": 0.008711846245859054,
+      "torque_contrast_RMS_Nm": 0.011010440826493826,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.008654869498791741,
+            "start_rmse": 0.33778326531094105,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.008654869498791748,
+            "start_rmse": 0.011254169817973265,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.006789253534497577,
+          "R_A": 0.007228035514868631
+        },
+        "initial": {
+          "R_M": 1.9753259390924154,
+          "R_A": 1.8892899568494272
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.167079691136458e-06,
+      "v_RMS_rad_s": 8.200275614380659e-05,
+      "a_RMS_rad_s2": 0.0031214102084538486,
+      "minimum_sigma_T": 0.9108361021569461,
+      "basis_error_RMS": 0.0021942398914334155,
+      "probe_orthogonal_RMS_rad_s2": 0.004342221587779379,
+      "torque_contrast_RMS_Nm": 0.0053556595198980235,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.003986102499130665,
+            "start_rmse": 0.007640824978904491,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.003986102499130686,
+            "start_rmse": 0.3703969227395808,
+            "nfev": 412,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0032783111582821585,
+          "R_A": 0.003731281260625368
+        },
+        "initial": {
+          "R_M": 0.029338713126408685,
+          "R_A": 0.03211082708303897
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.692571010614042e-07,
+      "v_RMS_rad_s": 3.2583955996271115e-05,
+      "a_RMS_rad_s2": 0.001259695185110971,
+      "minimum_sigma_T": 0.915156008449275,
+      "basis_error_RMS": 0.000914585256973525,
+      "probe_orthogonal_RMS_rad_s2": 0.0017423692491636339,
+      "torque_contrast_RMS_Nm": 0.0024211339203013163,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0018680140203745311,
+            "start_rmse": 0.006635725483377645,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0018680140203745027,
+            "start_rmse": 0.3637409949259097,
+            "nfev": 411,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0014106603792624318,
+          "R_A": 0.001478140890204099
+        },
+        "initial": {
+          "R_M": 2.066163933567473,
+          "R_A": 1.9060296870301086
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.692571010614042e-07,
+      "v_RMS_rad_s": 3.2583955996271115e-05,
+      "a_RMS_rad_s2": 0.001259695185110971,
+      "minimum_sigma_T": 0.915156008449275,
+      "basis_error_RMS": 0.000914585256973525,
+      "probe_orthogonal_RMS_rad_s2": 0.0017423692491636339,
+      "torque_contrast_RMS_Nm": 0.10242470682401639,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.13463390376358142,
+            "start_rmse": 0.21515928058678063,
+            "nfev": 1422,
+            "accepted_steps": 49,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0769783630047949,
+            "start_rmse": 0.20257257839488696,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.11714919959691546,
+          "R_A": 0.10511156488012387
+        },
+        "initial": {
+          "R_M": 0.9043372923989154,
+          "R_A": 0.9063264369221735
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.692571010613132e-07,
+      "v_RMS_rad_s": 3.258395599621386e-05,
+      "a_RMS_rad_s2": 0.0012596951851149125,
+      "minimum_sigma_T": 0.02712745765535045,
+      "basis_error_RMS": 0.000914585256974812,
+      "probe_orthogonal_RMS_rad_s2": 0.0017423692491754339,
+      "torque_contrast_RMS_Nm": 0.04604405986608556,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11684892471655144,
+            "start_rmse": 0.19821678210122642,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.03443555592816215,
+            "start_rmse": 0.17734477026388362,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.02523530540669564,
+          "R_A": 0.0278633904980976
+        },
+        "initial": {
+          "R_M": 0.832361563855582,
+          "R_A": 0.8470539345940493
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.692571010619103e-07,
+      "v_RMS_rad_s": 3.258395599626346e-05,
+      "a_RMS_rad_s2": 0.001259695185114277,
+      "minimum_sigma_T": 0.0947818501510562,
+      "basis_error_RMS": 0.0009145852569699249,
+      "probe_orthogonal_RMS_rad_s2": 0.001742369249176723,
+      "torque_contrast_RMS_Nm": 0.013985172803364296,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.010433195603807744,
+            "start_rmse": 0.33090102917994785,
+            "nfev": 465,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.010433195603807732,
+            "start_rmse": 0.079444649532116,
+            "nfev": 176,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0075557583757695996,
+          "R_A": 0.008390697527770111
+        },
+        "initial": {
+          "R_M": 0.41471295124586066,
+          "R_A": 0.4461561257308281
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.334159382279305e-07,
+      "v_RMS_rad_s": 1.6400551228702853e-05,
+      "a_RMS_rad_s2": 0.0006242820416885367,
+      "minimum_sigma_T": 0.09558736496077594,
+      "basis_error_RMS": 0.00043884797829527527,
+      "probe_orthogonal_RMS_rad_s2": 0.0008684443175346697,
+      "torque_contrast_RMS_Nm": 0.006059068182126242,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004754327517072724,
+            "start_rmse": 0.25948949438114377,
+            "nfev": 498,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.004754327517072736,
+            "start_rmse": 0.017389726973016075,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003504761181834232,
+          "R_A": 0.0037800994246728315
+        },
+        "initial": {
+          "R_M": 1.4340238335015791,
+          "R_A": 1.4948972105063207
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.778123199348254e-05,
+      "v_RMS_rad_s": 0.00024761448660464374,
+      "a_RMS_rad_s2": 0.0019188693084056306,
+      "minimum_sigma_T": 0.9249714952793405,
+      "basis_error_RMS": 0.0013599050719266162,
+      "probe_orthogonal_RMS_rad_s2": 0.002709104289016639,
+      "torque_contrast_RMS_Nm": 0.0033749297906668463,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0024189486687138375,
+            "start_rmse": 0.029148885638532306,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.00241894866871377,
+            "start_rmse": 0.32103899506748573,
+            "nfev": 439,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.004089655014799783,
+          "R_A": 0.004034112288148147
+        },
+        "initial": {
+          "R_M": 1.7483269599353328,
+          "R_A": 1.8529736613184686
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.777440448066485e-05,
+      "v_RMS_rad_s": 0.00024564470227323647,
+      "a_RMS_rad_s2": 0.0015828111045412601,
+      "minimum_sigma_T": 0.9253927639364038,
+      "basis_error_RMS": 0.0011648152881806272,
+      "probe_orthogonal_RMS_rad_s2": 0.0022503117861107013,
+      "torque_contrast_RMS_Nm": 0.002787596242696281,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.002083996437361427,
+            "start_rmse": 0.006743101453413091,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0020839964373614347,
+            "start_rmse": 0.3057970608555507,
+            "nfev": 499,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003673955643153354,
+          "R_A": 0.0035306639983205086
+        },
+        "initial": {
+          "R_M": 0.025965690524483442,
+          "R_A": 0.02574673399945749
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 3.8493997805202973e-16,
+      "v_RMS_rad_s": 8.465317905434734e-15,
+      "a_RMS_rad_s2": 3.1597487277423454e-13,
+      "minimum_sigma_T": 0.9260544002949275,
+      "basis_error_RMS": 1.652462785398998e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.0305115545865906e-13,
+      "torque_contrast_RMS_Nm": 0.0010154888233520295,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0007184983032041416,
+            "start_rmse": 0.25899161169899804,
+            "nfev": 410,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0007184983032040281,
+            "start_rmse": 0.02868358222173228,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00046443384535231185,
+          "R_A": 0.0005200079079693612
+        },
+        "initial": {
+          "R_M": 0.11934357308777326,
+          "R_A": 0.1138747264717971
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3619833285190864e-06,
+      "v_RMS_rad_s": 0.00016375196542292507,
+      "a_RMS_rad_s2": 0.00629055311746965,
+      "minimum_sigma_T": 0.9194936660668945,
+      "basis_error_RMS": 0.004312049592640979,
+      "probe_orthogonal_RMS_rad_s2": 0.008982778907669103,
+      "torque_contrast_RMS_Nm": 0.009677217812356895,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007242430008085937,
+            "start_rmse": 0.2485933924541941,
+            "nfev": 382,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007242430008085943,
+            "start_rmse": 0.06770706042949722,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.007483239795280275,
+          "R_A": 0.008116475317325619
+        },
+        "initial": {
+          "R_M": 1.2030236499858273,
+          "R_A": 1.2513093897158003
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1590831952283853e-06,
+      "v_RMS_rad_s": 8.21708109034341e-05,
+      "a_RMS_rad_s2": 0.0031136091641449214,
+      "minimum_sigma_T": 0.9216504269758515,
+      "basis_error_RMS": 0.002180572808969429,
+      "probe_orthogonal_RMS_rad_s2": 0.004434574867405951,
+      "torque_contrast_RMS_Nm": 0.004968810632079222,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.003932314797672148,
+            "start_rmse": 0.27336312393829465,
+            "nfev": 471,
+            "accepted_steps": 16,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.003932314797672135,
+            "start_rmse": 0.013896470457639866,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0027836955284413676,
+          "R_A": 0.0030139988285649583
+        },
+        "initial": {
+          "R_M": 0.061104912669021405,
+          "R_A": 0.06109701902770263
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.723966657086847e-07,
+      "v_RMS_rad_s": 3.275039308456369e-05,
+      "a_RMS_rad_s2": 0.0012581106235040262,
+      "minimum_sigma_T": 0.9247503883434451,
+      "basis_error_RMS": 0.000862409918532559,
+      "probe_orthogonal_RMS_rad_s2": 0.0017965557815539934,
+      "torque_contrast_RMS_Nm": 0.002177295965528145,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0016118391021267362,
+            "start_rmse": 0.26169262000421445,
+            "nfev": 410,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0016118391021267128,
+            "start_rmse": 0.035373178648345875,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.001644314207837384,
+          "R_A": 0.0018251239369264855
+        },
+        "initial": {
+          "R_M": 0.14989592255972922,
+          "R_A": 0.14488771438062817
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.723966657086847e-07,
+      "v_RMS_rad_s": 3.275039308456369e-05,
+      "a_RMS_rad_s2": 0.0012581106235040262,
+      "minimum_sigma_T": 0.9247503883434451,
+      "basis_error_RMS": 0.000862409918532559,
+      "probe_orthogonal_RMS_rad_s2": 0.0017965557815539934,
+      "torque_contrast_RMS_Nm": 0.10296279296533768,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07595937644850938,
+            "start_rmse": 0.159548676969458,
+            "nfev": 233,
+            "accepted_steps": 8,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.151540650347955,
+            "start_rmse": 0.22519869263531875,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.09626744979620891,
+          "R_A": 0.0920488012180812
+        },
+        "initial": {
+          "R_M": 0.6659763862578179,
+          "R_A": 0.6714991980772037
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.723966657104942e-07,
+      "v_RMS_rad_s": 3.27503930845764e-05,
+      "a_RMS_rad_s2": 0.0012581106234994812,
+      "minimum_sigma_T": 0.028148526879604084,
+      "basis_error_RMS": 0.00086240991853264,
+      "probe_orthogonal_RMS_rad_s2": 0.001796555781545516,
+      "torque_contrast_RMS_Nm": 0.04321529948861052,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.07657953879925854,
+            "start_rmse": 0.21558217117242678,
+            "nfev": 929,
+            "accepted_steps": 32,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.03212566619180294,
+            "start_rmse": 0.18166419858967336,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.02742066146178683,
+          "R_A": 0.028032651360744953
+        },
+        "initial": {
+          "R_M": 0.8059569752947975,
+          "R_A": 0.8119708651677113
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.72396665704759e-07,
+      "v_RMS_rad_s": 3.275039308452336e-05,
+      "a_RMS_rad_s2": 0.0012581106235002239,
+      "minimum_sigma_T": 0.09887824128989756,
+      "basis_error_RMS": 0.0008624099185288362,
+      "probe_orthogonal_RMS_rad_s2": 0.0017965557815450303,
+      "torque_contrast_RMS_Nm": 0.013116546475004069,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.009735446981993875,
+            "start_rmse": 0.21098252492458,
+            "nfev": 411,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.009735446981993903,
+            "start_rmse": 0.1255356134427513,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00851463807527547,
+          "R_A": 0.008827618266935577
+        },
+        "initial": {
+          "R_M": 0.8673828765798172,
+          "R_A": 0.8453617698435004
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3181663905153018e-07,
+      "v_RMS_rad_s": 1.643416218065743e-05,
+      "a_RMS_rad_s2": 0.0006227218328247635,
+      "minimum_sigma_T": 0.09912987756232398,
+      "basis_error_RMS": 0.00043611456178936365,
+      "probe_orthogonal_RMS_rad_s2": 0.0008869149734702809,
+      "torque_contrast_RMS_Nm": 0.006094665358096345,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004939428551362121,
+            "start_rmse": 0.12411463107901353,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.004939428551362118,
+            "start_rmse": 0.20613071250243525,
+            "nfev": 413,
+            "accepted_steps": 14,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0026111411548034873,
+          "R_A": 0.0028298171587327883
+        },
+        "initial": {
+          "R_M": 0.8637774934599606,
+          "R_A": 0.8517888930714753
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.924656616952723e-05,
+      "v_RMS_rad_s": 0.0002243661023000552,
+      "a_RMS_rad_s2": 0.0018181369846480486,
+      "minimum_sigma_T": 0.9219961595782874,
+      "basis_error_RMS": 0.001275917325528472,
+      "probe_orthogonal_RMS_rad_s2": 0.002812433124628103,
+      "torque_contrast_RMS_Nm": 0.003245085310581426,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0023711684270911406,
+            "start_rmse": 0.007348949850405498,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11669679904429268,
+            "start_rmse": 0.23650196275312796,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.003079663520142721,
+          "R_A": 0.0025475233097682955
+        },
+        "initial": {
+          "R_M": 0.033103212597867,
+          "R_A": 0.035275127529872254
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.924191624142142e-05,
+      "v_RMS_rad_s": 0.0002229269598517178,
+      "a_RMS_rad_s2": 0.0014886249681607378,
+      "minimum_sigma_T": 0.9223685362505172,
+      "basis_error_RMS": 0.0010354489394861599,
+      "probe_orthogonal_RMS_rad_s2": 0.0023375668710634004,
+      "torque_contrast_RMS_Nm": 0.0026474846413976605,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11663227831083121,
+            "start_rmse": 0.23871338525694807,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.001893053657760745,
+            "start_rmse": 0.004189096220114658,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0026744947257051383,
+          "R_A": 0.0023178768457096342
+        },
+        "initial": {
+          "R_M": 0.017938154218259204,
+          "R_A": 0.0183669016405805
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.0908300594903047e-16,
+      "v_RMS_rad_s": 9.336998220186351e-15,
+      "a_RMS_rad_s2": 3.361089227138757e-13,
+      "minimum_sigma_T": 0.9222447127715893,
+      "basis_error_RMS": 1.823637201532047e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.2592825464562806e-13,
+      "torque_contrast_RMS_Nm": 0.0010273426500459247,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1167558854806763,
+            "start_rmse": 0.242556143336211,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0007237389840936716,
+            "start_rmse": 0.004799050226047911,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0003946109899326974,
+          "R_A": 0.00040257415910181224
+        },
+        "initial": {
+          "R_M": 0.02173817192984008,
+          "R_A": 0.022278955567931566
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3280056473686984e-06,
+      "v_RMS_rad_s": 0.000165466860233261,
+      "a_RMS_rad_s2": 0.00619021805238049,
+      "minimum_sigma_T": 0.9115879940903754,
+      "basis_error_RMS": 0.004462731512128968,
+      "probe_orthogonal_RMS_rad_s2": 0.008779909815022361,
+      "torque_contrast_RMS_Nm": 0.009820265328391154,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007871416111752036,
+            "start_rmse": 0.016760575169049205,
+            "nfev": 150,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11701470388872769,
+            "start_rmse": 0.24243487362505903,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0051525230779791075,
+          "R_A": 0.004739092535213198
+        },
+        "initial": {
+          "R_M": 0.06856538165005045,
+          "R_A": 0.06890421792201289
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.18209577927916e-06,
+      "v_RMS_rad_s": 8.477031978670984e-05,
+      "a_RMS_rad_s2": 0.0031303418960272533,
+      "minimum_sigma_T": 0.9157638272145004,
+      "basis_error_RMS": 0.002283621012867239,
+      "probe_orthogonal_RMS_rad_s2": 0.004450477265334267,
+      "torque_contrast_RMS_Nm": 0.00526286222277143,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004034537811681463,
+            "start_rmse": 0.006301870599853437,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11660785553437504,
+            "start_rmse": 0.24058111299224844,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0030100898334143793,
+          "R_A": 0.0033145723615170134
+        },
+        "initial": {
+          "R_M": 0.02555509787199059,
+          "R_A": 0.02713768052863913
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6560112947437536e-07,
+      "v_RMS_rad_s": 3.309337204673125e-05,
+      "a_RMS_rad_s2": 0.0012380436104753546,
+      "minimum_sigma_T": 0.9205886155598264,
+      "basis_error_RMS": 0.0008925463024272239,
+      "probe_orthogonal_RMS_rad_s2": 0.0017559819630040459,
+      "torque_contrast_RMS_Nm": 0.002195687083396073,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0017103363448843158,
+            "start_rmse": 0.00574042929588604,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.11676462294441438,
+            "start_rmse": 0.24480730842094064,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0010858058197575828,
+          "R_A": 0.0010236224835580145
+        },
+        "initial": {
+          "R_M": 0.025665331958494568,
+          "R_A": 0.026450956151699227
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.6560112947437536e-07,
+      "v_RMS_rad_s": 3.309337204673125e-05,
+      "a_RMS_rad_s2": 0.0012380436104753546,
+      "minimum_sigma_T": 0.9205886155598264,
+      "basis_error_RMS": 0.0008925463024272239,
+      "probe_orthogonal_RMS_rad_s2": 0.0017559819630040459,
+      "torque_contrast_RMS_Nm": 0.08401608423480099,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0684844045138721,
+            "start_rmse": 0.2178190203656219,
+            "nfev": 848,
+            "accepted_steps": 29,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0684844045138743,
+            "start_rmse": 0.18751110000480842,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.08544335639833045,
+          "R_A": 0.08167144685546733
+        },
+        "initial": {
+          "R_M": 0.9677863102664619,
+          "R_A": 1.00346085147937
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6560112947565453e-07,
+      "v_RMS_rad_s": 3.3093372046718604e-05,
+      "a_RMS_rad_s2": 0.0012380436104741262,
+      "minimum_sigma_T": 0.026207673058635198,
+      "basis_error_RMS": 0.0008925463024265763,
+      "probe_orthogonal_RMS_rad_s2": 0.001755981963004584,
+      "torque_contrast_RMS_Nm": 0.04638956439115548,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.12353717307102889,
+            "start_rmse": 0.2518612467107765,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.03545420867166705,
+            "start_rmse": 0.14378302082657488,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.022266402571831552,
+          "R_A": 0.022222311588367925
+        },
+        "initial": {
+          "R_M": 0.679690524160755,
+          "R_A": 0.6834195108404454
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6560112947818213e-07,
+      "v_RMS_rad_s": 3.3093372046610794e-05,
+      "a_RMS_rad_s2": 0.001238043610473476,
+      "minimum_sigma_T": 0.09128382937173975,
+      "basis_error_RMS": 0.000892546302422205,
+      "probe_orthogonal_RMS_rad_s2": 0.001755981963004903,
+      "torque_contrast_RMS_Nm": 0.014031123065710176,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.010747366024623518,
+            "start_rmse": 0.21409083143079943,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.010747366024623548,
+            "start_rmse": 0.06325839128513926,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.00689184058045106,
+          "R_A": 0.006839880811848887
+        },
+        "initial": {
+          "R_M": 1.0273675749321134,
+          "R_A": 1.0998989096769927
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3641915585183917e-07,
+      "v_RMS_rad_s": 1.6954063957248657e-05,
+      "a_RMS_rad_s2": 0.0006260683792054527,
+      "minimum_sigma_T": 0.09205719135599644,
+      "basis_error_RMS": 0.00045672420257624396,
+      "probe_orthogonal_RMS_rad_s2": 0.0008900954530708571,
+      "torque_contrast_RMS_Nm": 0.00692018046837675,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11704155488824146,
+            "start_rmse": 0.24201042411530674,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.005275406594106811,
+            "start_rmse": 0.02719991627592795,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003083850168579595,
+          "R_A": 0.0032878757753882176
+        },
+        "initial": {
+          "R_M": 0.1297626538047238,
+          "R_A": 0.1375164813199004
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.168992323592271e-05,
+      "v_RMS_rad_s": 0.0002214202260212931,
+      "a_RMS_rad_s2": 0.0018123170919611224,
+      "minimum_sigma_T": 0.9073534129993207,
+      "basis_error_RMS": 0.0012205955142269252,
+      "probe_orthogonal_RMS_rad_s2": 0.002516419988677572,
+      "torque_contrast_RMS_Nm": 0.002605957484065974,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.00205873744434594,
+            "start_rmse": 0.012405162596021873,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.06269425014918152,
+            "start_rmse": 0.6878563579331117,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0027263798453932768,
+          "R_A": 0.0028092868729353883
+        },
+        "initial": {
+          "R_M": 0.0708903628715598,
+          "R_A": 0.07961111998175958
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.169462496947694e-05,
+      "v_RMS_rad_s": 0.00021963330921692805,
+      "a_RMS_rad_s2": 0.0014496929465426737,
+      "minimum_sigma_T": 0.9075661882367215,
+      "basis_error_RMS": 0.0009590816576583223,
+      "probe_orthogonal_RMS_rad_s2": 0.0019457132775615412,
+      "torque_contrast_RMS_Nm": 0.0018515864115979676,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0014576773395996103,
+            "start_rmse": 0.0040327222824628525,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.06270016374060794,
+            "start_rmse": 0.5493896910766057,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0024801825709034084,
+          "R_A": 0.0025257687839899306
+        },
+        "initial": {
+          "R_M": 0.02053801777616933,
+          "R_A": 0.01943817012526758
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.003659360513997e-16,
+      "v_RMS_rad_s": 8.719977089206566e-15,
+      "a_RMS_rad_s2": 3.2952809042681443e-13,
+      "minimum_sigma_T": 0.9080504182179742,
+      "basis_error_RMS": 1.854890445417194e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.219862141660398e-13,
+      "torque_contrast_RMS_Nm": 0.0010158773970198617,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0007115602195007283,
+            "start_rmse": 0.012089042226945082,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0628345385131423,
+            "start_rmse": 0.7096413803063312,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0003967077340778424,
+          "R_A": 0.00044594217144337
+        },
+        "initial": {
+          "R_M": 0.06990588277511868,
+          "R_A": 0.07434108165839651
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.342497778372172e-06,
+      "v_RMS_rad_s": 0.00016593938304894135,
+      "a_RMS_rad_s2": 0.006302462562371615,
+      "minimum_sigma_T": 0.901429806911125,
+      "basis_error_RMS": 0.004396955439774897,
+      "probe_orthogonal_RMS_rad_s2": 0.00915669297037978,
+      "torque_contrast_RMS_Nm": 0.009070299066168392,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007193342271714541,
+            "start_rmse": 0.9558672178749072,
+            "nfev": 558,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.007193342271714568,
+            "start_rmse": 0.01795887922826249,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0069853638589078,
+          "R_A": 0.007642862677220412
+        },
+        "initial": {
+          "R_M": 6.6491070973975965,
+          "R_A": 7.137774565627792
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1765878715609993e-06,
+      "v_RMS_rad_s": 8.107182589152796e-05,
+      "a_RMS_rad_s2": 0.003104983155127321,
+      "minimum_sigma_T": 0.902503580933987,
+      "basis_error_RMS": 0.0021671961751046753,
+      "probe_orthogonal_RMS_rad_s2": 0.004399433351057693,
+      "torque_contrast_RMS_Nm": 0.00430824935745718,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06279831718960925,
+            "start_rmse": 0.6452471185160791,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.003447520437524664,
+            "start_rmse": 0.007661526890087082,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003155598124980903,
+          "R_A": 0.003375347945286067
+        },
+        "initial": {
+          "R_M": 0.04266321985637663,
+          "R_A": 0.043438985404670616
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6849955567006184e-07,
+      "v_RMS_rad_s": 3.318787660974278e-05,
+      "a_RMS_rad_s2": 0.0012604925124716482,
+      "minimum_sigma_T": 0.9067318562887002,
+      "basis_error_RMS": 0.0008793910879522132,
+      "probe_orthogonal_RMS_rad_s2": 0.0018313385940688942,
+      "torque_contrast_RMS_Nm": 0.002051231031210619,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06279237360149457,
+            "start_rmse": 0.6835596740268172,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.001590930009821561,
+            "start_rmse": 0.011830379703755797,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0014570216461075379,
+          "R_A": 0.0015757820624382045
+        },
+        "initial": {
+          "R_M": 0.06869747767857858,
+          "R_A": 0.07511483710613434
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.6849955567006184e-07,
+      "v_RMS_rad_s": 3.318787660974278e-05,
+      "a_RMS_rad_s2": 0.0012604925124716482,
+      "minimum_sigma_T": 0.9067318562887002,
+      "basis_error_RMS": 0.0008793910879522132,
+      "probe_orthogonal_RMS_rad_s2": 0.0018313385940688942,
+      "torque_contrast_RMS_Nm": 0.08768452712526575,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06506975888084834,
+            "start_rmse": 0.164044086230143,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.12979259871962226,
+            "start_rmse": 0.19396728553033796,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.11663718602259156,
+          "R_A": 0.10081524115465147
+        },
+        "initial": {
+          "R_M": 0.8058799833448718,
+          "R_A": 0.8383892124134197
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.684995556739284e-07,
+      "v_RMS_rad_s": 3.318787660983765e-05,
+      "a_RMS_rad_s2": 0.0012604925124763652,
+      "minimum_sigma_T": 0.025934632507123016,
+      "basis_error_RMS": 0.000879391087955481,
+      "probe_orthogonal_RMS_rad_s2": 0.0018313385940810782,
+      "torque_contrast_RMS_Nm": 0.03767905976951592,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.029462424312075117,
+            "start_rmse": 0.12967459220155697,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.029462424312076047,
+            "start_rmse": 0.19519098093634327,
+            "nfev": 559,
+            "accepted_steps": 19,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.02455764792756416,
+          "R_A": 0.0257059212903447
+        },
+        "initial": {
+          "R_M": 0.6657429193415569,
+          "R_A": 0.6483636962154656
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.684995556724645e-07,
+      "v_RMS_rad_s": 3.3187876609659034e-05,
+      "a_RMS_rad_s2": 0.001260492512472138,
+      "minimum_sigma_T": 0.0929490406984946,
+      "basis_error_RMS": 0.0008793910879499511,
+      "probe_orthogonal_RMS_rad_s2": 0.001831338594075269,
+      "torque_contrast_RMS_Nm": 0.011364672592942656,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.008900048711849578,
+            "start_rmse": 0.43843586568749804,
+            "nfev": 440,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.008900048711849611,
+            "start_rmse": 0.053723841852659854,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.007317154470519887,
+          "R_A": 0.007664353294573591
+        },
+        "initial": {
+          "R_M": 2.8372646451466275,
+          "R_A": 2.981147592176412
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3531757430545197e-07,
+      "v_RMS_rad_s": 1.6214365178373026e-05,
+      "a_RMS_rad_s2": 0.0006209966310162864,
+      "minimum_sigma_T": 0.09474569000864068,
+      "basis_error_RMS": 0.00043343923500759176,
+      "probe_orthogonal_RMS_rad_s2": 0.0008798866702031053,
+      "torque_contrast_RMS_Nm": 0.006118477379928466,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004827179886439489,
+            "start_rmse": 0.01348290921734288,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.06275636858336917,
+            "start_rmse": 1.0100357768568422,
+            "nfev": 1567,
+            "accepted_steps": 54,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0038884870536481406,
+          "R_A": 0.004450815062077833
+        },
+        "initial": {
+          "R_M": 0.0857728732529761,
+          "R_A": 0.09501357093435772
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.270705838326967e-05,
+      "v_RMS_rad_s": 0.00022851148855187605,
+      "a_RMS_rad_s2": 0.0018661632593821205,
+      "minimum_sigma_T": 0.9000220907471638,
+      "basis_error_RMS": 0.0013465433318963168,
+      "probe_orthogonal_RMS_rad_s2": 0.002839063151018178,
+      "torque_contrast_RMS_Nm": 0.0032194509358381682,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.002132704988526265,
+            "start_rmse": 0.007702663482945992,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.002132704988526264,
+            "start_rmse": 0.3838574759409291,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.003292209435172097,
+          "R_A": 0.003257283464419909
+        },
+        "initial": {
+          "R_M": 1.586958071124806,
+          "R_A": 1.6960140711991638
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 7.270809662963793e-05,
+      "v_RMS_rad_s": 0.00022638886780987886,
+      "a_RMS_rad_s2": 0.0015243005822981976,
+      "minimum_sigma_T": 0.9008707172010909,
+      "basis_error_RMS": 0.0011174902235206844,
+      "probe_orthogonal_RMS_rad_s2": 0.0023630196264546608,
+      "torque_contrast_RMS_Nm": 0.0025810186060667845,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0015238925565393437,
+            "start_rmse": 0.3488611376430007,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0015238925565393454,
+            "start_rmse": 0.004076177436447828,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0031402139378617746,
+          "R_A": 0.0029736206851661046
+        },
+        "initial": {
+          "R_M": 1.417860315403356,
+          "R_A": 1.502577850349788
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.0252379898038484e-16,
+      "v_RMS_rad_s": 8.819286076556857e-15,
+      "a_RMS_rad_s2": 3.2482243384511596e-13,
+      "minimum_sigma_T": 0.9011226130028949,
+      "basis_error_RMS": 1.8411736550763999e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.0240318886815204e-13,
+      "torque_contrast_RMS_Nm": 0.0010240244567623334,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0007139216626170551,
+            "start_rmse": 0.006384801132347137,
+            "nfev": 116,
+            "accepted_steps": 3,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0007139216626166361,
+            "start_rmse": 0.35456261636445113,
+            "nfev": 406,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.00027972772773126063,
+          "R_A": 0.00031116381383310024
+        },
+        "initial": {
+          "R_M": 1.4637252439895774,
+          "R_A": 1.573910553236352
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.333957944178816e-06,
+      "v_RMS_rad_s": 0.00016626243369066734,
+      "a_RMS_rad_s2": 0.006271242319425726,
+      "minimum_sigma_T": 0.8916210340424934,
+      "basis_error_RMS": 0.004426495033793877,
+      "probe_orthogonal_RMS_rad_s2": 0.0089175487598507,
+      "torque_contrast_RMS_Nm": 0.010098796780401363,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.007687719375719948,
+            "start_rmse": 0.015116918796309208,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.10499006303831457,
+            "start_rmse": 0.26855995512904346,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.007634079312225476,
+          "R_A": 0.008181395885886853
+        },
+        "initial": {
+          "R_M": 0.07319605608853828,
+          "R_A": 0.07513530112518506
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1636035036783104e-06,
+      "v_RMS_rad_s": 8.343625089078486e-05,
+      "a_RMS_rad_s2": 0.0031038537310743757,
+      "minimum_sigma_T": 0.8958314415733204,
+      "basis_error_RMS": 0.002175397734013389,
+      "probe_orthogonal_RMS_rad_s2": 0.004378274747352958,
+      "torque_contrast_RMS_Nm": 0.004765097787616565,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0035857273385974694,
+            "start_rmse": 0.31770198290694757,
+            "nfev": 378,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0035857273385974863,
+            "start_rmse": 0.0054735153269816084,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0035333542457751006,
+          "R_A": 0.0037855064326465706
+        },
+        "initial": {
+          "R_M": 1.2718090448649617,
+          "R_A": 1.3419991715899175
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.667915888319089e-07,
+      "v_RMS_rad_s": 3.325248673800755e-05,
+      "a_RMS_rad_s2": 0.0012542484638822233,
+      "minimum_sigma_T": 0.8992293373695388,
+      "basis_error_RMS": 0.0008852990067557421,
+      "probe_orthogonal_RMS_rad_s2": 0.0017835097519707788,
+      "torque_contrast_RMS_Nm": 0.002270534791659912,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0016951178195815906,
+            "start_rmse": 0.3431765542911353,
+            "nfev": 406,
+            "accepted_steps": 13,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0016951178195824018,
+            "start_rmse": 0.007226439968374769,
+            "nfev": 116,
+            "accepted_steps": 3,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0016094860773366913,
+          "R_A": 0.0017317554391656055
+        },
+        "initial": {
+          "R_M": 1.398055703033432,
+          "R_A": 1.5015597592265892
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.667915888319089e-07,
+      "v_RMS_rad_s": 3.325248673800755e-05,
+      "a_RMS_rad_s2": 0.0012542484638822233,
+      "minimum_sigma_T": 0.8992293373695388,
+      "basis_error_RMS": 0.0008852990067557421,
+      "probe_orthogonal_RMS_rad_s2": 0.0017835097519707788,
+      "torque_contrast_RMS_Nm": 0.07492833977101149,
+      "fit": {
+        "eligible": 31,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.06409474655384781,
+            "start_rmse": 0.17139892598867565,
+            "nfev": 262,
+            "accepted_steps": 9,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.08352802659956755,
+            "start_rmse": 0.19018418632925332,
+            "nfev": 1136,
+            "accepted_steps": 39,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.07162377337997959,
+          "R_A": 0.07426277549418975
+        },
+        "initial": {
+          "R_M": 0.8647053918954093,
+          "R_A": 0.8789895849635561
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.6679158883258114e-07,
+      "v_RMS_rad_s": 3.325248673813585e-05,
+      "a_RMS_rad_s2": 0.0012542484638794517,
+      "minimum_sigma_T": 0.025024424172320772,
+      "basis_error_RMS": 0.0008852990067582236,
+      "probe_orthogonal_RMS_rad_s2": 0.0017835097519669693,
+      "torque_contrast_RMS_Nm": 0.04503837089207682,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.03356766400904116,
+            "start_rmse": 0.12640627441457497,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.1287289175060727,
+            "start_rmse": 0.18278523870012667,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.029198516026004952,
+          "R_A": 0.028196222722771263
+        },
+        "initial": {
+          "R_M": 0.664369649394362,
+          "R_A": 0.6559010279674288
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.667915888322378e-07,
+      "v_RMS_rad_s": 3.3252486738160484e-05,
+      "a_RMS_rad_s2": 0.0012542484638830287,
+      "minimum_sigma_T": 0.0895891979732805,
+      "basis_error_RMS": 0.0008852990067624643,
+      "probe_orthogonal_RMS_rad_s2": 0.001783509751963078,
+      "torque_contrast_RMS_Nm": 0.01370137192507613,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.010206802528250439,
+            "start_rmse": 0.08383513391480561,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.010206802528250448,
+            "start_rmse": 0.18421280923037012,
+            "nfev": 320,
+            "accepted_steps": 11,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.008943119486380904,
+          "R_A": 0.008744588717348649
+        },
+        "initial": {
+          "R_M": 0.49278695878642576,
+          "R_A": 0.47597860301232636
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.3272070073789048e-07,
+      "v_RMS_rad_s": 1.668725017805518e-05,
+      "a_RMS_rad_s2": 0.0006207707462172735,
+      "minimum_sigma_T": 0.09125561126008384,
+      "basis_error_RMS": 0.0004350795468054364,
+      "probe_orthogonal_RMS_rad_s2": 0.0008756549494932425,
+      "torque_contrast_RMS_Nm": 0.006560978205655782,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004643542048065387,
+            "start_rmse": 0.2671934076373337,
+            "nfev": 436,
+            "accepted_steps": 15,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.004643542048065398,
+            "start_rmse": 0.015531306924031598,
+            "nfev": 117,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0038228970729965624,
+          "R_A": 0.0038761047612222888
+        },
+        "initial": {
+          "R_M": 1.0732678970005238,
+          "R_A": 1.1033204651374964
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "clock",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.440276805796469e-05,
+      "v_RMS_rad_s": 0.0002126282559472645,
+      "a_RMS_rad_s2": 0.001771374816346525,
+      "minimum_sigma_T": 0.9190632813060379,
+      "basis_error_RMS": 0.0012307269049701736,
+      "probe_orthogonal_RMS_rad_s2": 0.002405088363343151,
+      "torque_contrast_RMS_Nm": 0.0031744818518116163,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0023401109734327388,
+            "start_rmse": 0.024242739673912772,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0023401109734327123,
+            "start_rmse": 0.5883801541663299,
+            "nfev": 528,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0035137108089738876,
+          "R_A": 0.0035972991335135474
+        },
+        "initial": {
+          "R_M": 3.347379434371805,
+          "R_A": 3.2556183322802292
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "clock_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.001,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 6.440078738800642e-05,
+      "v_RMS_rad_s": 0.00021038867038142764,
+      "a_RMS_rad_s2": 0.0013893169656024158,
+      "minimum_sigma_T": 0.9195062524847998,
+      "basis_error_RMS": 0.0009710472800394212,
+      "probe_orthogonal_RMS_rad_s2": 0.001845945495006299,
+      "torque_contrast_RMS_Nm": 0.0023706367941771587,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0018385766825541271,
+            "start_rmse": 0.36464144740616605,
+            "nfev": 500,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.0018385766825541278,
+            "start_rmse": 0.00525142650153273,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0026801287098430714,
+          "R_A": 0.0026325597077914652
+        },
+        "initial": {
+          "R_M": 1.9752301110226003,
+          "R_A": 1.9324130122299443
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "exact",
+      "encoder_sigma_rad": 0.0,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 3.952665149216604e-16,
+      "v_RMS_rad_s": 8.60039074890628e-15,
+      "a_RMS_rad_s2": 3.1843625335598247e-13,
+      "minimum_sigma_T": 0.9196567507062405,
+      "basis_error_RMS": 1.6759806177803087e-13,
+      "probe_orthogonal_RMS_rad_s2": 4.0953419993347575e-13,
+      "torque_contrast_RMS_Nm": 0.001020607472343968,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.11049090362960805,
+            "start_rmse": 0.40515388074381187,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.0007012246383762329,
+            "start_rmse": 0.029391456708170453,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0003913288970230976,
+          "R_A": 0.0004260160298488357
+        },
+        "initial": {
+          "R_M": 0.133847244250359,
+          "R_A": 0.14012620467584525
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "noisy",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 2.365709836636104e-06,
+      "v_RMS_rad_s": 0.00016436471507227503,
+      "a_RMS_rad_s2": 0.00629174146738897,
+      "minimum_sigma_T": 0.9117736337697924,
+      "basis_error_RMS": 0.0043646712812572515,
+      "probe_orthogonal_RMS_rad_s2": 0.008818415201024048,
+      "torque_contrast_RMS_Nm": 0.010719412763877858,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.008033206373065219,
+            "start_rmse": 0.3263432532104399,
+            "nfev": 668,
+            "accepted_steps": 23,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.008033206373065208,
+            "start_rmse": 0.03158367978156404,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.007828876190074956,
+          "R_A": 0.00818469083171982
+        },
+        "initial": {
+          "R_M": 0.13187154586507205,
+          "R_A": 0.13074056282728586
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "noisy_four",
+      "encoder_sigma_rad": 1e-05,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 1.1727641921135527e-06,
+      "v_RMS_rad_s": 8.334655404058942e-05,
+      "a_RMS_rad_s2": 0.003129594532949363,
+      "minimum_sigma_T": 0.9156652950901356,
+      "basis_error_RMS": 0.00217615645532589,
+      "probe_orthogonal_RMS_rad_s2": 0.0044931686788434065,
+      "torque_contrast_RMS_Nm": 0.005186123878860774,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.004046319463987911,
+            "start_rmse": 0.01320654590950148,
+            "nfev": 146,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.004046319463987955,
+            "start_rmse": 0.3711418133300966,
+            "nfev": 527,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0030660719925298943,
+          "R_A": 0.0032072407880841085
+        },
+        "initial": {
+          "R_M": 0.062454650809925016,
+          "R_A": 0.06428769925830362
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "quiet",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": true,
+      "q_RMS_rad": 4.7314196732858547e-07,
+      "v_RMS_rad_s": 3.2872943014466014e-05,
+      "a_RMS_rad_s2": 0.0012583482934748248,
+      "minimum_sigma_T": 0.918427045615315,
+      "basis_error_RMS": 0.0008729342562440593,
+      "probe_orthogonal_RMS_rad_s2": 0.0017636830401933782,
+      "torque_contrast_RMS_Nm": 0.002361242142503136,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.001747924395712165,
+            "start_rmse": 0.6360539787173566,
+            "nfev": 527,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "gradient"
+          },
+          {
+            "train_rmse": 0.0017479243957120476,
+            "start_rmse": 0.025886620647418607,
+            "nfev": 145,
+            "accepted_steps": 4,
+            "crossed_initial_hemisphere": false,
+            "termination": "gradient"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.0016288250613847248,
+          "R_A": 0.0017208633251240965
+        },
+        "initial": {
+          "R_M": 0.11605930351624838,
+          "R_A": 0.1121617635893036
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "uncorrected",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 1.0,
+      "basis_correction": false,
+      "q_RMS_rad": 4.7314196732858547e-07,
+      "v_RMS_rad_s": 3.2872943014466014e-05,
+      "a_RMS_rad_s2": 0.0012583482934748248,
+      "minimum_sigma_T": 0.918427045615315,
+      "basis_error_RMS": 0.0008729342562440593,
+      "probe_orthogonal_RMS_rad_s2": 0.0017636830401933782,
+      "torque_contrast_RMS_Nm": 0.12483363376163803,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.1520961087329782,
+            "start_rmse": 0.2540838237868765,
+            "nfev": 1596,
+            "accepted_steps": 55,
+            "crossed_initial_hemisphere": true,
+            "termination": "evaluation_budget"
+          },
+          {
+            "train_rmse": 0.07349680933465962,
+            "start_rmse": 0.25203584388933936,
+            "nfev": 291,
+            "accepted_steps": 10,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.16753880102316207,
+          "R_A": 0.16620973753285262
+        },
+        "initial": {
+          "R_M": 0.9668674259965329,
+          "R_A": 0.9752189544457115
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "very_weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.03,
+      "basis_correction": true,
+      "q_RMS_rad": 4.7314196732425676e-07,
+      "v_RMS_rad_s": 3.287294301442647e-05,
+      "a_RMS_rad_s2": 0.001258348293479398,
+      "minimum_sigma_T": 0.0273261291055726,
+      "basis_error_RMS": 0.000872934256256161,
+      "probe_orthogonal_RMS_rad_s2": 0.0017636830401947553,
+      "torque_contrast_RMS_Nm": 0.046662934612149085,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.034890211371906975,
+            "start_rmse": 0.16975473979267044,
+            "nfev": 204,
+            "accepted_steps": 7,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.03489021137190561,
+            "start_rmse": 0.24641597727882328,
+            "nfev": 528,
+            "accepted_steps": 18,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 1,
+        "final": {
+          "R_M": 0.024525657175972767,
+          "R_A": 0.026791658397726723
+        },
+        "initial": {
+          "R_M": 1.1932127097406586,
+          "R_A": 1.2061938474342482
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "weak",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 1,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 4.7314196732909454e-07,
+      "v_RMS_rad_s": 3.287294301437233e-05,
+      "a_RMS_rad_s2": 0.0012583482934761994,
+      "minimum_sigma_T": 0.0971732810417526,
+      "basis_error_RMS": 0.0008729342562492554,
+      "probe_orthogonal_RMS_rad_s2": 0.0017636830401929278,
+      "torque_contrast_RMS_Nm": 0.014080698262637994,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.01050814704563845,
+            "start_rmse": 0.25933659829630035,
+            "nfev": 349,
+            "accepted_steps": 12,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.010508147045638476,
+            "start_rmse": 0.11179393008791279,
+            "nfev": 175,
+            "accepted_steps": 6,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.007450300129480911,
+          "R_A": 0.008129731650581022
+        },
+        "initial": {
+          "R_M": 1.3055688691346623,
+          "R_A": 1.2817035253672298
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "name": "weak_four",
+      "encoder_sigma_rad": 2e-06,
+      "max_clock_s": 0.0,
+      "repeats": 4,
+      "weak_amplitude": 0.1,
+      "basis_correction": true,
+      "q_RMS_rad": 2.345528384231869e-07,
+      "v_RMS_rad_s": 1.6669310808081535e-05,
+      "a_RMS_rad_s2": 0.0006259189065884496,
+      "minimum_sigma_T": 0.0987468219252303,
+      "basis_error_RMS": 0.00043523129106758226,
+      "probe_orthogonal_RMS_rad_s2": 0.0008986337357646783,
+      "torque_contrast_RMS_Nm": 0.006566924770900353,
+      "fit": {
+        "eligible": 32,
+        "starts": 2,
+        "stages": [
+          {
+            "train_rmse": 0.0051450887296825235,
+            "start_rmse": 0.027088526987033183,
+            "nfev": 150,
+            "accepted_steps": 5,
+            "crossed_initial_hemisphere": false,
+            "termination": "relative_objective"
+          },
+          {
+            "train_rmse": 0.005145088729682556,
+            "start_rmse": 0.29565039744214855,
+            "nfev": 499,
+            "accepted_steps": 17,
+            "crossed_initial_hemisphere": true,
+            "termination": "relative_objective"
+          }
+        ],
+        "selected": 0,
+        "final": {
+          "R_M": 0.0032048518196678374,
+          "R_A": 0.003476562865304609
+        },
+        "initial": {
+          "R_M": 0.14825039953554098,
+          "R_A": 0.1680257523849557
+        }
+      }
+    }
+  ],
+  "mj_version": "3.2.6",
+  "encoder_Hz": 500,
+  "samples": 41,
+  "raw_torque_sigma": 0.001
+}
